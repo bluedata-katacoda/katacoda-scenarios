@@ -19,13 +19,13 @@ This creates a directory called centos7 under your current directory.
 `ls -a`{{execute}}
 6.You may override one or more of the following parameter(s) by executing the following command(s), as appropriate:
 
-`export BASE_IMG_ORGNAME='enterprise`{{execute}}, where <orgname> is the name of your organization, such as enterprise. The default name is bluedata.
+`export BASE_IMG_ORGNAME='enterprise'`{{execute}}, where <orgname> is the name of your organization, such as enterprise. The default name is bluedata.
   
  7.`export BASE_IMG_VERSION='3.0'`{{execute}}, 
  
  where <version> is the image version number, such as 3.0. The default version is the EPIC_BASE_IMG_VERSION
   
-8. `export CENTOS7_UPSTREAM='artifactory.com/enterprise:centos7`{{execute}},
+8. `export CENTOS7_UPSTREAM='artifactory.com/enterprise:centos7'`{{execute}},
 
 where <upstream> is the name of the upstream image source, such as artifactory.com/enterprise:centos7. The default upstream image source is centos:centos7.
   
