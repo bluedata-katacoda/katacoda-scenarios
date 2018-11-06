@@ -1,3 +1,4 @@
+
 {
   "title": "Intro To BlueData Application Workbench.",
   "description": "Introduction to building Apps with BlueData Workbench for BlueData's EPIC platform.",
@@ -6,6 +7,8 @@
   "details": {
     "steps": [
     { "title": "Step 1 - Intro to Bluedata workbench","text": "step1.md"},
+    { "title": "Step 2 - Build a simple application.", "text": "step2.md"},
+    { "title": "Step 3 - Inspect the package.", "text": "step3.md"}
     ],
     "intro": {
       "text": "intro.md",
