@@ -6,8 +6,6 @@
   "details": {
     "steps": [
     { "title": "Step 1 - Intro to Bluedata workbench","text": "step1.md"},
- 
-   
     ],
     "intro": {
       "text": "intro.md",
