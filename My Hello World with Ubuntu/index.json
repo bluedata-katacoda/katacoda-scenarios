@@ -1,24 +1,31 @@
 {
-  "title": "My Hello World with Ubuntu",
-  "description": "My Katacoda DEV TEST only - Please DO NOT USE",
+  "title": "Intro To Hello world app",
+  "description": "Introduction to building Hello world Apps ",
+  "difficulty": "beginner",
+  "time": "10 minutes",
   "details": {
     "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      }
+    { "title": "Step 1 - Intro to Hello world App","text": "step1.md"}
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "init.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+        "host01": {
+            "file": "catalogsdk-master.tgz",
+            "target": "/"
+        }
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mInitializing Bluedata Application Workbench environment.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "centos-vm"
   }
 }
