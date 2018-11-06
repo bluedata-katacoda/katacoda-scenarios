@@ -4,7 +4,7 @@ Introducing BlueData's Application Workbench.
 
 Run bdwb command to enter into Application Workbench shell
 
-bdwb {{execute}}
+`bdwb`{{execute}}
 
 ## Task 2
 
