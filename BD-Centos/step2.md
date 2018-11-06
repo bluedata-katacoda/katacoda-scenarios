@@ -34,7 +34,7 @@ You now need to specify a docker image you want to use for this application. For
  `pull centos`{{execute}}
 `docker build -t centos7:4.0`{{execute}}
 
-`image download image-repotag docker.io/bluedata/centos7:4.0`{{execute}}
+`image pull --image-repotag docker.io/bluedata/centos7:4.0`{{execute}}
 
 `image package --image-repotag docker.io/bluedata/centos7:4.0 --os centos7`{{execute}}
 
