@@ -32,7 +32,7 @@ Task 5 of 6
 
 You now need to specify a docker image you want to use for this application. For our first application were are going to user BlueData's base image. Any docker image you build later on should always be based off of this base image. We have base images for CentOS/RHEL 6x/7x and Ubuntu 16.x
 
-`docker image build --image-repotag docker.io/bluedata/centos7:4.0`{{execute}}
+`image build --image-repotag docker.io/bluedata/centos7:4.0`{{execute}}
 
 `image package --image-repotag docker.io/bluedata/centos7:4.0 --os centos7`{{execute}}
 
