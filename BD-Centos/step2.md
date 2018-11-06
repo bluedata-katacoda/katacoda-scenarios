@@ -10,7 +10,7 @@ Task 2 of 6
 
 Define a new catalog (or application) entry
 
-catalog new --distroid tutorial1 --name "First tutorial application" --desc "Application built using tutorial1"{{execute}}
+`catalog new --distroid tutorial1 --name "First tutorial application" --desc "Application built using tutorial1"`{{execute}}
 
 Task 3 of 6
 
@@ -31,8 +31,7 @@ You can autogenerate the application configuration scripts. As we are going to b
 Task 5 of 6
 
 You now need to specify a docker image you want to use for this application. For our first application were are going to user BlueData's base image. Any docker image you build later on should always be based off of this base image. We have base images for CentOS/RHEL 6x/7x and Ubuntu 16.x
- `pull centos`{{execute}}
-`docker build -t centos7:4.0`{{execute}}
+
 
 `image pull --image-repotag docker.io/bluedata/centos7:4.0`{{execute}}
 
