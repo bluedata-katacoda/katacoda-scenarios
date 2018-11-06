@@ -23,7 +23,7 @@ This creates a directory called centos7 under your current directory.
   
  7.`export BASE_IMG_VERSION='1.0'`{{execute}}, 
  
- where <version> is the image version number, such as 1.0. The default version is the EPIC_BASE_IMG_VERSION
+ where <version> is the image version number, such as 3.0. The default version is the EPIC_BASE_IMG_VERSION
   
 8. `export CENTOS7_UPSTREAM='artifactory.com/enterprise:centos7`{{execute}},
 
