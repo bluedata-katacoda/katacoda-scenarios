@@ -21,7 +21,7 @@ This creates a directory called centos7 under your current directory.
 
 `export BASE_IMG_ORGNAME='enterprise'`{{execute}}, where <orgname> is the name of your organization, such as enterprise. The default name is bluedata.
   
- 7.`export BASE_IMG_VERSION='3.0'`{{execute}}, 
+ 7.`export BASE_IMG_VERSION='1.0'`{{execute}}, 
  
  where <version> is the image version number, such as 3.0. The default version is the EPIC_BASE_IMG_VERSION
   
