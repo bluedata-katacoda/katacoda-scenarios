@@ -10,8 +10,8 @@ bdwb {{execute}}
 
 The workbench has inline help. Try the following
 
-help{{execute}}
+help {{execute}}
 
-help catalog{{execute}}
+help catalog {{execute}}
 
-help catalog new{{execute}}
+help catalog new {{execute}}
