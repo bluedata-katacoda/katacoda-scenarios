@@ -1,8 +1,8 @@
 Let's build a centos7 image
 
-1: To build a custom CentOS 7.x base image:
+Follow these steps To build a custom CentOS 7.x base image 
 
-2:Create a directory by executing the mkdir command, such as:
+<h1>Step1</h1> :Create a directory by executing the mkdir command, such as:
 `mkdir -p ~/src/base_images`{{execute}}
 
 3.Switch to the directory you just created by executing the cd command, such as
