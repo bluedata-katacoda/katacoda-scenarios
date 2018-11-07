@@ -6,7 +6,7 @@
   "time": "10 minutes",
   "details": {
     "steps": [
-    { "title": "Step 1 - Intro to Bluedata workbench","text": "step1.md"}
+    { "title": "Centos7 Appliaction","text": "step1.md"}
     ],
     "intro": {
       "text": "intro.md",
