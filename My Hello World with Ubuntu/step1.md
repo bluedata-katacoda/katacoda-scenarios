@@ -10,10 +10,11 @@ Log into the system or virtual machine where App Workbench has been installed, a
 </ul>
 <h2>Step2</h2>
 Go to the helloworld-auto directory by executing the following commands:
+<ul>
+  <li>`cd solutions/ImageSamples/helloWorld-auto`{{execute}}</li>
 
-`cd solutions/ImageSamples/helloWorld-auto`{{execute}}
-
-`ls -R`{{execute}}
+<li>`ls -R`{{execute}}</li>
+</ul>
 
 <h2>Step3</h2>
 Create a directory on the system where the App Workbench software is installed. This directory will house all the files and components for the HelloWorld application. To do this, execute the following command:
@@ -33,26 +34,28 @@ Use the bdwb command to create a skeleton file structure with the appropriate di
 
 <h2>Step6</h2>
 Copy the Dockerfile installed during the github clone operation into the centos/ directory in your example source directory by executing   the following commands:
+<ul>
+  <li>`mkdir ~/src/catalog/helloworld/image/centos`{{execute}}</li>
 
-`mkdir ~/src/catalog/helloworld/image/centos`{{execute}}
+<li>`cp /tmp/samples/solutions/ImageSamples/helloWorld-auto/image/centos/Dockerfile  ~/src/catalog/helloworld/image/centos/`{{execute}}</li>
 
-`cp /tmp/samples/solutions/ImageSamples/helloWorld-auto/image/centos/Dockerfile  ~/src/catalog/helloworld/image/centos/`{{execute}}
-
-`cat ~/src/catalog/helloworld/image/centos/Dockerfile`{{execute}}
-
+<li>`cat ~/src/catalog/helloworld/image/centos/Dockerfile`{{execute}}</li>
+</ul>
 <h2>Step7</h2>
 Copy the helloworld-app.wb file from the sample code taken from GitHub into your example source directory
+<ul>
+<li>`cp /tmp/samples/solutions/ImageSamples/helloWorld-auto/helloworld-app.wb ~/src/catalog/helloworld`{{execute}}</li>
 
-`cp /tmp/samples/solutions/ImageSamples/helloWorld-auto/helloworld-app.wb ~/src/catalog/helloworld`{{execute}}
-
-`cat -n ~/src/catalog/helloworld/helloworld-app.wb | more`{{execute}}
+<li>`cat -n ~/src/catalog/helloworld/helloworld-app.wb | more`{{execute}}</li>
+</ul>
 
 <h2>Step8</h2>
 copy the index.html file from the sample code that you downloaded from GitHub onto your example source directory
+<ul>
+<li>`cp  /tmp/samples/solutions/ImageSamples/helloWorld-auto/appconfig/index.html ~/src/catalog/helloworld/appconfig/`{{execute}}</li>
 
-`cp  /tmp/samples/solutions/ImageSamples/helloWorld-auto/appconfig/index.html ~/src/catalog/helloworld/appconfig/`{{execute}}
-
-`cat ~/src/catalog/helloworld/appconfig/index.html`{{execute}}
+<li>`cat ~/src/catalog/helloworld/appconfig/index.html`{{execute}}</li>
+</ul>
 
 <h2>Step9</h2>
 Copy the helloworld-logo.png file from the sample code taken from GitHub into your example source directory
@@ -61,10 +64,11 @@ Copy the helloworld-logo.png file from the sample code taken from GitHub into yo
 
 <h2>Step10</h2>
 build the image by executing the .wb file using the following command
+<ul>
+  <li>`./helloworld-app.wb`{{execute}}</li>
 
-`./helloworld-app.wb`{{execute}}
-
-`cat staging/helloworld-centos.json`{{execute}}
+<li>`cat staging/helloworld-centos.json`{{execute}}</li>
+</ul>
 
 <h2>Step11</h2>
 
@@ -73,9 +77,10 @@ Add the new .bin file to the EPIC App Store
 `cp ~/src/catalog/helloworld/deliverables/bdcatalog-centos7-bluedata-helloworld-3.0.bin`{{execute}}
 
 Ensure the file has the correct permissions
-
-`chgrep apache /srv/bluedata/catalog/<bundle>.bin`{{execute}}
-`chmod ug+rx /srv/bluedata/catalog/<bundle>.bin`{{execute}}
+<ul>
+  <li>`chgrep apache /srv/bluedata/catalog/<bundle>.bin`{{execute}}</li>
+  <li>`chmod ug+rx /srv/bluedata/catalog/<bundle>.bin`{{execute}}</li
+    </ul>
 
 
 
