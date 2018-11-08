@@ -1,16 +1,13 @@
 Lets Create hello world image:
 
 <h2>Step1</h2>
-Log into the system or virtual machine where App Workbench has been installed, and then execute the following commands:
-
-`yum install -y git`{{execute}}
-
-`mkdir /tmp/samples`{{execute}}
-
-`cd /tmp/samples`{{execute}}
-
-`git clone -b ImageSamples https://github.com/bluedatainc/solutions.git`{{execute}}
-
+Log into the system or virtual machine where App Workbench has been installed, and then execute the following commands
+<ul>
+  <li>`yum install -y git`{{execute}}</li>
+  <li>`mkdir /tmp/samples`{{execute}}</li>
+  <li>`cd /tmp/samples`{{execute}}</li>
+  <li>`git clone -b ImageSamples https://github.com/bluedatainc/solutions.git`{{execute}}</li>
+</ul>
 <h2>Step2</h2>
 Go to the helloworld-auto directory by executing the following commands:
 
