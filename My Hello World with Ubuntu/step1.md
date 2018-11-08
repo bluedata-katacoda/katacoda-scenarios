@@ -35,6 +35,7 @@ Use the bdwb command to create a skeleton file structure with the appropriate di
 
 <h2>Step6</h2>
 Copy the Dockerfile installed during the github clone operation into the centos/ directory in your example source directory by executing   the following commands:
+
 `mkdir ~/src/catalog/helloworld/image/centos`{{execute}}
 `cp /tmp/samples/solutions/ImageSamples/helloWorld-auto/image/centos/Dockerfile  ~/src/catalog/helloworld/image/centos/`{{execute}}
 `cat ~/src/catalog/helloworld/image/centos/Dockerfile`{{execute}}
@@ -53,15 +54,19 @@ copy the index.html file from the sample code that you downloaded from GitHub on
 
 <h2>Step9</h2>
 Copy the helloworld-logo.png file from the sample code taken from GitHub into your example source directory
+
 `cp  /tmp/samples/solutions/ImageSamples/helloWorld-auto/helloworld-logo.png ~/src/catalog/helloworld/`{{execute}}
 
 <h2>Step10</h2>
 build the image by executing the .wb file using the following command
+
 `./helloworld-app.wb`{{execute}}
 `cat staging/helloworld-centos.json`{{execute}}
 
 <h2>Step11</h2>
+
 Add the new .bin file to the EPIC App Store
+
 `cp ~/src/catalog/helloworld/deliverables/bdcatalog-centos7-bluedata-helloworld-3.0.bin`{{execute}}
 
 Ensure the file has the correct permissions
