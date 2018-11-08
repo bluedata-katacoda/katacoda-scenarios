@@ -1,1 +1,1 @@
-Welcome to my Katacoda Scenarios ! I am explaining you to the steps of hello world image craetion.
+Welcome to my Katacoda Scenarios ! I am explaining you the steps of hello world image creation.
