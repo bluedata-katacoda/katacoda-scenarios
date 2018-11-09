@@ -2,7 +2,7 @@ Lets Create hello world image:
 
 <h2>Step1</h2>
 
-To install App Workbench using pip, execute the following commands:
+Install App Workbench using pip.
 
 `yum install -y python-pip`{{execute}} 
 
@@ -17,3 +17,5 @@ To install App Workbench using pip, execute the following commands:
 To install App Workbench using pip:
 
 `pip install --upgrade bdworkbench`{{execute}}
+
+Work bench installed 
