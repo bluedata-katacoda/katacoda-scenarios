@@ -4,9 +4,9 @@ Lets Create hello world image:
 
 To install App Workbench using pip, execute the following commands:
 
-`yum install -y python-pip`{{execute}} # If pip is not already installed.
+`yum install -y python-pip`{{execute}} 
 
-`pip install --upgrade pip`{{execute}} # Ignore any python 2.6 warnings for now.
+`pip install --upgrade pip`{{execute}} 
 
 `pip install --upgrade setuptools`{{execute}}
 
