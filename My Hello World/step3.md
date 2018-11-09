@@ -1,4 +1,4 @@
-<h1>Step3 :Create the Dockerfile/h1>
+<h1>Create the Dockerfile/h1>
 
 <h2>Task 1</h2>
 Copy the Dockerfile installed during the github clone operation into the centos/ directory in your example source directory by executing   the following commands:
