@@ -48,7 +48,7 @@ Copy the helloworld-app.wb file from the sample code taken from GitHub into your
 
 <li>`cat -n ~/src/catalog/helloworld/helloworld-app.wb`{{execute}}</li>
 
-<li>`vi ~/src/catalog/helloworld/helloworld-app.wb`{{execute}}</li>
+
 
 update .bin file craetion part of wb file by adding this command "image build --basedir image/centos  --imgversion 1.0 --os centos7"
 </ul>
@@ -70,6 +70,7 @@ Copy the helloworld-logo.png file from the sample code taken from GitHub into yo
 build the image by executing the .wb file using the following command
 <ul>
   <li>`./helloworld-app.wb`{{execute}}</li>
+  <li>`vi ~/src/catalog/helloworld/helloworld-app.wb`{{execute}}</li>
 
 <li>`cat staging/helloworld-centos.json`{{execute}}</li>
 </ul>
