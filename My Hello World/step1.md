@@ -1,14 +1,21 @@
 Lets Create hello world image:
 
+<h2>Step1</h2>
 
 To install App Workbench using pip, execute the following commands:
+
 `yum install -y python-pip`{{execute}} # If pip is not already installed.
+
 `pip install --upgrade pip`{{execute}} # Ignore any python 2.6 warnings for now.
+
 `pip install --upgrade setuptools`{{execute}}
+
 `pip install --upgrade requests`{{execute}}
+
 `pip install --upgrade argparse`{{execute}}
  
 To install App Workbench using pip:
+
 `pip install --upgrade bdworkbench`{{execute}}
 
 
@@ -16,7 +23,7 @@ To install App Workbench using pip:
 
 
 
-<h2>Step1</h2>
+<h2>Step2</h2>
 Log into the system or virtual machine where App Workbench has been installed, and then execute the following commands
 <ul>
   <li>`yum install -y git`{{execute}}</li>
