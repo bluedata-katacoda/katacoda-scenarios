@@ -46,7 +46,7 @@ Copy the helloworld-app.wb file from the sample code taken from GitHub into your
 <ul>
 <li>`cp /tmp/samples/solutions/ImageSamples/helloWorld-auto/helloworld-app.wb ~/src/catalog/helloworld`{{execute}}</li>
 
-<li>`cat -n ~/src/catalog/helloworld/helloworld-app.wb | more`{{execute}}</li>
+<li>`cat -n ~/src/catalog/helloworld/helloworld-app.wb`{{execute}}</li>
 </ul>
 
 <h2>Step8</h2>
