@@ -1,4 +1,4 @@
-<h1>Step10 : Run the .wb</h1>
+<h1> Run the .wb</h1>
 
 build the image by executing the .wb file using the following command
 <ul>
