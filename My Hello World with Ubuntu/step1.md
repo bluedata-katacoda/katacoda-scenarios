@@ -27,10 +27,10 @@ Change to your new source directory by executing the following command:
 `cd ~/src/catalog/helloworld`{{execute}}
 <h2>Step5</h2>
 Use the bdwb command to create a skeleton file structure with the appropriate directories for creating the application .bin file by executing the following commands:
-
-`bdwb --init`{{execute}}
-
-`ls -R`{{execute}}
+<ul>
+  <li>`bdwb --init`{{execute}}</li>
+  <li>`ls -R`{{execute}}</li>
+  </ul>
 
 <h2>Step6</h2>
 Copy the Dockerfile installed during the github clone operation into the centos/ directory in your example source directory by executing   the following commands:
