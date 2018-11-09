@@ -50,7 +50,7 @@ Copy the helloworld-app.wb file from the sample code taken from GitHub into your
 
 
 
-update .bin file craetion part of wb file by adding this command "image build --basedir image/centos  --imgversion 1.0 --os centos7"
+
 </ul>
 
 <h2>Step8</h2>
@@ -71,21 +71,10 @@ build the image by executing the .wb file using the following command
 <ul>
   <li>`./helloworld-app.wb`{{execute}}</li>
   <li>`vi ~/src/catalog/helloworld/helloworld-app.wb`{{execute}}</li>
-
-<li>`cat staging/helloworld-centos.json`{{execute}}</li>
+update .bin file craetion part of wb file by adding this command "image build --basedir image/centos  --imgversion 1.0 --os centos7"
+<li>`docker images`{{execute}}</li>
 </ul>
 
-<h2>Step11</h2>
-
-Add the new .bin file to the EPIC App Store
-
-`cp ~/src/catalog/helloworld/deliverables/bdcatalog-centos7-bluedata-helloworld-3.0.bin`{{execute}}
-
-Ensure the file has the correct permissions
-<ul>
-  <li>`chgrep apache /srv/bluedata/catalog/<bundle>.bin`{{execute}}</li>
-  <li>`chmod ug+rx /srv/bluedata/catalog/<bundle>.bin`{{execute}}</li
-    </ul>
 
 
 
