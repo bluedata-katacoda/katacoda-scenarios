@@ -6,9 +6,9 @@
   "details": {
     "steps": [
     { "title": "Hello world App","text": "step1.md"},
-    { "title": "Hello world App","text": "step2.md"},
-    { "title": "Hello world App","text": "step3.md"},
-    { "title": "Hello world App","text": "step4.md"}
+    { "title": "Step 2","text": "step2.md"},
+    { "title": "Step 3","text": "step3.md"},
+    { "title": "Step 4","text": "step4.md"}
        
     ],
     "intro": {
