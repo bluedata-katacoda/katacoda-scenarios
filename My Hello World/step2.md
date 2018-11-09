@@ -16,7 +16,7 @@ Go to the helloworld-auto directory by executing the following commands:
 <li>`ls -R`{{execute}}</li>
 </ul>
 <h2>Task 3</h2>
-Create a directory on the system where the App Workbench software is installed. This directory will house all the files and components for the HelloWorld application. To do this, execute the following command:
+Create a directory on the system where the App Workbench software is installed. 
 
 `mkdir -p ~/src/catalog/helloworld`{{execute}}
 
