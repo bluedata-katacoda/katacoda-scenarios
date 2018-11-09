@@ -1,4 +1,4 @@
-<h1>Step2 : Downloading Sample Files from Git hub</h1>
+<h1> Downloading Sample Files from Git hub</h1>
 
 <h2>Task 1</h2> 
 Login into the system or virtual machine where App Workbench has been installed, and then execute the following commands
