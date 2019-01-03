@@ -1,0 +1,20 @@
+#!/usr/bin/env bdwb
+#
+# YOUR_ORGANIZATION_NAME must be replaced with a valid organization name. Please
+# refer to 'help builder organization' for details.
+#
+
+builder organization --name Bluedata
+
+catalog load --filepath cdh515.json
+appconfig package --dir cdh5-cm-setup
+logo file --filepath Logo_Cloudera.png
+
+## Centos catalog bundle
+image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
+image package --image-repotag bluedata/cdh515:1.0 --os centos7 
+#image build --basedir image/centos --imgversion 2.0 --os centos7
+catalog save --filepath staging/cdh515.json --force
+sources package --additional cdh5-cm-setup
+catalog package 
+#workbench clean
