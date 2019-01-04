@@ -1,6 +1,6 @@
 {
-  "title": "Upgrading a CDH application image",
-  "description": "Process to upgrade CDH Application image with BlueData Workbench for BlueData's EPIC platform.",
+  "title": "Upgrading a Spark application image",
+  "description": "Process to upgrade Spark Application image with BlueData Workbench for BlueData's EPIC platform.",
   "difficulty": "Expert",
   "time": "30 minutes",
   "details": {
