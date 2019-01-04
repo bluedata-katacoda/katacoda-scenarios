@@ -26,10 +26,10 @@
        "host01": [
 		{"file": "configure_java8.sh", "target": "/root/test", "chmod": "+x"},
 		{"file": "configure_jupyter.sh", "target": "/root/test", "chmod": "+x"},
-		{"file": "Dockerfile", "target": "/root/test”},
-                {"file": "Logo_spark.png", "target": "/root/test" },
-		{"file": “spark_notebook.wb", "target": "/root/test",  "chmod": "+x"}
-                ] 
+		{"file": "Dockerfile", "target": "/root/test"},
+    {"file": "Logo_spark.png", "target": "/root/test"},
+		{"file": "spark_notebook.wb", "target": "/root/test", "chmod": "+x"}
+              ] 
     }
   },
   "environment": {
