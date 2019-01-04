@@ -117,7 +117,7 @@ appconfig autogen --generate
 appconfig package
 
 ## Specify a logo file for the
-logo file --filepath Logo_Jupyterhub.png
+logo file --filepath Logo_spark.png
 
 ################################################################################
 #                        Catalog package for CentOS                            #
