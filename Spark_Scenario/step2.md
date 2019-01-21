@@ -1,7 +1,6 @@
-To begin the application development, we will first need to create a directory called “Spark” or any directory name of your choice. This directory will house all the files and components necessary to create the application image. 
-
-To create a directory, execute the following command:
-<br>
+To begin creating the Spark Application Image follow the steps mentioned below:<br>
+Create a directory on the system named as Spark.
+This directory will house all the files and components for the Spark Application Image.<br>To do this, execute the following command:<br>
 
 `mkdir ~/Spark`{{execute}}<br>
 
@@ -17,11 +16,8 @@ Click on the below command to view the files and directories created in Spark fo
 
 `ls -R`{{execute}}
 
-You will see the following:
-./appconfig:
-appjob  logging.sh  macros.sh  startscript  utils.sh
-./image:
-
-Now, we will create a folder called “centos” inside the empty image directory. Execute the following command to do so :
+Create a folder named Centos and a sub folder spark inside the image directory. To do that, execute the following command:
 
 `mkdir ~/Spark/image/centos`{{execute}}
+
+`mkdir ~/Spark/image/centos/spark`{{execute}}

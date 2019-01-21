@@ -1,4 +1,5 @@
-Hello. Today we will be teaching you how to create an image on the Blue Data EPIC platform. We will be creating a Spark image using the Blue Data EPIC Application Workbench on a CentOS base image container.
+Hi Welcome to the creation of Spark Scenario,
+Here we will be creating application called “Spark” using the BlueData EPIC Application Workbench on a CentOS container.
 
 ## Prerequisites:
 <br>-Basic knowledge on containers
