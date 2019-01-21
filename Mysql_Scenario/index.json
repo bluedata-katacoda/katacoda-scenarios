@@ -1,0 +1,41 @@
+{
+  "title": "Creating Bin For Mysql Using BlueData App Workbench",
+  "description": "Process to build Mysql App with BlueData App Workbench for EPIC platform.",
+  "difficulty": "intermediate",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+    { "title": "Step 1 - Preparing the environment","text": "step1.md"},
+    { "title": "Step 2 - Getting Started", "text": "step2.md"},
+    { "title": "Step 3 - Create the Dockerfile", "text": "step3.md"},
+    { "title": "Step 4 - Create the startscript", "text": "step4.md"},
+    { "title": "Step 5 - Creating appconfig files", "text": "step5.md"},
+    { "title": "Step 6 - Building the Bin File using BlueData App Workbench", "text": "step6.md"},
+    { "title": "Step 7 - Checking the Bin File For MySQL", "text": "step7.md"}
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code" : "init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+       "host01": [
+                 {"file": "Dockerfile", "target": "/root/test"},
+                 {"file": "startscript", "target": "/root/test",  "chmod": "+x" },
+                 {"file": "appjob", "target": "/root/test",  "chmod": "+x" },
+		 {"file": "configure_java8.sh", "target": "/root/test" },
+		 {"file": "systemd.service", "target": "/root/test",  "chmod": "+x" },
+                 {"file": "Logo_mysql.png", "target": "/root/test" }
+                ] 
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mInitializing BlueData Application Workbench environment.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "centos-vm"
+  }
+}
