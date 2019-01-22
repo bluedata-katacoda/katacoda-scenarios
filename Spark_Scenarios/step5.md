@@ -10,10 +10,10 @@ To view the content of appjob file, execute the below command.<br>
 
 Task 2:
 Copy the configure java file.<br>
-`cp ~/test/configure_java8.sh ~/Spark/image/centos/spark`{{execute}}
+`cp ~/test/configure_java8.sh ~/Spark/image/centos`{{execute}}
 <br><br>
 To view the content of configure_java8.sh  file, execute the below command.<br>
-`cat ~/Spark/image/centos/spark/configure_java8.sh`{{execute}}
+`cat ~/Spark/image/centos/configure_java8.sh`{{execute}}
 
 Task 3:
 Copy the spark-slave file which is used for bringing up and down the spark slave service.<br>
