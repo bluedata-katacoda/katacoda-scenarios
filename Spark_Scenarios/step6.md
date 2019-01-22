@@ -55,7 +55,7 @@ Setting the logo for bin.
 Task 10:
 Catalog the package for Centos
 
-`image build --basedir image/centos/spark --image-repotag bluedata/sparkbase:2.0`{{execute}}
+`image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0`{{execute}}
 <br><br>`image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker`{{execute}}
 <br><br>`catalog save --filepath staging/spark221e1.json --force`{{execute}}
 <br><br>`sources package`{{execute}}
