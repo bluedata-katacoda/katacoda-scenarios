@@ -1,0 +1,42 @@
+{
+  "title": "Upgrading a Spark application image",
+  "description": "Process to upgrade Spark with notebook image using BlueData Workbench for BlueData's EPIC platform.",
+  "difficulty": "Expert",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+   	 { "title": "Step 1 - Create desired directory","text": "step1.md"},
+   	 { "title": "Step 2 - Copying the bin file", "text": "step2.md"},
+   	 { "title": "Step 3 - Extracting the contents of the bin file", "text": "step3.md"},
+   	 { "title": "Step 4 - Making changes in the old image for new image", "text": "step4.md"},
+	{ "title": "Step 5 - Modifying the .wb file", "text": "step5.md"},
+	{ "title": "Step 6 - Modifying the Dockerfile", "text": "step6.md"},
+	
+	{ "title": "Step 8 - Creating the image", "text": "step8.md"},
+	{ "title": "Step 9 - Checking the bin for the image", "text": "step9.md"}
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code" : "init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+       "host01": [
+		{"file": "configure_java8.sh", "target": "/root/test", "chmod": "+x"},
+		{"file": "configure_jupyter.sh", "target": "/root/test", "chmod": "+x"},
+		{"file": "Dockerfile", "target": "/root/test"},
+    {"file": "Logo_spark.png", "target": "/root/test"},
+		{"file": "spark_notebook.wb", "target": "/root/test", "chmod": "+x"}
+              ] 
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mInitializing Bluedata Application Workbench environment.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "centos-vm"
+  }
+}
