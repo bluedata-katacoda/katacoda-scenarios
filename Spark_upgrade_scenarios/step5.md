@@ -36,6 +36,7 @@ These are sections will be there in .wb file
 
 
 <br><b><i>Replacing Pattern from Some files</b></i>
+
 <br>appconfig autogen --execute total_vcores.sh --onroles controller worker
 
 <br>appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller" --pattern @@@@SPARK_MAX_CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker
@@ -50,7 +51,6 @@ These are sections will be there in .wb file
 <br>appconfig package
 
 <br><b><i>Setting the logo for bin</b></i>
-
 <br>logo file --filepath Logo_Spark.png
 
 <br><b><i>Catalog the package for Centos</b></i>
