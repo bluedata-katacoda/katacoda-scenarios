@@ -12,13 +12,16 @@ To view the content of the file, execute the following<br>
 
 These are sections will be there in .wb file
 <br><b><i>Setting the organization name</b></i>
+
 <br>builder organization --name BlueData
 
 <br><b><i>Adding a new Catalog Entry</b></i>
+
 <br>catalog new --distroid spark221 --name "Spark 2.2.1 on centos7x" --desc "Spark 2.2.1" --categories Spark --version 1.0
 
 
 <br><b><i>Define all node roles for the virtual cluster</b></i>
+
 <br>role add controller 1
 <br>role add worker 0+
 
@@ -51,9 +54,11 @@ These are sections will be there in .wb file
 <br>appconfig package
 
 <br><b><i>Setting the logo for bin</b></i>
+
 <br>logo file --filepath Logo_Spark.png
 
 <br><b><i>Catalog the package for Centos</b></i>
+
 <br>image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0
 <br>image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker
 <br>catalog save --filepath staging/spark221e1.json --force
