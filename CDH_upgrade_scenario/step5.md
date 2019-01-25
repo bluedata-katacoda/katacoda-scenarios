@@ -10,6 +10,7 @@ To view the content of the file, execute the following<br>
 `cat ~/Source/CDH/cdh515.wb`{{execute}}
 
 <br><strong>cdh515.wb file contain following section</strong>
+<br>
 <br><strong>Section 1: Image ID</strong>
 
 The first section identifies the image and builds or loads the Metadata JSON file.
