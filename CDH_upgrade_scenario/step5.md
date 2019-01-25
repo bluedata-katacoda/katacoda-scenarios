@@ -13,26 +13,25 @@ To view the content of the file, execute the following<br>
 <br><strong>Section 1: Image ID</strong>
 
 The first section identifies the image and builds or loads the Metadata JSON file.
-In this example, the Metadata JSON file is being created by the catalog new commands:
-
-Setting the organization name.
+<br><i>This below line will Set the organization name.</i>
 <br>builder organization --name BlueData
+<br>
+
+<br><i>This below line will loads the Metadata JSON file and set up files</i>
+<br>
 <br>catalog load --filepath cdh515:1.0 .json
 <br>appconfig package --dir cdh-cm-setup
-<br>Setting the logo for bin.
+<br>
+<br><i>This below line will loads the the logo for bin files</i><br>
 <br>logo file --filepath Logo_Cloudera.png
 
-
-
-<br><strong>Section 6: Build the Image .bin File</strong>
-
+<br><strong>Section 2: Build the Image .bin File</strong>
+<br>
 <br>The final section of the .wb file pulls all of the pieces together and builds the .bin file.
-
-<br>Catalog the package for Centos
-
+<br>This section creates docker tgz and bin file
 <br><br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
 <br><br>image package --image-repotag bluedata/cdh515:1.0 --os centos7
-
 <br><br>catalog save --filepath staging/cdh.json --force
 <br><br>sources package
 <br><br>catalog package
+<br><i>Catalog the package for Centos</i>
