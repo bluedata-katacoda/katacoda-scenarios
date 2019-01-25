@@ -1,11 +1,13 @@
 In this step we will extract the contents of the .bin file.
-For this, execute the following command.<br>
+
+<br>For this, execute the following command.<br>
 `./bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.bin --payload`{{execute}}
+<br>
 <br>
 This will create two files in the directory. (to view the files execute the following command)<br>
 `ls`{{execute}}
 <br><br>Untar the payload.tar file by executing the following command
-<br>`tar xvf payload.tar`{{execute}}
+<br>`tar xvf payload.tar`{{execute}}<br>
 <br><br>This will create new directories. (to view the files execute the following command)<br>
 `ls`{{execute}}
 <br><br>Delete the bin file to save space on the device<br>
