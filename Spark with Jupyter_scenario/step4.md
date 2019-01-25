@@ -1,5 +1,9 @@
 Step4: Setup additional dependencies which are needed for Spark.
-In this step, we will be showing you the additional steps needed to create a successful Spark image. We have already referenced the files that are needed, all you would need to do is copy them into the appropriate location.  The dependencies that need to be configured is Jupyter, which we will provide a shell script , and configuring the correct version of Java for Spark. It is always good to check what version of Spark you are using to understand the dependencies you may need setup in your base image.
+<br>
+In this step, we will be showing you the additional steps needed to create a successful Spark image. 
+We have already referenced the files that are needed, all you would need to do is copy them into the appropriate location. <br>
+The dependencies that need to be configured is Jupyter, which we will provide a shell script , and configuring the correct version of Java for Spark. <br>
+It is always good to check what version of Spark you are using to understand the dependencies you may need setup in your base image.
 
 
 Task1:
@@ -15,8 +19,8 @@ Next, copy over the java script:.<br>
 `cp ~/test/configure_java8.sh ~/Spark/image/centos`{{execute}}
 
 Task2: 
-We need to add additional configuration files under the appconfig directory. We have already made these files for you, to add them in, please execute the following commands:
-Remove the appconfig folder from the Spark folder<br>
+<br>We need to add additional configuration files under the appconfig directory. We have already made these files for you, to add them in, please execute the following commands:
+<br>Remove the appconfig folder from the Spark folder<br>
 
 `rm -rf appconfig`{{execute}}
 
