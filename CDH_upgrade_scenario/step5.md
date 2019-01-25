@@ -8,3 +8,31 @@ We already have a reference .wb file. We just need to replace the current .wb fi
 
 To view the content of the file, execute the following<br>
 `cat ~/Source/CDH/cdh515.wb`{{execute}}
+
+<br><strong>cdh515.wb file contain following section</strong>
+<br><strong>Section 1: Image ID</strong>
+
+The first section identifies the image and builds or loads the Metadata JSON file.
+In this example, the Metadata JSON file is being created by the catalog new commands:
+
+Setting the organization name.
+<br>builder organization --name BlueData
+<br>catalog load --filepath cdh515:1.0 .json
+<br>appconfig package --dir cdh-cm-setup
+<br>Setting the logo for bin.
+<br>logo file --filepath Logo_Cloudera.png
+
+
+
+<br><strong>Section 6: Build the Image .bin File</strong>
+
+<br>The final section of the .wb file pulls all of the pieces together and builds the .bin file.
+
+<br>Catalog the package for Centos
+
+<br><br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
+<br><br>image package --image-repotag bluedata/cdh515:1.0 --os centos7
+
+<br><br>catalog save --filepath staging/cdh.json --force
+<br><br>sources package
+<br><br>catalog package
