@@ -19,5 +19,6 @@ This will create two files in the directory. (to view the files execute the foll
 <br><br>Now navigate to the directory created after the above step
 `cd bdcatalog-centos7-bluedata-cdh514_centos7x-1.7-src`{{execute}}
 <br><br>
-Copy the content of this directory to the directory you created initially
+Copy the content of this directory to the directory you created initially<br>
+
 `cp -R * ~/Source/CDH`{{execute}}
