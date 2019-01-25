@@ -8,7 +8,7 @@ To view the content of the file, execute the following
 <br>`cat ~/Source/CDH/cdh515.json`{{execute}}
 
 <br>
-Json file contain below sections<br>
+<strong>Json file contain below sections<br></strong>
 <strong>-Identification</strong>
 <br>
 The identification blob appears as follows:
