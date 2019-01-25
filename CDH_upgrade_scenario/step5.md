@@ -12,7 +12,7 @@ To view the content of the file, execute the following<br>
 <br><strong>cdh515.wb file contain following section</strong>
 <br>
 <br><b>Section 1: Image ID</b>
-
+<br>
 The first section identifies the image and builds or loads the Metadata JSON file.
 <br>
 <br><b><i>This below line will Set the organization name.</i></b>
