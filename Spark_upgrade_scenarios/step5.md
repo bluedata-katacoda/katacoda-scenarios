@@ -19,7 +19,6 @@ These are sections will be there in .wb file
 
 
 <br><b><i>Define all node roles for the virtual cluster</b></i>
-
 <br>role add controller 1
 <br>role add worker 0+
 
@@ -37,7 +36,6 @@ These are sections will be there in .wb file
 
 
 <br><b><i>Replacing Pattern from Some files</b></i>
-
 <br>appconfig autogen --execute total_vcores.sh --onroles controller worker
 
 <br>appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller" --pattern @@@@SPARK_MAX_CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker
