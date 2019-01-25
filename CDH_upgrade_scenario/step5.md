@@ -29,9 +29,10 @@ The first section identifies the image and builds or loads the Metadata JSON fil
 <br>
 <br>The final section of the .wb file pulls all of the pieces together and builds the .bin file.
 <br>This section creates docker tgz and bin file
-<br><br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
-<br><br>image package --image-repotag bluedata/cdh515:1.0 --os centos7
-<br><br>catalog save --filepath staging/cdh.json --force
-<br><br>sources package
-<br><br>catalog package
+<br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
+<br>image package --image-repotag bluedata/cdh515:1.0 --os centos7
+<br>catalog save --filepath staging/cdh.json --force
+<br>sources package
+<br>catalog package
+
 <br><i>Catalog the package for Centos</i>
