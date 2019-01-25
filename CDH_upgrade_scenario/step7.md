@@ -14,14 +14,14 @@ To view the content of the file, execute the following
 <br>
 The identification blob appears as follows:
 <br>
-"distro_id": "cdh54CM",
-"label": {
-  "name": "CDH 5.4.3 with Cloudera Manager",
-  "description": "CDH 5.4.3 with MRv1/YARN and HBase support. Includes Pig, Hive, Hue and Spark."
-  },
-"version": "2.0.1",
-"epic_compatible_versions": ["3.4"],
-"categories": [ "Hadoop", "HBase" ],
+"distro_id": "cdh54CM",<br>
+"label": {<br>
+  "name": "CDH 5.4.3 with Cloudera Manager",<br>
+  "description": "CDH 5.4.3 with MRv1/YARN and HBase support. Includes Pig, Hive, Hue and Spark."<br>
+  },<br>
+"version": "2.0.1",<br>
+"epic_compatible_versions": ["3.4"],<br>
+"categories": [ "Hadoop", "HBase" ],<br>
 
 <br>
 
