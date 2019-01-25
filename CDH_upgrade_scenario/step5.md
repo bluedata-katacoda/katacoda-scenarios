@@ -11,7 +11,7 @@ To view the content of the file, execute the following<br>
 
 <br><strong>cdh515.wb file contain following section</strong>
 <br>
-<br><strong>Section 1: Image ID</strong>
+<br><b>Section 1: Image ID</b>
 
 The first section identifies the image and builds or loads the Metadata JSON file.
 <br>
@@ -25,14 +25,14 @@ The first section identifies the image and builds or loads the Metadata JSON fil
 <br><b><i>This below line will loads the the logo for bin files</i></b>
 <br>logo file --filepath Logo_Cloudera.png
 
-<br><strong>Section 2: Build the Image .bin File</strong>
+<br><b>Section 2: Build the Image .bin File</b>
 <br>
 <br>The final section of the .wb file pulls all of the pieces together and builds the .bin file.
 
-<br><b><i>This section creates docker tgz and bin file</i><b>
+<br><b><i>This section creates docker tgz and bin file</i></b>
 <br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
 
-<br><b><i>Catalog the package for Centos</i><b>
+<br><b><i>Catalog the package for Centos</i></b>
 <br>image package --image-repotag bluedata/cdh515:1.0 --os centos7
 <br>catalog save --filepath staging/cdh.json --force
 <br>sources package
