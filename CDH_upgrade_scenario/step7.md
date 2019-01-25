@@ -24,72 +24,72 @@ The identification blob appears as follows:<br>
 "categories": [ "Hadoop", "HBase" ],<br>
 
 <br>
-<strong>distro_id <strong>is unique identifier for either a Catalog entry or a versioned set of Catalog entries
+<strong>distro_id </strong> :is unique identifier for either a Catalog entry or a versioned set of Catalog entries
 <br>
-The <b>label<b> property contains the following parameters:<br>
-name, which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
-description, which is a longer, more detailed blurb about the entry.
-ersion is a discriminator between multiple Catalog entries that share the same distro ID.
-epic_compatible_versions lists the EPIC platform versions where this Catalog entry may be used.
-categories is a list of strings used by the EPIC interface to group Catalog entries during cluster creation.
+The <strong>label</strong> is a property contains the following parameters:<br>
+<br><strong>name</strong> which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
+<br><strong>description</strong> which is a longer, more detailed blurb about the entry.v
+<br><strong>version </strong>is a discriminator between multiple Catalog entries that share the same distro ID.
+<br><strong>epic_compatible_versions</strong> lists the EPIC platform versions where this Catalog entry may be used.
+<br><strong>categories</strong> is a list of strings used by the EPIC interface to group Catalog entries during cluster creation.
 
 <br>
 <li><strong>Components</strong></li>
 <br>
-"image": {
-  "checksum": "b07e8cfea8a9c1a6cdc6990b1da29b9f",
-  "import_url": "http://s3.amazonaws.com/bluedata-vmimages/Cloudera-CDH-CM-5.4.3-v2.tgz"
-},
-"setup_package": {
-  "checksum": "7560c8841c1400e0e4a4ba3dac1ba8d7",
-  "import_url": "http://s3.amazonaws.com/bluedata-vmimages/cdh5-cm-setup.tgz"
-},
+"image": {<br>
+  "checksum": "b07e8cfea8a9c1a6cdc6990b1da29b9f",<br>
+  "import_url": "http://s3.amazonaws.com/bluedata-vmimages/Cloudera-CDH-CM-5.4.3-v2.tgz"<br>
+},<br>
+"setup_package": {<br>
+  "checksum": "7560c8841c1400e0e4a4ba3dac1ba8d7",<br>
+  "import_url": "http://s3.amazonaws.com/bluedata-vmimages/cdh5-cm-setup.tgz"<br>
+},<br>
 <br>
-image is a property that identifies the location for the image used to launch virtual nodes for this Catalog entry. 
-setup_package is similar to the image property except for the configuration scripts package that runs inside the launched virtual node.
+<br><strong>image</strong>  is a property that identifies the location for the image used to launch virtual nodes for this Catalog entry. 
+<br><strong>setup_package</strong>  is similar to the image property except for the configuration scripts package that runs inside the launched virtual node.
 
 <br>
-<li><stong>Services</strong></li>
+<li><stong>Services</strong></li><br>
 The services blob appears as follows:
 <br>
-"services": [
-  {
-    "id": "hbase_master",
-    "exported_service": "hbase",
-    "label": {
-      "name": "HMaster"
-      },
-    "endpoint" : {
-      "url_scheme" : "http",
-      "port" : "60010",
-      "path" : "/",
-      "is_dashboard" : true
-      }
-    },
+"services": [<br>
+  {<br>
+    "id": "hbase_master",<br>
+    "exported_service": "hbase",<br>
+    "label": {<br>
+      "name": "HMaster"<br>
+      },<br>
+    "endpoint" : {<br>
+      "url_scheme" : "http",<br>
+      "port" : "60010",<br>
+      "path" : "/",<br>
+      "is_dashboard" : true<br>
+      }<br>
+    },<br>
     
    <br>
   In this example, services is a list of service objects.
-<br>The defined services will be referenced by other elements of this JSON file to determine which services are active on which nodes     within the cluster. <br>
+<br>The defined <strong>services</strong> will be referenced by other elements of this JSON file to determine which services are active on which nodes     within the cluster. <br>
 
 <li><strong>Node Roles</strong></li>
 The Node Roles blob appears as follows:
 <br>
-"node_roles": [
-  {
-    "id": "controller",
-    "cardinality": "1",
-    "anti_affinity_group_id": "CM",
-    "min_cores": "4",
-    "min_memory": "12288"
-  },
+"node_roles": [<br>
+  {<br>
+    "id": "controller",<br>
+    "cardinality": "1",<br>
+    "anti_affinity_group_id": "CM",<br>
+    "min_cores": "4",<br>
+    "min_memory": "12288"<br>
+  },<br>
   <br>
   
-  In this example, node_roles is a list of objects describing roles that may be deployed for this Catalog entry. Each role is a particular configuration instantiated from the entry's virtual node image and configured by the setup scripts
+  In this example,<strong>node_roles</strong>  is a list of objects describing roles that may be deployed for this Catalog entry. Each role is a particular configuration instantiated from the entry's virtual node image and configured by the setup scripts
   
 <li><strong>Configuration</strong></li>
 <br>
-  Selected Roles-lists IDs of roles that will be deployed.<br>
-  Node Services-lists IDs of services that will be present on nodes of a given role, if that role is deployed.<br>
-  Config Metadata-lists of string key/value pairs that can be referenced by the setup scripts.<br>
-  Config Choices-lists both the choices available to the UI/API user and the possible selections for each choice.<br>
+  <strong>Selected Roles-</strong>lists IDs of roles that will be deployed.<br>
+  <strong>Node Services-</strong>lists IDs of services that will be present on nodes of a given role, if that role is deployed.<br>
+  <strong>Config Metadata-</strong> lists of string key/value pairs that can be referenced by the setup scripts.<br>
+ <strong>Config Choices-</strong> lists both the choices available to the UI/API user and the possible selections for each choice.<br>
 </ul>
