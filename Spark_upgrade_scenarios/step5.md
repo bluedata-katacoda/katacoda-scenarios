@@ -10,6 +10,7 @@ To view the content of the file, execute the following<br>
 `cat ~/Source/Spark/spark_notebook.wb`{{execute}}
 <br>
 
+These are sections will be there in .wb file
 <br><b><i>Setting the organization name</b></i>
 <br>builder organization --name BlueData
 
