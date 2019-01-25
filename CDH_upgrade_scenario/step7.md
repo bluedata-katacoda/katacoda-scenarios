@@ -32,7 +32,7 @@ The <strong>label</strong> is a property contains the following parameters:<br>
 <br><strong>version </strong>is a discriminator between multiple Catalog entries that share the same distro ID.
 <br><strong>epic_compatible_versions</strong> lists the EPIC platform versions where this Catalog entry may be used.
 <br><strong>categories</strong> is a list of strings used by the EPIC interface to group Catalog entries during cluster creation.
-
+<br>
 <br>
 <br>
 <li><strong>Components</strong></li>
@@ -51,7 +51,7 @@ The <strong>label</strong> is a property contains the following parameters:<br>
 
 <br>
 <br>
-<li><stong>Services</strong></li><br>
+<li><strong>Services</strong></li><br>
 The services blob appears as follows:
 <br>
 "services": [<br>
