@@ -66,8 +66,9 @@ The services blob appears as follows:
       }
     },
     
-    <br>
-    In this example, services is a list of service objects. The defined services will be referenced by other elements of this JSON file to determine which services are active on which nodes within the cluster. <br>
+   <br>
+  In this example, services is a list of service objects.
+<br>The defined services will be referenced by other elements of this JSON file to determine which services are active on which nodes     within the cluster. <br>
 
 <strong>Node Roles</strong>
 The Node Roles blob appears as follows:
