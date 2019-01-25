@@ -12,7 +12,7 @@ To view the content of the file, execute the following
 <ul>
 <li><strong>-Identification</strong></li>
 <br>
-The identification blob appears as follows:
+The identification blob appears as follows:<br>
 <br>
 "distro_id": "cdh54CM",<br>
 "label": {<br>
@@ -24,9 +24,9 @@ The identification blob appears as follows:
 "categories": [ "Hadoop", "HBase" ],<br>
 
 <br>
-
-distro_id is unique identifier for either a Catalog entry or a versioned set of Catalog entries
-The label property contains the following parameters:
+<strong>distro_id <strong>is unique identifier for either a Catalog entry or a versioned set of Catalog entries
+<br>
+The <b>label<b> property contains the following parameters:<br>
 name, which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
 description, which is a longer, more detailed blurb about the entry.
 ersion is a discriminator between multiple Catalog entries that share the same distro ID.
