@@ -9,7 +9,8 @@ To view the content of the file, execute the following
 
 <br>
 <strong>Json file contain below sections<br></strong>
-<strong>-Identification</strong>
+<ul>
+<li><strong>-Identification</strong></li>
 <br>
 The identification blob appears as follows:
 <br>
@@ -33,7 +34,7 @@ epic_compatible_versions lists the EPIC platform versions where this Catalog ent
 categories is a list of strings used by the EPIC interface to group Catalog entries during cluster creation.
 
 <br>
-<strong>Components</strong>
+<li><strong>Components</strong></li>
 <br>
 "image": {
   "checksum": "b07e8cfea8a9c1a6cdc6990b1da29b9f",
@@ -48,7 +49,7 @@ image is a property that identifies the location for the image used to launch vi
 setup_package is similar to the image property except for the configuration scripts package that runs inside the launched virtual node.
 
 <br>
-<stong>Services</strong>
+<li><stong>Services</strong></li>
 The services blob appears as follows:
 <br>
 "services": [
@@ -70,7 +71,7 @@ The services blob appears as follows:
   In this example, services is a list of service objects.
 <br>The defined services will be referenced by other elements of this JSON file to determine which services are active on which nodes     within the cluster. <br>
 
-<strong>Node Roles</strong>
+<li><strong>Node Roles</strong></li>
 The Node Roles blob appears as follows:
 <br>
 "node_roles": [
@@ -85,9 +86,10 @@ The Node Roles blob appears as follows:
   
   In this example, node_roles is a list of objects describing roles that may be deployed for this Catalog entry. Each role is a particular configuration instantiated from the entry's virtual node image and configured by the setup scripts
   
-<strong>Configuration</strong>
+<li><strong>Configuration</strong></li>
 <br>
   Selected Roles-lists IDs of roles that will be deployed.<br>
   Node Services-lists IDs of services that will be present on nodes of a given role, if that role is deployed.<br>
   Config Metadata-lists of string key/value pairs that can be referenced by the setup scripts.<br>
   Config Choices-lists both the choices available to the UI/API user and the possible selections for each choice.<br>
+</ul>
