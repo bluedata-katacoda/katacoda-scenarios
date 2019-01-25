@@ -34,6 +34,7 @@ The <strong>label</strong> is a property contains the following parameters:<br>
 <br><strong>categories</strong> is a list of strings used by the EPIC interface to group Catalog entries during cluster creation.
 
 <br>
+<br>
 <li><strong>Components</strong></li>
 <br>
 "image": {<br>
@@ -48,6 +49,7 @@ The <strong>label</strong> is a property contains the following parameters:<br>
 <br><strong>image</strong>  is a property that identifies the location for the image used to launch virtual nodes for this Catalog entry. 
 <br><strong>setup_package</strong>  is similar to the image property except for the configuration scripts package that runs inside the launched virtual node.
 
+<br>
 <br>
 <li><stong>Services</strong></li><br>
 The services blob appears as follows:
@@ -70,7 +72,7 @@ The services blob appears as follows:
    <br>
   In this example, services is a list of service objects.
 <br>The defined <strong>services</strong> will be referenced by other elements of this JSON file to determine which services are active on which nodes     within the cluster. <br>
-
+<br>
 <li><strong>Node Roles</strong></li>
 The Node Roles blob appears as follows:
 <br>
