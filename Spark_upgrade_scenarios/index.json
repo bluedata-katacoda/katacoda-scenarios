@@ -11,7 +11,7 @@
    	 { "title": "Step 4 - Making changes in the old image for new image", "text": "step4.md"},
 	{ "title": "Step 5 - Modifying the .wb file", "text": "step5.md"},
 	{ "title": "Step 6 - Modifying the Dockerfile", "text": "step6.md"},
-	{ "title": "Step 7 - Modifying the json file", "text": "step7.md"},
+	{ "title": "Step 7 -  Adding configuration fils under appconfig directory", "text": "step7.md"},
 	{ "title": "Step 8 - Creating the image", "text": "step8.md"},
 	{ "title": "Step 9 - Checking the bin for the image", "text": "step9.md"}
     ],
