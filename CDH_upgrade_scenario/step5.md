@@ -15,24 +15,24 @@ To view the content of the file, execute the following<br>
 <br>
 The first section identifies the image and builds or loads the Metadata JSON file.
 <br>
-<br><b><i>This below line will Set the organization name.</i></b>
+<br><b>This below line will Set the organization name.</b>
 <br>builder organization --name BlueData
 <br>
-<br><b><i>This below line will loads the Metadata JSON file and set up files</i></b>
+<br><b>This below line will loads the Metadata JSON file and set up files</b>
 <br>catalog load --filepath cdh515:1.0 .json
 <br>appconfig package --dir cdh-cm-setup
 <br>
-<br><b><i>This below line will loads the the logo for bin files</i></b>
+<br><b>This below line will loads the the logo for bin files</b>
 <br>logo file --filepath Logo_Cloudera.png
 
 <br><b>Section 2: Build the Image .bin File</b>
 <br>
 <br>The final section of the .wb file pulls all of the pieces together and builds the .bin file.
 
-<br><b><i>This section creates docker tgz and bin file</i></b>
+<br><b>This section creates docker tgz and bin file</b>
 <br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
 
-<br><b><i>Catalog the package for Centos</i></b>
+<br><b>Catalog the package for Centos</b>
 <br>image package --image-repotag bluedata/cdh515:1.0 --os centos7
 <br>catalog save --filepath staging/cdh.json --force
 <br>sources package
