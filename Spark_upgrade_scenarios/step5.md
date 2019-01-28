@@ -53,7 +53,7 @@ These are sections will be there in .wb file
 <br><b>Setting the logo for bin</b>
 <br>logo file --filepath Logo_Spark.png
 
-<br><b><i>Catalog the package for Centos</b></i>
+<br><b>Catalog the package for Centos</b>
 <br>image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0
 <br>image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker
 <br>catalog save --filepath staging/spark221e1.json --force
