@@ -15,10 +15,10 @@ To view the content of the file, execute the following<br>
 <br>
 
 These are sections will be there in .wb file
-<br><b><i>Setting the organization name</b></i>
+<br><b>Setting the organization name</b>
 <br>builder organization --name BlueData
 
-<br><b><i>Adding a new Catalog Entry</b></i>
+<br><b>Adding a new Catalog Entry</b>
 <br>catalog new --distroid spark221 --name "Spark 2.2.1 on centos7x" --desc "Spark 2.2.1" --categories Spark --version 1.0
 
 
@@ -30,7 +30,7 @@ These are sections will be there in .wb file
 <br>role add rstudio 0+
 <br>role add gateway 0+
 
-<br><b><i>Define all services that are available in the virtual cluster</b></i>
+<br><b>Define all services that are available in the virtual cluster</b>
 <br>
 <br>service add --srvcid spark --name "Spark master" --scheme "http" --port 8080 --path "/" --display --onroles controller
 <br>service add --srvcid spark_master --name "Spark master" --scheme "spark" --port 7077 --export_as "spark" --sysctl spark-master --onroles controller
@@ -53,7 +53,7 @@ These are sections will be there in .wb file
 <br>appconfig autogen --pkgfile core-site.xml --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/core-site.xml --pkgfile hadoop --dest /usr/bin/hadoop --pkgfile appjob --dest /opt/bluedata/vagent/guestconfig/appconfig/appjob --onroles controller worker
 
 
-<br><b><i>Replacing Pattern from Some files</b></i>
+<br><b>Replacing Pattern from Some files</b>
 
 <br>appconfig autogen --execute total_vcores.sh --onroles controller worker
 
@@ -91,10 +91,10 @@ These are sections will be there in .wb file
 <br>appconfig autogen --generate
 <br>appconfig package
 
-<br><b><i>Setting the logo for bin</b></i>
+<br><b>Setting the logo for bin</b>
 <br>logo file --filepath Logo_Spark.png
 
-<br><b><i>Catalog the package for Centos</b></i>
+<br><b>Catalog the package for Centos</b>
 <br>image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0
 <br>image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker
 <br>catalog save --filepath staging/spark221e1.json --force
