@@ -1,9 +1,10 @@
 Step4: Setup additional dependencies which are needed for Spark.
 <br>
-In this step, we will be showing you the additional steps needed to create a successful Spark image. 
+<br>
+In this step, we will be showing you the additional steps needed to create a successful Spark image.<br> 
 We have already referenced the files that are needed, all you would need to do is copy them into the appropriate location. <br>
-The dependencies that need to be configured is Jupyter, which we will provide a shell script , and configuring the correct version of Java for Spark. <br>
-It is always good to check what version of Spark you are using to understand the dependencies you may need setup in your base image.
+<br>The dependencies that need to be configured is Jupyter, which we will provide a shell script , and configuring the correct version of Java for Spark. <br>
+<br>It is always good to check what version of Spark you are using to understand the dependencies you may need setup in your base image.
 
 
 Task1:
@@ -31,17 +32,17 @@ Add the appconfig reference file using the below command<br>
 
 <br>`yum install unzip -y`{{execute}}
 
-Unzip the file<br>
-`unzip appconfig.zip`{{execute}}
+<br>Unzip the file<br>
+<br>`unzip appconfig.zip`{{execute}}
 
-Check files under appconfig directory<br>
-`ls appconfig`{{execute}}
+<br>Check files under appconfig directory<br>
+<br>`ls appconfig`{{execute}}
 
-Remove the zip file from the folder<br>
-`rm -rf appconfig.zip`{{execute}}
+<br>Remove the zip file from the folder<br>
+<br>`rm -rf appconfig.zip`{{execute}}
 
 Task3:
-When our image is ready to deploy in the EPIC Application Catalog, we need to include a picture that represents the image. For your reference, we have already created a .png file for your use.
+<br>When our image is ready to deploy in the EPIC Application Catalog, we need to include a picture that represents the image. For your reference, we have already created a .png file for your use.
 
 <br>
 `cp ~/test/Logo_Spark.png ~/Spark`{{execute}}
