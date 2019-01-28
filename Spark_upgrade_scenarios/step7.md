@@ -18,11 +18,15 @@ Check files under appconfig directory<br>
 
 <strong>scripts run inside each container during cluster creation and are located in the appconfig folder</strong>
 
-appjob         jupyterhub_config.py  sq_kernel.json       total_vcores.sh
-core-site.xml  logging.sh            start_jupyterhub.sh  utils.sh
-hadoop         macros.sh             start_jupyter.sh
-jupyter        p_kernel.json         startscript
-jupyterhub     spark                 systemd.service
+appjob,         jupyterhub_config.py,  sq_kernel.json,       total_vcores.sh,
+core-site.xml,  logging.sh  ,          start_jupyterhub.sh , utils.sh,
+hadoop ,        macros.sh  ,           start_jupyter.sh,
+jupyter ,       p_kernel.json  ,       startscript,
+jupyterhub  ,   spark  ,               systemd.service
+
+These are the file which are necessary for creating an image. <br>
+Here <b>Start script<b> is a script file which contain code to start all service .<br>
+<b>Json file<b> is one which is responsible for GUI . GUI features are included in json files.<br>
 
 
 Remove the zip file from the folder<br>
