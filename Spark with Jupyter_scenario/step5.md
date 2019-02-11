@@ -54,21 +54,26 @@ These are sections will be there in .wb file<br>
 
 <br><b>Replacing Pattern from Some files</b>
 
+<br><b>To obtain the total number of virtual CPU cores assigned to the Controller node and any Worker node(s) in the cluster</b>
 <br>appconfig autogen --execute total_vcores.sh --onroles controller worker
 
+<br><b>To obtain the URL of the Spark Master service running on the Controller node</b>
 <br>appconfig autogen --replace /usr/local/share/jupyter/kernels/apache_toree_pyspark/kernel.json  \
                   --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller"
 
 <br>appconfig autogen --replace /usr/local/share/jupyter/kernels/apache_toree_sql/kernel.json  \
                   --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller"
 
+<br><b>To obtain the FQDN of the Jupyter node</b>
 <br>appconfig autogen --replace /root/.jupyter/jupyter_notebook_config.py    \
                   --pattern @@@@IP@@@@ --macro "GET_NODE_FQDN"
 
+<br><b>To obtain both the URL of the Spark Master service running on the Controller node and the total number of virtual CPU cores assigned to the virtual cluster</b>
 <br>appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf \
                   --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller" \
                   --pattern @@@@SPARK_MAX_CORES@@@@ --macro "GET_TOTAL_VCORES"
 
+<br><b>To obtain FQDNs of all of the virtual nodes, total amount of VRAM, in MB, total number of virtual CPU cores</b>
 <br>appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-env.sh        \
                   --pattern @@@@MASTER_HOST@@@@ --macro "GET_FQDN_LIST controller" \
                   --pattern @@@@MEMORY@@@@ --macro "echo $(GET_TOTAL_VMEMORY_MB)m" \
@@ -87,13 +92,15 @@ These are sections will be there in .wb file<br>
                   --pattern @@@@AWS_SECRET_KEY@@@@ --macro TENANT_INFO s3_secret_key
 
 
+<br>Generate the final application package and execute the startscripts when a virtual cluster is created using this application</b>
 <br>appconfig autogen --generate
 <br>appconfig package
 
-<br><b>Setting the logo for bin</b>
+<br><b>Setting the logo for image</b>
 <br>logo file --filepath Logo_Spark.png
 
 <br><b>Catalog the package for image</b>
+<br><b>Pulls all of the pieces together and builds the .bin file</b>
 <br>image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0
 <br>image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker
 <br>catalog save --filepath staging/spark221e1.json --force
