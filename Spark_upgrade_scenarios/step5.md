@@ -57,7 +57,6 @@ service add --srvcid jupyter-notebook --name "Jupyter Notebook" --scheme "http" 
             --onroles jupyter
 
 <br><b>Appconfiguration autogenenration</b>
-
 <br><b>This perticular image use EPIC api version 7 for automated application configuration </b>
 appconfig autogen --new --configapi 7
 <br><b>configure Spark and Jupyter on the Controller node and any Worker node(s) that may be spun up during cluster creation</b>
@@ -79,7 +78,6 @@ appconfig autogen --pkgfile core-site.xml --dest /usr/lib/spark/spark-2.3.1-bin-
 <br>
 
 <br><b>Replacing Pattern from Some files</b>
-
 <br><b>To obtain the total number of virtual CPU cores assigned to the Controller node and any Worker node(s) in the cluster</b>
 <br>appconfig autogen --execute total_vcores.sh --onroles controller worker
 
@@ -103,7 +101,7 @@ appconfig autogen --replace /usr/lib/spark/spark-2.3.1-bin-hadoop2.7/conf/spark-
                   --pattern @@@@MEMORY@@@@ --macro "echo $(GET_TOTAL_VMEMORY_MB)m" \
                   --pattern @@@@CORES@@@@ --macro "GET_TOTAL_VCORES"
                   
-                  appconfig autogen --replace /etc/init.d/spark-slave --pattern @@@@FQDN@@@@ --macro GET_NODE_FQDN \
+appconfig autogen --replace /etc/init.d/spark-slave --pattern @@@@FQDN@@@@ --macro GET_NODE_FQDN \
                   --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.3.1-bin-hadoop2.7" \
                   --pattern @@@@SPARK_MASTER@@@@  --macro "GET_SERVICE_URL spark_master controller"
 
