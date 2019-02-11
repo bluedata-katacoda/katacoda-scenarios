@@ -15,7 +15,7 @@ Unzip the file<br>
 Check files under appconfig directory<br>
 `ls appconfig`{{execute}}
 
-<strong>scripts run inside each container during cluster creation and are located in the appconfig folder</strong>
+<strong>scripts run inside each container during cluster creation are located in the appconfig folder</strong>
 
 appjob,         jupyterhub_config.py,  sq_kernel.json,       total_vcores.sh,
 core-site.xml,  logging.sh  ,          start_jupyterhub.sh , utils.sh,
