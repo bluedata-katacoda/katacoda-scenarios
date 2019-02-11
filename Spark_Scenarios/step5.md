@@ -18,6 +18,7 @@ To view the content of configure_java8.sh  file, execute the below command.<br>
 
 Task 3:
 Copy the spark-slave file which is used for bringing up and down the spark slave service.<br>
+<br><b>spark-slave</b> file which is used for bringing up and down the spark slave service.
 `cp ~/test/spark-slave ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-slave  file.<br>Please execute the below command.<br>
@@ -25,6 +26,7 @@ To view the content of spark-slave  file.<br>Please execute the below command.<b
 
 Task 4:
 Copy the spark-master file which is used for bringing up and down the spark master service.<br>
+<br><b>spark-master</b> file which is used for bringing up and down the spark master service.
 `cp ~/test/spark-master ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-master  file.<br>Please execute the below command.<br>
@@ -40,7 +42,7 @@ To view the content of total_vcores.sh file.<br> Please execute the below comman
 
 Task 6:
 Copy the core-site.xml file.<br>
-<br><b>core-site.xml,hadoop</b> these files are used to setup Hadoop related configurations
+<br><b>core-site.xml</b> these files are used to setup Hadoop related configurations
 `cp ~/test/core-site.xml ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of core-site.xml file.<br>Please execute the below command.
@@ -55,6 +57,7 @@ To view the content of spark-defaults.conf file.<br>Please execute the below com
 
 Task 8:
 Copy the hadoop file.<br>
+<br><b>hadoop</b> these files are used to setup Hadoop related configurations
 `cp ~/test/hadoop ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of hadoop file.<br>Please execute the below command.<br>
