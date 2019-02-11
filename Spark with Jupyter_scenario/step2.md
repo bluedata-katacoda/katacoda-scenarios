@@ -14,6 +14,8 @@ To view the files & directories created by this command, execute the following c
 You will see the following:
 <br>appconfig/: appjob  logging.sh  macros.sh  startscript  utils.sh
 <br>image/
-<br>The above files are required for Spark Application Image. Scripts run inside each container during cluster creation and are located in the appconfig folder<br>
-Now, we will create a folder called “centos” inside the empty image directory. Execute the following command to do so :
-`mkdir ~/Spark/image/centos`{{execute}}
+
+<br>The above files are required for Spark Application Image. Scripts run inside each container during cluster creation are located in the appconfig folder<br>
+Now, we will create a folder called “centos” inside the empty image directory.
+<br>Execute the following command to do so :
+<br>`mkdir ~/Spark/image/centos`{{execute}}
