@@ -51,6 +51,7 @@ Here <b>Start script</b> is a script file which contain code to start all servic
 <br><b>appjob</b> Provides the information on the type job to be launched and we can also add application specific jobs.
 <br><b>systemd.service</b> It is init system used to bootstrap the user space and to manage system processes after booting.
 <br><b>jupyter and jupyterhub</b> contains all the required configuration to run jupyter and jupyterhub.
+
 <br>Remove the zip file from the folder
 <br>`rm -rf appconfig.zip`{{execute}}
 
