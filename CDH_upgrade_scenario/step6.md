@@ -7,10 +7,10 @@ Let’s go ahead and create a Dockerfile inside the newly centos folder.
 <br>
 For your reference, we have already created a ready Dockerfile in the ~/test directory. We will copy that file into the centos folder using the following command:<br>
 <br>Delete the old Dockerfile before you copy the new Dockerfile by executing the below command
-`rm -rf ~/Source/CDH/image/centos/Dockerfile`{{execute}}
+`rm -rf ~/Source/CDH/image/centos/Dockerfile`{{execute}}<br>
 <br>
 copy the Dockerfile into the centos folder using the following command:
-`cp ~/test/Dockerfile ~/Source/CDH/image/centos/`{{execute}}
+`cp ~/test/Dockerfile ~/Source/CDH/image/centos/`{{execute}}<br>
 <br>
 To view the contents of the Dockerfile, you can use vi, vim, or cat out the contents. To view the contents in the terminal console, execute the following command:<br>
 `cat ~/Source/CDH/image/centos/Dockerfile`{{execute}}<br>
