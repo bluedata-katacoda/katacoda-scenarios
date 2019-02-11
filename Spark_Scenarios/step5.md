@@ -3,6 +3,7 @@ We already have reference files, we can just copy them to appropriate location.
 
 Task 1:
 Copy the appjob utility file.<br>
+<br><b>appjob</b> Provides the information on the type job to be launched and we can also add application specific jobs.
 `cp ~/test/appjob  ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of appjob file, execute the below command.<br>
@@ -31,6 +32,7 @@ To view the content of spark-master  file.<br>Please execute the below command.<
 
 Task 5:
 Copy the total_vcores.sh script.<br>
+<br><b> total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes.
 `cp ~/test/total_vcores.sh ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of total_vcores.sh file.<br> Please execute the below command.<br>
@@ -38,6 +40,7 @@ To view the content of total_vcores.sh file.<br> Please execute the below comman
 
 Task 6:
 Copy the core-site.xml file.<br>
+<br><b>core-site.xml,hadoop</b> these files are used to setup Hadoop related configurations
 `cp ~/test/core-site.xml ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of core-site.xml file.<br>Please execute the below command.
