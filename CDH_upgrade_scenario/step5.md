@@ -25,7 +25,6 @@ To view the content of the file, execute the following<br>
 <br><b>Build the Image .bin File</b>
 <br>
 <br>The final section of the .wb file pulls all of the pieces together and builds the .bin file.
-
 <br><b>This section creates bin file</b>
 <br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
 
