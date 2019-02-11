@@ -26,7 +26,7 @@ The identification blob appears as follows:<br>
 <br>
 <strong>distro_id </strong> is unique identifier for either a Catalog entry or a versioned set of Catalog entries<br>
 <br>The <strong>label</strong> is a property contains the following parameters:<br>
-<br><strong>name</strong> which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
+<strong>name</strong> which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
 <br><strong>description</strong> which is a longer, more detailed blurb about the entry.
 <br><strong>version </strong>is a discriminator between multiple Catalog entries that share the same distro ID.
 <br><strong>epic_compatible_versions</strong> lists the EPIC platform versions where this Catalog entry may be used.
