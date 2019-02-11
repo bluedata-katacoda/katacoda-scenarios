@@ -18,8 +18,6 @@ These are sections will be there in .wb file
           --desc "http service running Hello World page"    \
           --categories Greetings --version 10.0
 
-<br>Note: Changes that needs to be done in wb file is,
-Name and distro_id needs to be updated  based on the version of the Spark image to reflect the changes in the App Store for the upgraded image
 
 <br><b>This is to define node roles for the virtual cluster</b>
 <br>role add webserver 1
