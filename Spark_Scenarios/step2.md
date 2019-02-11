@@ -18,9 +18,9 @@ Click on the below command to view the files and directories created in Spark fo
 `ls -R`{{execute}}
 
 You will see the following:
-./appconfig:
+<br>appconfig/
 appjob  logging.sh  macros.sh  startscript  utils.sh
-./image:
+<br>image/
 
 
 These are the files that are required for Spark Application Image.<br>
