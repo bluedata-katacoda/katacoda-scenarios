@@ -1,4 +1,4 @@
-Step4: Setup additional dependencies which are needed for Spark.
+Setup additional dependencies which are needed for Spark.
 <br>
 <br>
 In this step, we will be showing you the additional steps needed to create a successful Spark image.<br> 
