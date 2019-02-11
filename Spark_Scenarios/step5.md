@@ -19,7 +19,7 @@ To view the content of configure_java8.sh  file, execute the below command.<br>
 Task 3:
 Copy the spark-slave file which is used for bringing up and down the spark slave service.<br>
 <br><b>spark-slave</b> file which is used for bringing up and down the spark slave service.
-`cp ~/test/spark-slave ~/Spark/appconfig/spark`{{execute}}
+<br>`cp ~/test/spark-slave ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-slave  file.<br>Please execute the below command.<br>
 `cat ~/Spark/appconfig/spark/spark-slave`{{execute}}
