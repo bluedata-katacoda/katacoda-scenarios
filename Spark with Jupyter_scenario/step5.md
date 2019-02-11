@@ -11,7 +11,7 @@ To check the files in Spark folder<br>
 Task 2:
 
 To view the content of the file, execute the following<br>
-`cat ~/Source/Spark/spark.wb`{{execute}}
+`cat ~/Source/Spark/Spark.wb`{{execute}}
 <br>
 
 These are sections will be there in .wb file<br>
