@@ -9,6 +9,7 @@ Now, navigate to the Source directory.
 <br>
 `cd ~/Source`{{execute}}
 <br>
+<br>
 Download the bin file by executing the following command.
 <br>
 `wget https://www.dropbox.com/s/xyv64z1xt9l6lw7/bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.tar`{{execute}}
