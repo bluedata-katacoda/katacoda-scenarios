@@ -8,5 +8,5 @@ For installing Bluedata EPIC App workbench.<br>Go to this link:[ Link](https://b
 
 <br>
 Now, to begin let us create the directory
-`mkdir ~/Source`{{execute}}<br>
+<br>`mkdir ~/Source`{{execute}}<br>
 `mkdir ~/Source/Spark`{{execute}}
