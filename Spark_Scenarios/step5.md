@@ -50,6 +50,7 @@ To view the content of core-site.xml file.<br>Please execute the below command.
 
 Task 7:
 Copy the spark-defaults.conf file.<br>
+<br><b>spark-defaults.conf file</b> This is Default system properties included when running spark-submit . 
 `cp ~/test/spark-defaults.conf ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-defaults.conf file.<br>Please execute the below command.<br>
@@ -65,6 +66,7 @@ To view the content of hadoop file.<br>Please execute the below command.<br>
 
 Task 9:
 Copy the spark-env.sh file.<br>
+<br><b>spark-env.sh</b> This file is to setup the spark environment . 
 `cp ~/test/spark-env.sh ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-env.sh file.<br>Please execute the below command.<br>
