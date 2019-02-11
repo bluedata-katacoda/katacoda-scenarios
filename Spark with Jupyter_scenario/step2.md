@@ -5,7 +5,7 @@ To create a directory, execute the following command:<br>
 Change to the newly created directory:<br>
 `cd ~/Spark`{{execute}}<br>
 
-Once in the new directory, the first step is to create all the base file structures necessary to create the application image. To do so, execute the following command :<br>
+Once you are in the new directory, the first step is to create all the base file structures necessary to create the application image. To do so, execute the following command :<br>
 `bdwb --init`{{execute}}
 
 To view the files & directories created by this command, execute the following command.<br>
