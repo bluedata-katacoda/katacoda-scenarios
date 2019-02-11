@@ -14,12 +14,12 @@ To view the content of the file, execute the following
 <br>
 The identification blob appears as follows:<br>
 <br>
-"distro_id": "cdh54CM",<br>
+"distro_id": "bluedata/cdh515_centos7x"<br>
 "label": {<br>
-  "name": "CDH 5.4.3 with Cloudera Manager",<br>
-  "description": "CDH 5.4.3 with MRv1/YARN and HBase support. Includes Pig, Hive, Hue and Spark."<br>
+  "name": ""name": "CDH 5.15.0 on 7x  with Cloudera Manager",<br>
+  "description": "CDH 5.15.0 with MRv1/YARN and HBase support. Includes Pig, Hive, Hue and Spark."<br>
   },<br>
-"version": "2.0.1",<br>
+"version": "1.7",<br>
 "epic_compatible_versions": ["3.4"],<br>
 "categories": [ "Hadoop", "HBase" ],<br>
 
@@ -37,12 +37,13 @@ The identification blob appears as follows:<br>
 <li><strong>Components</strong></li>
 <br>
 "image": {<br>
-  "checksum": "b07e8cfea8a9c1a6cdc6990b1da29b9f",<br>
-  "import_url": "http://s3.amazonaws.com/bluedata-vmimages/Cloudera-CDH-CM-5.4.3-v2.tgz"<br>
+ "checksum": "65cd4ffd0cac3feec3e0719ae4f3dbcd",
+        "source_file": "bluedata-cdh5122_centos7x-centos7-2.0.tar.gz"<br>
 },<br>
 "setup_package": {<br>
-  "checksum": "7560c8841c1400e0e4a4ba3dac1ba8d7",<br>
-  "import_url": "http://s3.amazonaws.com/bluedata-vmimages/cdh5-cm-setup.tgz"<br>
+  "config_api_version": 7,
+       <br> "checksum": "a7ea64f9b1de60ab9f87d76e2f571069",
+     <br>   "source_file": "cdh5-cm-setup.tgz"<br>
 },<br>
 <br>
 <br><strong>image</strong>  is a property that identifies the location for the image used to launch virtual nodes for this Catalog entry. 
