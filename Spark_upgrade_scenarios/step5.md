@@ -1,5 +1,4 @@
 Now, we will make changes in .wb file first.<br>
-In wb file, we need to change the versions of the images we are downloading.
 <br><br>
 We already have a reference .wb file. We just need to replace the current .wb file with the reference one. For doing so, execute the following commands.<br>
 `cd ~/Source/Spark`{{execute}}
@@ -14,15 +13,15 @@ These are sections will be there in .wb file
 <br><b>Setting the organization name</b>
 <br>builder organization --name BlueData
 
-<br><b>Adding a new Catalog Entry</b>
+<br><b>For adding a new Catalog Entry</b>
 <br>catalog new --distroid spark221 --name "Spark 2.2.1 on centos7x" --desc "Spark 2.2.1" --categories Spark --version 1.0
 
 
-<br><b>Define all node roles for the virtual cluster</b>
+<br><b>This is to define node roles for the virtual cluster</b>
 <br>role add controller 1
 <br>role add worker 0+
 
-<br><b>Define all services that are available in the virtual cluster</b>
+<br><b>This section define one or more services that are mapped on a per-role basis</b>
 <br>
 <br>service add --srvcid spark --name "Spark master" --scheme "http" --port 8080 --path "/" --display --onroles controller
 <br>service add --srvcid spark_master --name "Spark master" --scheme "spark" --port 7077 --export_as "spark" --sysctl spark-master --onroles controller
@@ -30,7 +29,9 @@ These are sections will be there in .wb file
 
 <br><b>Appconfiguration autogenenration</b>
 <br>
+<br><b>This perticular image use EPIC api version 7 for automated application configuration </b>
 <br>appconfig autogen --new --configapi 7
+<br><b>configure Spark and Jupyter on the Controller node and any Worker node(s) that may be spun up during cluster creation</b>
 <br>appconfig autogen --pkgfile spark/spark-defaults.conf --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pkgfile spark/spark-env.sh --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-env.sh --pkgfile spark/spark-master --dest /etc/init.d/ --pkgfile spark/spark-slave --dest /etc/init.d/ --onroles controller worker
 <br>appconfig autogen --pkgfile core-site.xml --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/core-site.xml --pkgfile hadoop --dest /usr/bin/hadoop --pkgfile appjob --dest /opt/bluedata/vagent/guestconfig/appconfig/appjob --onroles controller worker
 
