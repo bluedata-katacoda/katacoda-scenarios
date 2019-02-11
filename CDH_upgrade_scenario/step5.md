@@ -27,10 +27,10 @@ To view the content of the file, execute the following<br>
 <br>
 <br>The final section of the .wb file pulls all of the pieces together and builds the .bin file.
 
-<br><b>This section creates docker tgz and bin file</b>
+<br><b>This section creates bin file</b>
 <br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
 
-<br><b>Catalog the package for Centos</b>
+<br><b>Catalog the package for image</b>
 <br>image package --image-repotag bluedata/cdh515:1.0 --os centos7
 <br>catalog save --filepath staging/cdh.json --force
 <br>sources package
