@@ -25,7 +25,7 @@ Task2:
 `rm -rf appconfig`{{execute}}
 <br>`yum install wget -y`{{execute}}
 
-Add the appconfig reference file using the below command<br>
+Add the appconfig reference files using the below command(Due to space constraint in Katacoda we have uploaded the required appconfig files into dropbox)<br>
 `wget https://www.dropbox.com/s/wbnr83q26przbs6/appconfig.zip`{{execute}}
 <br>`yum install unzip -y`{{execute}}
 
