@@ -10,7 +10,7 @@ To view the content of the file, execute the following
 <br>
 <strong>Json file contain below sections<br></strong>
 <ul>
-<li><strong>-Identification</strong></li>
+<li><strong>Identification</strong></li>
 <br>
 The identification blob appears as follows:<br>
 <br>
@@ -24,9 +24,8 @@ The identification blob appears as follows:<br>
 "categories": [ "Hadoop", "HBase" ],<br>
 
 <br>
-<strong>distro_id </strong> :is unique identifier for either a Catalog entry or a versioned set of Catalog entries
-<br>
-The <strong>label</strong> is a property contains the following parameters:<br>
+<strong>distro_id </strong> is unique identifier for either a Catalog entry or a versioned set of Catalog entries
+<br>The <strong>label</strong> is a property contains the following parameters:<br>
 <br><strong>name</strong> which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
 <br><strong>description</strong> which is a longer, more detailed blurb about the entry.v
 <br><strong>version </strong>is a discriminator between multiple Catalog entries that share the same distro ID.
