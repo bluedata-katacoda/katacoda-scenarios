@@ -15,7 +15,13 @@ You will see the following:
 <br>appconfig/: appjob  logging.sh  macros.sh  startscript  utils.sh
 <br>image/
 
-<br>The above files are required for Spark Application Image. Scripts run inside each container during cluster creation are located in the appconfig folder<br>
+These are the files that are required for Spark Application Image.<br>
+Here <b>Start script</b> is a script file which contain code to start all service .
+<br><b>Macros.sh</b> It has all the built in macros of BlueData that would be executed during image creation.
+<br><b>Logging.sh</b> This provides the logging facilities for a catalog configuration bundle. 
+<br><b>Utils.sh</b> It has utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
+<br><b>appjob</b> Provides the information on the type job to be launched and we can also add application specific jobs.
+
 Now, we will create a folder called “centos” inside the empty image directory.
 <br>Execute the following command to do so :
 <br>`mkdir ~/Spark/image/centos`{{execute}}
