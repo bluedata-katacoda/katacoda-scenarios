@@ -46,12 +46,12 @@ These are sections will be there in .wb file<br>
 
 <br><b>Appconfiguration autogenenration</b>
 <br>
-<br>appconfig autogen --new --configapi 7
 <br>This perticular image use EPIC api version 7 for automated application configuration 
+<br>appconfig autogen --new --configapi 7
 
+<b>configure Spark and Jupyter on the Controller node and any Worker node(s) that may be spun up during cluster creation
 <br>appconfig autogen --pkgfile spark/spark-defaults.conf --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pkgfile spark/spark-env.sh --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-env.sh --pkgfile spark/spark-master --dest /etc/init.d/ --pkgfile spark/spark-slave --dest /etc/init.d/ --onroles controller worker
 <br>appconfig autogen --pkgfile core-site.xml --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/core-site.xml --pkgfile hadoop --dest /usr/bin/hadoop --pkgfile appjob --dest /opt/bluedata/vagent/guestconfig/appconfig/appjob --onroles controller worker
-
 
 <br><b>Replacing Pattern from Some files</b>
 
@@ -94,7 +94,7 @@ These are sections will be there in .wb file<br>
 <br><b>Setting the logo for bin</b>
 <br>logo file --filepath Logo_Spark.png
 
-<br><b>Catalog the package for Centos</b>
+<br><b>Catalog the package for image</b>
 <br>image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0
 <br>image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker
 <br>catalog save --filepath staging/spark221e1.json --force
