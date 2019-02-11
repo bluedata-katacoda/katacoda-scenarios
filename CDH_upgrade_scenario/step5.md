@@ -10,21 +10,20 @@ To view the content of the file, execute the following<br>
 
 <br><strong>cdh515.wb file contain following section</strong>
 <br>
-<br><b>Section 1: Image ID</b>
-<br>
-The first section identifies the image and builds or loads the Metadata JSON file.
+<br><b>Section 1:</b> <br>
 <br>
 <br><b>The below line will Set the organization name.</b>
 <br>builder organization --name BlueData
 <br>
-<br><b>The below line will loads the Metadata JSON file and set up files</b>
+<br><b>The below line will load the Metadata JSON file and set up files</b>
 <br>catalog load --filepath cdh515:1.0 .json
 <br>appconfig package --dir cdh-cm-setup
 <br>
-<br><b>The below line will loads the the logo for bin files</b>
+<br><b>The below line will add the logo file to the image</b>
 <br>logo file --filepath Logo_Cloudera.png
 
-<br><b>Section 2: Build the Image .bin File</b>
+<br><b>Section 2:</b> <br>
+<br><b>Build the Image .bin File</b>
 <br>
 <br>The final section of the .wb file pulls all of the pieces together and builds the .bin file.
 
