@@ -14,14 +14,14 @@ To view the content of the file, execute the following<br>
 <br>
 The first section identifies the image and builds or loads the Metadata JSON file.
 <br>
-<br><b>This below line will Set the organization name.</b>
+<br><b>The below line will Set the organization name.</b>
 <br>builder organization --name BlueData
 <br>
-<br><b>This below line will loads the Metadata JSON file and set up files</b>
+<br><b>The below line will loads the Metadata JSON file and set up files</b>
 <br>catalog load --filepath cdh515:1.0 .json
 <br>appconfig package --dir cdh-cm-setup
 <br>
-<br><b>This below line will loads the the logo for bin files</b>
+<br><b>The below line will loads the the logo for bin files</b>
 <br>logo file --filepath Logo_Cloudera.png
 
 <br><b>Section 2: Build the Image .bin File</b>
