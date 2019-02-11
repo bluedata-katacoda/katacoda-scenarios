@@ -22,14 +22,11 @@ Next, copy over the java script:.<br>
 Task2: 
 <br>We need to add additional configuration files under the appconfig directory. We have already made these files for you, to add them in, please execute the following commands:
 <br>Remove the appconfig folder from the Spark folder<br>
-
 `rm -rf appconfig`{{execute}}
-
 <br>`yum install wget -y`{{execute}}
 
 Add the appconfig reference file using the below command<br>
 `wget https://www.dropbox.com/s/wbnr83q26przbs6/appconfig.zip`{{execute}}
-
 <br>`yum install unzip -y`{{execute}}
 
 <br>Unzip the file<br>
