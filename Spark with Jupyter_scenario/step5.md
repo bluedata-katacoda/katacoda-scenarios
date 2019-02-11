@@ -14,15 +14,15 @@ To view the content of the file, execute the following<br>
 `cat ~/Source/Spark/spark.wb`{{execute}}
 <br>
 
-These are sections will be there in .wb file
+These are sections will be there in .wb file<br>
 <br><b>Setting the organization name</b>
 <br>builder organization --name BlueData
 
-<br><b>Adding a new Catalog Entry</b>
+<br><b>For adding a new Catalog Entry</b>
 <br>catalog new --distroid spark221 --name "Spark 2.2.1 on centos7x" --desc "Spark 2.2.1" --categories Spark --version 1.0
 
 
-<br><b>Define all node roles for the virtual cluster</b>
+<br><b>This is to define node roles for the virtual cluster</b>
 <br>role add controller 1
 <br>role add worker 0+
 <br>role add jupyter 0+
@@ -30,7 +30,7 @@ These are sections will be there in .wb file
 <br>role add rstudio 0+
 <br>role add gateway 0+
 
-<br><b>Define all services that are available in the virtual cluster</b>
+<br><b>This section define one or more services that are mapped on a per-role basis</b>
 <br>
 <br>service add --srvcid spark --name "Spark master" --scheme "http" --port 8080 --path "/" --display --onroles controller
 <br>service add --srvcid spark_master --name "Spark master" --scheme "spark" --port 7077 --export_as "spark" --sysctl spark-master --onroles controller
@@ -39,16 +39,16 @@ These are sections will be there in .wb file
         --path "/" --display    \
             --sysctl jupyterhub \
             --onroles jupyterhub
-
 <br>service add --srvcid jupyter-notebook --name "Jupyter Notebook" --scheme "http" --port 8888   \
             --path "/" --display  \
             --sysctl jupyter-server  \
             --onroles jupyter
 
-
 <br><b>Appconfiguration autogenenration</b>
 <br>
 <br>appconfig autogen --new --configapi 7
+<br>This perticular image use EPIC api version 7 for automated application configuration 
+
 <br>appconfig autogen --pkgfile spark/spark-defaults.conf --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pkgfile spark/spark-env.sh --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-env.sh --pkgfile spark/spark-master --dest /etc/init.d/ --pkgfile spark/spark-slave --dest /etc/init.d/ --onroles controller worker
 <br>appconfig autogen --pkgfile core-site.xml --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/core-site.xml --pkgfile hadoop --dest /usr/bin/hadoop --pkgfile appjob --dest /opt/bluedata/vagent/guestconfig/appconfig/appjob --onroles controller worker
 
