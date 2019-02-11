@@ -5,7 +5,7 @@ We need to add additional configuration fils under appconfig directory, We alrea
 Remove the appconfig folder from the Spark folder<br>
 `rm -rf appconfig`{{execute}}
 
-Add the appconfig reference file using the below command from stored location<br>
+Add the appconfig reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)<br>
 `wget https://www.dropbox.com/s/f8cjkwzz6qdov0d/appconfig.zip`{{execute}}
 <br>`yum install unzip -y`{{execute}}
 
