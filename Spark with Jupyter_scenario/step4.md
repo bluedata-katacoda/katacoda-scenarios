@@ -30,12 +30,12 @@ Add the appconfig reference file using the below command<br>
 <br>`yum install unzip -y`{{execute}}
 
 <br>Unzip the file<br>
-<br>`unzip appconfig.zip`{{execute}}
+`unzip appconfig.zip`{{execute}}
 
-<br>Check files under appconfig directory<br>
+<br>Check files under appconfig directory
 <br>`ls appconfig`{{execute}}
 
-<br>Remove the zip file from the folder<br>
+<br>Remove the zip file from the folder
 <br>`rm -rf appconfig.zip`{{execute}}
 
 Task3:
