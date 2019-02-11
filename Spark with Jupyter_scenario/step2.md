@@ -1,5 +1,5 @@
 To begin the application development, we will first need to create a directory called “Spark” or any directory name of your choice. This directory will house all the files and components necessary to create the application image. <br>
-To create a directory, execute the following command:
+To create a directory, execute the following command:<br>
 `mkdir ~/Spark`{{execute}}<br>
 
 Change to the newly created directory:<br>
