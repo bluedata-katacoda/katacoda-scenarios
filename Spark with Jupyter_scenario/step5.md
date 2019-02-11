@@ -92,7 +92,7 @@ These are sections will be there in .wb file<br>
                   --pattern @@@@AWS_SECRET_KEY@@@@ --macro TENANT_INFO s3_secret_key
 
 
-<br>Generate the final application package and execute the startscripts when a virtual cluster is created using this application</b>
+<br><b>Generate the final application package and execute the startscripts when a virtual cluster is created using this application</b>
 <br>appconfig autogen --generate
 <br>appconfig package
 
