@@ -1,4 +1,4 @@
-Step 6 - Checking the Bin File For Spark.
+Checking the Bin File For Spark.
 
 Let's see what you built.
 The newly built application package (or bundle) is saved in the deliverables directory. 
