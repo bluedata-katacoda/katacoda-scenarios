@@ -12,7 +12,7 @@ This will create two files in the directory. (to view the files execute the foll
 <br><br>This will create new directories. (to view the files execute the following command)<br>
 `ls`{{execute}}
 
-<br> Remove the bin file to save space on the device<br>
+<br> Remove the bin file to save space on the device
 <br>`rm -rf bdcatalog-centos7-bluedata-spark221-1.0.bin`{{execute}}
 
 <br><br>Navigate to the new directory, and untar the file by executing the following command
