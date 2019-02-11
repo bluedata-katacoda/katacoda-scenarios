@@ -46,10 +46,9 @@ These are sections will be there in .wb file<br>
 
 <br><b>Appconfiguration autogenenration</b>
 <br>
-<br>This perticular image use EPIC api version 7 for automated application configuration 
+<br><b>This perticular image use EPIC api version 7 for automated application configuration </b>
 <br>appconfig autogen --new --configapi 7
-
-<br>configure Spark and Jupyter on the Controller node and any Worker node(s) that may be spun up during cluster creation
+<br><b>configure Spark and Jupyter on the Controller node and any Worker node(s) that may be spun up during cluster creation</b>
 <br>appconfig autogen --pkgfile spark/spark-defaults.conf --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pkgfile spark/spark-env.sh --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-env.sh --pkgfile spark/spark-master --dest /etc/init.d/ --pkgfile spark/spark-slave --dest /etc/init.d/ --onroles controller worker
 <br>appconfig autogen --pkgfile core-site.xml --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/core-site.xml --pkgfile hadoop --dest /usr/bin/hadoop --pkgfile appjob --dest /opt/bluedata/vagent/guestconfig/appconfig/appjob --onroles controller worker
 
