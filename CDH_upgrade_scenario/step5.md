@@ -11,7 +11,6 @@ To view the content of the file, execute the following<br>
 <br><strong>cdh515.wb file contain following section</strong>
 <br>
 <br><b>Section 1:</b> <br>
-<br>
 <br><b>The below line will Set the organization name.</b>
 <br>builder organization --name BlueData
 <br>
