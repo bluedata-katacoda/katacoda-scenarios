@@ -58,7 +58,7 @@ To view the content of spark-defaults.conf file.<br>Please execute the below com
 Task 8:
 Copy the hadoop file.
 <br><b>hadoop</b> these files are used to setup Hadoop related configurations
-`cp ~/test/hadoop ~/Spark/appconfig`{{execute}}
+<br>`cp ~/test/hadoop ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of hadoop file.<br>Please execute the below command.<br>
 `cat ~/Spark/appconfig/hadoop`{{execute}}
