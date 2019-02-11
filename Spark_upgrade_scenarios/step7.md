@@ -7,7 +7,6 @@ Remove the appconfig folder from the Spark folder<br>
 
 Add the appconfig reference file using the below command from stored location<br>
 `wget https://www.dropbox.com/s/f8cjkwzz6qdov0d/appconfig.zip`{{execute}}
-
 <br>`yum install unzip -y`{{execute}}
 
 Unzip the file<br>
