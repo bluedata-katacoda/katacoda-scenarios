@@ -18,8 +18,7 @@ To view the content of Dockerfile please execute the following command.<br>
 You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host. 
 <br>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on. 
 <br>Blue Data provides their own base image, which you can use by simply putting the following command at the top of your Dockerfile: 
-
-<br>FROM bluedata/centos7:latest
+<b>FROM bluedata/centos7:latest</b>
 <br>
 <br>
 All the commands proceeding the base image, are the commands used to setup the application. 
