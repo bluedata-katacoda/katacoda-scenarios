@@ -34,6 +34,8 @@ The identification blob appears as follows:<br>
 <br>
 <br>
 <br>
+<br>Note: Changes that needs to be done in json file is:
+Name and distro_id needs to be updated  based on the version of the CDH image to reflect the changes in the App Store for the upgraded image
 <li><strong>Components</strong></li>
 <br>
 "image": {<br>
