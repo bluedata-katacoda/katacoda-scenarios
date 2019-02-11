@@ -2,6 +2,7 @@ In this step we will extract the contents of the .bin file.
 For this execute the following command.<br>
 `./bdcatalog-centos7-bluedata-spark221-1.0.bin --payload`{{execute}}
 <br>
+
 This will create two files in the directory. (to view the files execute the following command)<br>
 `ls`{{execute}}
 
