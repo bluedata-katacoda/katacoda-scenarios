@@ -37,7 +37,7 @@ service add --srvcid httpd --name "HelloWorld" --scheme "http" --port 80 \
 <br><b>This perticular image use EPIC api version 5 for automated application configuration </b>
 <br>appconfig autogen --new --configapi 5
 
-<br><b>configure Spark and Jupyter on the Controller node and any Worker node(s) that may be spun up during cluster creation</b>
+<br><b>configure index.html on the Controller node and any Worker node(s) that may be spun up during cluster creation</b>
 <br>appconfig autogen --pkgfile index.html --dest /var/www/html/index.html
                   --onroles webserver controller worker
 
