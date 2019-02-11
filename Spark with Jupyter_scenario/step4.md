@@ -35,7 +35,7 @@ Add the appconfig reference files using the below command(Due to space constrain
 <br>Check files under appconfig directory
 <br>`ls appconfig`{{execute}}
 
-These are the files that are required for Spark Application Image.<br>
+These are the files that are required for Spark Application Image.
 Here <b>Start script</b> is a script file which contain code to start all service .<br>
 <br><b>spark-slave</b> file which is used for bringing up and down the spark slave service.
 <br><b>spark-master</b> file which is used for bringing up and down the spark master service.
