@@ -24,7 +24,7 @@ appjob  logging.sh  macros.sh  startscript  utils.sh
 
 
 These are the files that are required for Spark Application Image.<br>
-Here <b>Start script</b> is a script file which contain code to start all service .<br>
+Here <b>Start script</b> is a script file which contain code to start all service .
 <br><b>Macros.sh</b> It has all the built in macros of BlueData that would be executed during image creation.
 <br><b>Logging.sh</b> This provides the logging facilities for a catalog configuration bundle. 
 <br><b>Utils.sh</b> It has utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
