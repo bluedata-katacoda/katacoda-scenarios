@@ -33,9 +33,9 @@ The identification blob appears as follows:<br>
 <br><strong>categories</strong> is a list of strings used by the EPIC interface to group Catalog entries during cluster creation.
 <br>
 <br>
-<br>
 <br>Note: Changes that needs to be done in json file is:
 Name and distro_id needs to be updated  based on the version of the CDH image to reflect the changes in the App Store for the upgraded image
+<br>
 <li><strong>Components</strong></li>
 <br>
 "image": {<br>
