@@ -11,20 +11,20 @@ To view the content of the index.html file, execute the below command:
 
 These are sections will be there in .wb file
 <br><b>Setting the organization name</b>
-builder organization --name Bluedata
+<br>builder organization --name Bluedata
 
 <br><b>For adding a new Catalog Entry</b>
-catalog new --distroid Helloworld --name "Hello World on Centos"  \
-            --desc "http service running Hello World page"    \
-            --categories Greetings --version 10.0
+<br>catalog new --distroid Helloworld --name "Hello World on Centos"  \
+         <br>   --desc "http service running Hello World page"    \
+         <br>   --categories Greetings --version 10.0
 
 <br>Note: Changes that needs to be done in wb file is,
 Name and distro_id needs to be updated  based on the version of the Spark image to reflect the changes in the App Store for the upgraded image
 
 <br><b>This is to define node roles for the virtual cluster</b>
-role add webserver 1
-role add controller 1
-role add worker 0+
+<br>role add webserver 1
+<br>role add controller 1
+<br>role add worker 0+
 
 <br><b>This section define one or more services that are mapped on a per-role basis</b>
 <br>
@@ -35,10 +35,10 @@ service add --srvcid httpd --name "HelloWorld" --scheme "http" --port 80 \
 
 <br><b>Appconfiguration autogenenration</b>
 <br><b>This perticular image use EPIC api version 5 for automated application configuration </b>
-appconfig autogen --new --configapi 5
+<br>appconfig autogen --new --configapi 5
 
 <br><b>configure Spark and Jupyter on the Controller node and any Worker node(s) that may be spun up during cluster creation</b>
-appconfig autogen --pkgfile index.html --dest /var/www/html/index.html
+<br>appconfig autogen --pkgfile index.html --dest /var/www/html/index.html
                   --onroles webserver controller worker
 
 <br><b>Replacing Pattern from Some files</b>
