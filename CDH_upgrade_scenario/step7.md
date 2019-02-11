@@ -86,7 +86,7 @@ The Node Roles blob appears as follows:
   <br>
   
   In this example,<strong>node_roles</strong>  is a list of objects describing roles that may be deployed for this Catalog entry. Each role is a particular configuration instantiated from the entry's virtual node image and configured by the setup scripts
-  
+ <br>
 <li><strong>Configuration</strong></li>
 <br>
   <strong>Selected Roles-</strong>lists IDs of roles that will be deployed.<br>
