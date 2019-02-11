@@ -14,7 +14,6 @@ Followings are the files and folders created in Mysql folder.<br>
 <br><b>appjob</b> Provides the information on the type job to be launched and we can also add application specific jobs.
 <br><b>Logging.sh</b> This provides the logging facilities for a catalog configuration bundle. 
 <br><b>Macros.sh</b> It has all the built in macros of BlueData that would be executed during image creation.
-<br><b>Start script</b> is a script file which contain code to start all service .
-<br><b>index.html </b>This is the web page that will be served by the HTTPD service in this example
+<br><b>Start script</b> is a script file which contain code to start all service.
 <br><b>systemd.service</b> It is init system used to bootstrap the user space and to manage system processes after booting.
 <br><b>Utils.sh</b> It has utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
