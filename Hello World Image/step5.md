@@ -24,6 +24,7 @@ Make sure the folllwing files and directories are present:
   appconfig/startscript
   
   appconfig/utils.sh
+ 
   appconfig/index.html  
   
   image/
