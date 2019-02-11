@@ -38,23 +38,28 @@ These are sections will be there in .wb file
 
 <br><b>Replacing Pattern from Some files</b>
 
+<br><b>To obtain the total number of virtual CPU cores assigned to the Controller node and any Worker node(s) in the cluster</b>
 <br>appconfig autogen --execute total_vcores.sh --onroles controller worker
 
+To obtain both the URL of the Spark Master service running on the Controller node and the total number of virtual CPU cores assigned to the virtual cluster</b>
 <br>appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller" --pattern @@@@SPARK_MAX_CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker
 
+<br><b>To obtain FQDNs of all of the virtual nodes, total amount of VRAM, in MB, total number of virtual CPU cores</b>
 <br>appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-env.sh --pattern @@@@MASTER_HOST@@@@ --macro "GET_FQDN_LIST controller" --pattern @@@@MEMORY@@@@ --macro "echo $(GET_TOTAL_VMEMORY_MB)m" --pattern @@@@CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker
 
 <br>appconfig autogen --replace /etc/init.d/spark-slave --pattern @@@@FQDN@@@@ --macro GET_NODE_FQDN --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --pattern @@@@SPARK_MASTER@@@@  --macro "GET_SERVICE_URL spark_master controller" --onroles controller worker
 
 <br>appconfig autogen --replace /etc/init.d/spark-master --pattern @@@@FQDN@@@@ --macro GET_FQDN_LIST controller --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --onroles controller worker
 
+<br>Generate the final application package and execute the startscripts when a virtual cluster is created using this application</b>
 <br>appconfig autogen --generate
 <br>appconfig package
 
-<br><b>Setting the logo for bin</b>
+<br><b>Setting the logo for image</b>
 <br>logo file --filepath Logo_Spark.png
 
-<br><b>Catalog the package for Centos</b>
+<br><b>Catalog the package for image</b>
+<br><b>Pulls all of the pieces together and builds the .bin file</b>
 <br>image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0
 <br>image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker
 <br>catalog save --filepath staging/spark221e1.json --force
