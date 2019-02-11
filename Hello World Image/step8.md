@@ -44,18 +44,18 @@ service add --srvcid httpd --name "HelloWorld" --scheme "http" --port 80 \
 <br><b>Replacing Pattern from Some files</b>
 
 To obtain FQDNs of all of the virtual nodes, total amount of VRAM, in MB, total number of virtual CPU cores </b>
-appconfig autogen --replace /var/www/html/index.html \
+<br>appconfig autogen --replace /var/www/html/index.html \
                   --pattern @@@@FQDN@@@@  --macro GET_NODE_FQDN  \
                   --pattern @@@@CORES@@@@ --macro GET_TOTAL_VCORES \
                   --pattern @@@@MEMORY@@@@ --macro GET_TOTAL_VMEMORY_MB
                   --onroles webserver controller worker
 
 <br>Generate the final application package and execute the startscripts when a virtual cluster is created using this application</b>
-appconfig autogen --generate
-appconfig package
+<br>appconfig autogen --generate
+<br>appconfig package
 
 <br><b>Setting the logo for image</b>
-logo file --filepath helloworld-logo.png
+<br>logo file --filepath helloworld-logo.png
 
 <br><b>Catalog the package for image</b>
 <br><b>Pulls all of the pieces together and builds the .bin file</b>
