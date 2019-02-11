@@ -11,7 +11,7 @@ Task1:
 Copy the pre-made jupyter script to the centos folder:<br>
 `cp ~/test/configure_jupyter.sh ~/Spark/image/centos`{{execute}}
 
-Feel free to run the following command to see what is being executed in the shell script: 
+Feel free to run the following command to see what is being executed in the shell script:<br>
 `cat ~/Spark/image/centos/configure_jupyter.sh`{{execute}}
 
 You will see the steps required to setup jupyter listed.
