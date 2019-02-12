@@ -45,7 +45,6 @@ Copy the core-site.xml file.</b>
 <br><br><b>core-site.xml</b> these files are used to setup Hadoop related configurations
 <br>`cp ~/test/core-site.xml ~/Spark/appconfig`{{execute}}
 <br>
-<br>
 To view the content of core-site.xml file Please execute the below command.
 <br>`cat ~/Spark/appconfig/core-site.xml`{{execute}}
 
@@ -70,12 +69,11 @@ Copy the spark-env.sh file.</b>
 <br><b>spark-env.sh</b> This file is to setup the spark environment . 
 <br>`cp ~/test/spark-env.sh ~/Spark/appconfig/spark`{{execute}}
 <br>
-<br>
 To view the content of spark-env.sh file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-env.sh`{{execute}}
 
 <b>Task 10:<br>
-Copy the logo file.</b>
+Copy the logo file.
 <br>
 <br>To add a logo to your BIN file, copy the .png file to the following location. For this step, we will use an existing .png file. 
 <b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
