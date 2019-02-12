@@ -19,7 +19,7 @@ Adding a new Catalog Entry.
 <br>`catalog new --distroid mysql --name "MySQL" --desc "Open-source RDBMS" --categories databases --catalogapi 4 --version 1.0`{{execute}}
 
 Task 5:
-Define all node roles for the virtual cluster.<br>
+Define all node roles for the virtual cluster.
 <br>`role add controller 1`{{execute}}
 
 
