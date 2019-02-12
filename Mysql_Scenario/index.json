@@ -11,7 +11,7 @@
     { "title": "Step 4 - Creating few more files which are used to run MySql services", "text": "step4.md"},
     { "title": "Step 5 - Adding the logo file", "text": "step5.md"},
     { "title": "Step 6 - Building the Bin File using BlueData App Workbench", "text": "step6.md"},
-    { "title": "Step 7 - finalising your bin For MySQL", "text": "step7.md"}
+    { "title": "Step 7 - finalising your build for MySQL", "text": "step7.md"}
     ],
     "intro": {
       "text": "intro.md",
