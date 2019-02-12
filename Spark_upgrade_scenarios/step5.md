@@ -1,5 +1,6 @@
 Now, we will make changes in .wb file first.<br>
 
+<b>.wb</b> file contains a series of App Workbench commands that control the creation of the Catalog Image
 Please review the link before proceeding for wb file: [Link](http://docs.bluedata.com/awb34_applications-with-multiple-images)
 <br><br>
 For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the Spark directory using the following command:<br>
