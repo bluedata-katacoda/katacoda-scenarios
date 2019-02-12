@@ -1,9 +1,9 @@
 
-Clone data from the BlueData Github repository 
+We will clone a project from the Blue Data GitHub repository, this project contains files needed to create the Hello-World application.
 
 `git clone -b ImageSamples https://github.com/bluedatainc/solutions.git`{{execute}}
 
-Navigate to helloWorld-auto
+Navigate to the helloWorld-auto directory
 
 `cd solutions/ImageSamples/helloWorld-auto`{{execute}}
 
