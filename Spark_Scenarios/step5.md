@@ -6,22 +6,22 @@ Copy the appjob utility file.<br>
 <br><b>appjob</b> Provides the information on the type job to be launched and we can also add application specific jobs.
 <br>`cp ~/test/appjob  ~/Spark/appconfig`{{execute}}
 <br><br>
-To view the content of appjob file, execute the below command.<br>
+To view the content of appjob file, execute the below command.
 <br>`cat  ~/Spark/appconfig/appjob`{{execute}}
 
 Task 2:
-Copy the configure java file.<br>
+Copy the configure java file.
 <br>`cp ~/test/configure_java8.sh ~/Spark/image/centos`{{execute}}
 <br><br>
-To view the content of configure_java8.sh  file, execute the below command.<br>
+To view the content of configure_java8.sh  file, execute the below command.
 <br>`cat ~/Spark/image/centos/configure_java8.sh`{{execute}}
 
 Task 3:
-Copy the spark-slave file which is used for bringing up and down the spark slave service.<br>
+Copy the spark-slave file which is used for bringing up and down the spark slave service.
 <br><b>spark-slave</b> file which is used for bringing up and down the spark slave service.
 <br>`cp ~/test/spark-slave ~/Spark/appconfig/spark`{{execute}}
 <br><br>
-To view the content of spark-slave  file.<br>Please execute the below command.<br>
+To view the content of spark-slave  file.<br>Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-slave`{{execute}}
 
 Task 4:
