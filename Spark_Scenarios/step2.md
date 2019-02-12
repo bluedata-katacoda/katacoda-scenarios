@@ -12,7 +12,7 @@ Next, we need to create a skeleton file structure. To do so execute the followin
 
  <b>bdwb --init</b> command will setup all the base directories and files you need in order to develop any app image
 
-Click on the below command to view the files and directories created in Spark folder.<br>
+ Execute the below command to list all the files and folders created by bdwb command:<br>
 `ls -R`{{execute}}
 
 You will see the following:
