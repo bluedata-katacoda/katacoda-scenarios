@@ -28,7 +28,7 @@ Task 4:
 Copy the spark-master file which is used for bringing up and down the spark master service.
 <br><b>spark-master</b> file which is used for bringing up and down the spark master service.
 <br>`cp ~/test/spark-master ~/Spark/appconfig/spark`{{execute}}
-<br><br>
+<br>
 To view the content of spark-master  file.<br>Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-master`{{execute}}
 
