@@ -1,4 +1,5 @@
 To begin the application development, we will first need to create a directory called “Spark” or any directory name of your choice. This directory will house all the files and components necessary to create the application image. <br>
+
 To create a directory, execute the following command:<br>
 `mkdir ~/Spark`{{execute}}<br>
 
@@ -16,7 +17,7 @@ Next, we need to create a skeleton file structure. To do so execute the followin
 `ls -R`{{execute}}
 
 Make sure you will see the following files and folders:
-<br>appconfig/: <br>
+<br>appconfig/ <br>
 appjob  <br>
 logging.sh  <br>
 macros.sh  <br>
