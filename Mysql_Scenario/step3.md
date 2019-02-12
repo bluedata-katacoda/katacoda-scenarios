@@ -7,7 +7,7 @@ We need to create Centos folder under image.<br>
 <br>
 <br>
 Let’s go ahead and create a Dockerfile inside the newly centos folder.<br> 
-For your reference, we have already created a ready Dockerfile in the ~/test directory. We will copy that file into the centos folder using the following command: 
+For your reference, we have already created a ready Dockerfile in the ~/test directory. We will copy that file into the centos folder using the following command: <br>
 `cp ~/test/Dockerfile ~/Mysql/image/centos`{{execute}}
 
 To view the content of Dockerfile please execute the following command.<br>
