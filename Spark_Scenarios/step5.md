@@ -6,7 +6,7 @@ Copy the appjob utility file.</b>
 <br><br><b>appjob</b> Provides the information on the type job to be launched and we can also add application specific jobs.
 <br>`cp ~/test/appjob  ~/Spark/appconfig`{{execute}}
 <br>
-To view the content of appjob file, execute the below command.
+<br>To view the content of appjob file, execute the below command.
 <br>`cat  ~/Spark/appconfig/appjob`{{execute}}
 
 <b>Task 2:
