@@ -33,7 +33,8 @@ Task 6:
 <br><br>`service add --srvcid spark_worker --name "Spark worker" --scheme "http" --port 8081 --path "/" --display --sysctl spark-slave --onroles controller worker`{{execute}}
 
 Task 7:
-Appconfiguration autogenenration.
+<b>Appconfiguration autogenenration</b>
+
 <b>This perticular image use EPIC api version 7 for automated application configuration </b>
 `appconfig autogen --new --configapi 7`{{execute}}
 
