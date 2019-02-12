@@ -21,7 +21,7 @@ Copy the spark-slave file in to spark directory.</b>
 <br><br><b>spark-slave</b> file which is used for bringing up and down the spark slave service.
 <br>`cp ~/test/spark-slave ~/Spark/appconfig/spark`{{execute}}
 <br><br>
-To view the content of spark-slave  file.<br>Please execute the below command.
+To view the content of spark-slave  file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-slave`{{execute}}
 
 <b>Task 4:
@@ -30,7 +30,7 @@ Copy the spark-master file in to spark directory.</b>
 <br>`cp ~/test/spark-master ~/Spark/appconfig/spark`{{execute}}
 <br>
 <br>
-To view the content of spark-master  file.<br>Please execute the below command.
+To view the content of spark-master  file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-master`{{execute}}
 
 <b>Task 5:
@@ -48,7 +48,7 @@ Copy the core-site.xml file.</b>
 <br>`cp ~/test/core-site.xml ~/Spark/appconfig`{{execute}}
 <br>
 <br>
-To view the content of core-site.xml file.<br>Please execute the below command.
+To view the content of core-site.xml file Please execute the below command.
 <br>`cat ~/Spark/appconfig/core-site.xml`{{execute}}
 
 <b>Task 7:
@@ -57,7 +57,7 @@ Copy the spark-defaults.conf file.</b>
 <br>`cp ~/test/spark-defaults.conf ~/Spark/appconfig/spark`{{execute}}
 <br>
 <br>
-To view the content of spark-defaults.conf file.<br>Please execute the below command.
+To view the content of spark-defaults.conf file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-defaults.conf`{{execute}}
 
 <b>Task 8:
@@ -66,7 +66,7 @@ Copy the hadoop file.</b>
 <br>`cp ~/test/hadoop ~/Spark/appconfig`{{execute}}
 <br>
 <br>
-To view the content of hadoop file.<br>Please execute the below command.
+To view the content of hadoop file Please execute the below command.
 <br>`cat ~/Spark/appconfig/hadoop`{{execute}}
 
 <b>Task 9:
@@ -75,7 +75,7 @@ Copy the spark-env.sh file.</b>
 <br>`cp ~/test/spark-env.sh ~/Spark/appconfig/spark`{{execute}}
 <br>
 <br>
-To view the content of spark-env.sh file.<br>Please execute the below command.
+To view the content of spark-env.sh file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-env.sh`{{execute}}
 
 <b>Task 10:
