@@ -12,14 +12,12 @@ Copy the sample Dockerfile cloned from BlueData GitHub in to the directory we ju
 `cp /tmp/samples/solutions/ImageSamples/helloWorld-auto/image/centos/Dockerfile  ~/src/catalog/helloworld/image/centos/`{{execute}}
 
 To view the contents of the Dockerfile, you can use vi, vim, or cat out the contents. To view the contents in the terminal console, execute the following command:<br>
-
 `cat ~/src/catalog/helloworld/image/centos/Dockerfile`{{execute}}
 
-You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host. 
+You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host. <br>
 <br>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on. 
-<br>Blue Data provides their own base image, which you can use by utilizing the following command at the top of your Dockerfile: 
-
-<br>FROM bluedata/centos7:latest
+<br>Blue Data provides their own base image, which you can use by utilizing the following command at the top of your Dockerfile:<br> 
+FROM bluedata/centos7:latest
 <br>
 <br>
 All the commands proceeding the base image, are the commands used to setup the application. 
