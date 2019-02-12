@@ -3,7 +3,7 @@ The next step is to create a Dockerfile.
 <strong>"A docker file is a text file that the Docker engine understands to automatically build an image by reading the file. The Dockerfile consists of all the commands a user would call to assemble the desired image."</strong>
 <br>
 <br>
-Let’s go ahead and create a Dockerfile inside the newly centos folder.
+Let’s go ahead and create a Dockerfile inside the newly created centos folder.
 <br>
 For your reference, we have already created a ready Dockerfile in the ~/test directory. We will copy that file into the centos folder using the following command:
 <br>`cp ~/test/Dockerfile ~/Spark/image/centos`{{execute}}
