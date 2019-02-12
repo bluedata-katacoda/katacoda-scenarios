@@ -24,7 +24,7 @@ You will now see many commands populate your terminal. These are the commands yo
 <br>
 <br>
 All the commands proceeding the base image, are the commands used to setup the application. 
-<br>These files / commands will be setup on top of the base image from BlueData and will eventually compile into a .Bin file for use on the EPIC platform. 
+<br>These files or commands will be setup on top of the base image from BlueData and will eventually compile into a .Bin file for use on the EPIC platform. 
 
 Copy java8.sh file<br> 
 `cp ~/Source/Spark/image/centos/spark/configure_java8.sh ~/Source/Spark/image/centos/`{{execute}}
