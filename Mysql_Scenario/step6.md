@@ -4,6 +4,8 @@ Task 1:
 Go inside the Mysql folder.
 <br>`cd ~/Mysql`{{execute}}
 
+Please review the link before proceeding for wb file: [Link](http://docs.bluedata.com/awb34_applications-with-multiple-images)
+
 Task 2:
 Go the BlueData Workbench.
 <br>`bdwb`{{execute}}
