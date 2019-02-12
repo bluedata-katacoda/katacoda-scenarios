@@ -42,7 +42,7 @@ To view the content of total_vcores.sh file. Please execute the below command.
 
 <b>Task 6:<br>
 Copy the core-site.xml file.</b>
-<br><br><b>core-site.xml</b> these files are used to setup Hadoop related configurations
+<br><b>core-site.xml</b> these files are used to setup Hadoop related configurations
 <br>`cp ~/test/core-site.xml ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of core-site.xml file Please execute the below command.
@@ -50,7 +50,7 @@ To view the content of core-site.xml file Please execute the below command.
 
 <b>Task 7:<br>
 Copy the spark-defaults.conf file.</b>
-</br><br><b>spark-defaults.conf file</b> This is Default system properties included when running spark-submit . 
+</br><b>spark-defaults.conf file</b> This is Default system properties included when running spark-submit . 
 <br>`cp ~/test/spark-defaults.conf ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-defaults.conf file Please execute the below command.
