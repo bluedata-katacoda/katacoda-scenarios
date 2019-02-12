@@ -8,7 +8,7 @@ For your reference, we have already created a ready .wb file in the ~/test direc
 Delete the old .wb file before you copy the new .wb file by executing the below command 
 <br>`rm -rf spark221.wb spark221e1.json`{{execute}}
 
-Copy the new .wb file into CDH directory using the following command:
+Copy the new .wb file into Spark directory using the following command:
 <br>`cp ~/test/spark_notebook.wb ~/Source/Spark`{{execute}}
 
 To view the content of the file, execute the following<br>
