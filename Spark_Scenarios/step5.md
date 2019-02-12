@@ -25,7 +25,7 @@ To view the content of spark-slave  file.<br>Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-slave`{{execute}}
 
 Task 4:
-Copy the spark-master file which is used for bringing up and down the spark master service.<br>
+Copy the spark-master file which is used for bringing up and down the spark master service.
 <br><b>spark-master</b> file which is used for bringing up and down the spark master service.
 <br>`cp ~/test/spark-master ~/Spark/appconfig/spark`{{execute}}
 <br><br>
