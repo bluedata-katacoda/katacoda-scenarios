@@ -35,8 +35,7 @@ Add the appconfig reference files using the below command(Due to space constrain
 <br>Check files under appconfig directory
 <br>`ls appconfig`{{execute}}
 
-These are the files that are required for Spark Application Image.
-Here <b>Start script</b> is a script file which contains code to start all service(s).<br>
+<b>Start script</b> is a script file which contains code to start all service(s).<br>
 
 <br><b>spark-slave</b> file which is used for bringing up and down the spark slave service.
 
@@ -50,7 +49,7 @@ Here <b>Start script</b> is a script file which contains code to start all servi
 
 <br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.
 
-<br><b>Logging.sh</b> This provides the logging facilities for a catalog configuration bundle. 
+<br><b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle. 
 
 <br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
 
@@ -62,7 +61,7 @@ Here <b>Start script</b> is a script file which contains code to start all servi
 
 <br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
 
-<br><b>systemd.service</b> It is init system used to bootstrap the user space and to manage system processes after booting.
+<br><b>systemd.service</b> is used to bootstrap the user space and to manage system processes after booting.
 
 <br><b>jupyter and jupyterhub</b> contains all the required configuration to run jupyter and jupyterhub.
 
@@ -72,3 +71,4 @@ Here <b>Start script</b> is a script file which contains code to start all servi
 Task3:
 <br>When our image is ready to deploy in the EPIC Application Catalog, we need to include a picture that represents the image. For your reference, we have already created a .png file for your use.
 <br>`cp ~/test/Logo_Spark.png ~/Spark`{{execute}}
+<b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
