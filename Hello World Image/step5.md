@@ -1,5 +1,8 @@
 
-Create a directory for the Hello World Application. This is where all the data will reside. Navigate to the directory after creating it.”
+Lets begin using app workbench
+We will be using the ready-made files you have cloned from github in order to complete building the image.
+
+First we will create a working directory where we will be building your image binaries. 
 
 `mkdir -p ~/src/catalog/helloworld`{{execute}}
 
@@ -7,9 +10,11 @@ Create a directory for the Hello World Application. This is where all the data w
 
 You are in the directory
 
-Create a skeleton file structure with the appropriate directories for creating the application .bin file
+Next, we need to create a skeleton file structure. To do so execute the following command:
 
 `bdwb --init`{{execute}}
+
+ <b>bdwb --init</b> command will setup all the base directories and files you need in order to develop any app image
 
 `ls -R`{{execute}}
 
