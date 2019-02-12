@@ -8,7 +8,7 @@ Let’s go ahead and create a Dockerfile inside the newly centos folder.
 For your reference, we have already created a ready Dockerfile in the ~/test directory. We will copy that file into the centos folder using the following command:
 <br>`cp ~/test/Dockerfile ~/Spark/image/centos`{{execute}}
 
-To view the contents of the Dockerfile, you can use vi, vim, or cat out the contents. To view the contents in the terminal console, execute the following command:<br>
+To view the contents of the Dockerfile, you can use vi, vim, or cat out the contents. To view the contents in the terminal console, execute the following command:
 <br>`cat ~/Spark/image/centos/Dockerfile`{{execute}}
 
 You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host. 
