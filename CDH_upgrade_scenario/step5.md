@@ -6,7 +6,7 @@ For your reference, we have already created a ready .wb file in the ~/test direc
 <br>`rm -rf cdh514.wb`{{execute}}
 <br>`cp ~/test/cdh515.wb ~/Source/CDH`{{execute}}
 
-To view the content of the file, execute the following command:<br>
+To view the content of .wb file, execute the following command:<br>
 `cat ~/Source/CDH/cdh515.wb`{{execute}}
 
 <br><strong>cdh515.wb file contain following section</strong>
