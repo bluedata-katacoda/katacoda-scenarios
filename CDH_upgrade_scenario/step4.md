@@ -1,5 +1,4 @@
-Now, to upgrade an existing image to a new one, we should make changes in some of the files like:
-<br>
+Now, to upgrade an existing image to a new one, we should make changes in the following files:
 <br>
 <br>-.wb file
 <br>-Dockerfile
