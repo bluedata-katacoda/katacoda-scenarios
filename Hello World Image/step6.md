@@ -6,10 +6,9 @@ Create a centos directory under /src/catalog/helloworld/
 `mkdir ~/src/catalog/helloworld/image/centos`{{execute}}
 
 
-<strong>"A docker file is a text file that the Docker engine understands to automatically build an image by reading the file. The Dockerfile consists of all the commands a user would call to assemble the desired image."</strong>
+<strong>"A docker file is a text file that the Docker engine understands to automatically build an image by reading the file. The Dockerfile consists of all the commands a user would call to assemble the desired image."</strong><br>
 <br>
-Copy the sample Dockerfile cloned from BlueData GitHub in to the directory we just created
-<br>
+Copy the sample Dockerfile cloned from BlueData GitHub in to the directory we just created<br>
 `cp /tmp/samples/solutions/ImageSamples/helloWorld-auto/image/centos/Dockerfile  ~/src/catalog/helloworld/image/centos/`{{execute}}
 
 To view the contents of the Dockerfile, you can use vi, vim, or cat out the contents. To view the contents in the terminal console, execute the following command:<br>
