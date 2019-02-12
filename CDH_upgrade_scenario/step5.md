@@ -1,11 +1,12 @@
 Now, we will make changes in .wb file <br>
 <br>
-We already have a reference .wb file. We just need to replace the current .wb file with the reference one. For doing so, execute the following commands.<br>
+For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the CDH directory using the following command:<br>
 `cd ~/Source/CDH`{{execute}}
+<br>Remove older .wb file that is existing:
 <br>`rm -rf cdh514.wb`{{execute}}
 <br>`cp ~/test/cdh515.wb ~/Source/CDH`{{execute}}
 
-To view the content of the file, execute the following<br>
+To view the content of the file, execute the following command:<br>
 `cat ~/Source/CDH/cdh515.wb`{{execute}}
 
 <br><strong>cdh515.wb file contain following section</strong>
@@ -22,13 +23,8 @@ To view the content of the file, execute the following<br>
 <br>logo file --filepath Logo_Cloudera.png
 
 <br><b>Section 2:</b> <br>
-<br><b>Build the Image .bin File</b>
-<br>
-<br>The final section of the .wb file pulls all of the pieces together and builds the .bin file.
-<br><b>This section creates bin file</b>
+<br>Below section of the .wb file pulls all of the pieces together and builds the .bin file.
 <br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
-
-<br><b>Catalog the package for image</b>
 <br>image package --image-repotag bluedata/cdh515:1.0 --os centos7
 <br>catalog save --filepath staging/cdh.json --force
 <br>sources package
