@@ -8,7 +8,7 @@
    	 { "title": "Step 1 - Creating a base directory","text": "step1.md"},
    	 { "title": "Step 2 - Copying the bin file", "text": "step2.md"},
    	 { "title": "Step 3 - Extracting the contents of the bin file", "text": "step3.md"},
-   	 { "title": "Step 4 - Modifying the old image", "text": "step4.md"},
+   	 { "title": "Step 4 - Modifying the existing image", "text": "step4.md"},
 	{ "title": "Step 5 - Modifying the .wb file", "text": "step5.md"},
 	{ "title": "Step 6 - Modifying the Dockerfile", "text": "step6.md"},
 	{ "title": "Step 7 -  Adding configuration fils under appconfig directory", "text": "step7.md"},
