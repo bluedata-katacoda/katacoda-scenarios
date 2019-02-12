@@ -4,6 +4,7 @@ Hello. Today we will be teaching you how to create an image on the Blue Data EPI
 <br>-Basic knowledge on containers
 <br>-Linux administration
 <br>-Git
+<br>-Hadoop and CDH
 
 
 This scenario is developed by:
