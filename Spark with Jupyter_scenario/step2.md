@@ -5,10 +5,14 @@ To create a directory, execute the following command:<br>
 Change to the newly created directory:<br>
 `cd ~/Spark`{{execute}}<br>
 
-Once you are in the new directory, the first step is to create all the base file structures necessary to create the application image. To do so, execute the following command :<br>
+Next, we need to create a skeleton file structure. To do so execute the following command:
+
 `bdwb --init`{{execute}}
 
-To view the files & directories created by this command, execute the following command.<br>
+ <b>bdwb --init</b> command will setup all the base directories and files you need in order to develop any app image
+ 
+ Execute the below command to list all the files and folders created by bdwb command:
+
 `ls -R`{{execute}}
 
 You will see the following:
@@ -16,11 +20,15 @@ You will see the following:
 <br>image/
 
 These are the files that are required for Spark Application Image.<br>
-Here <b>Start script</b> is a script file which contain code to start all service .
+Here <b>Start script</b>  is a script file which contains code to start all service(s).
+
 <br><b>Macros.sh</b> It has all the built in macros of BlueData that would be executed during image creation.
+
 <br><b>Logging.sh</b> This provides the logging facilities for a catalog configuration bundle. 
-<br><b>Utils.sh</b> It has utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
-<br><b>appjob</b> Provides the information on the type job to be launched and we can also add application specific jobs.
+
+<br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
+
+<br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
 
 Now, we will create a folder called “centos” inside the empty image directory.
 <br>Execute the following command to do so :
