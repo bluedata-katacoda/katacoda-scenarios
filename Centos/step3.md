@@ -13,3 +13,5 @@ By default, the upstream image source is centos:centos7
 
 `export CENTOS7_UPSTREAM='centos:centos7'`{{execute}}
 
+where <b>upstream</b> is the name of the upstream image source, such as artifactory.com/enterprise:centos7. The default upstream image source is centos:centos7.
+
