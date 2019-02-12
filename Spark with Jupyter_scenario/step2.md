@@ -2,7 +2,7 @@ To begin the application development, we will first need to create a directory c
 To create a directory, execute the following command:<br>
 `mkdir ~/Spark`{{execute}}<br>
 
-Change to the newly created directory:<br>
+Navigate to the newly created directory:<br>
 `cd ~/Spark`{{execute}}<br>
 
 Next, we need to create a skeleton file structure. To do so execute the following command:
@@ -15,16 +15,20 @@ Next, we need to create a skeleton file structure. To do so execute the followin
 
 `ls -R`{{execute}}
 
-You will see the following:
-<br>appconfig/: appjob  logging.sh  macros.sh  startscript  utils.sh
-<br>image/
+Make sure you will see the following files and folders:
+<br>appconfig/: <br>
+appjob  <br>
+logging.sh  <br>
+macros.sh  <br>
+startscript  <br>
+utils.sh<br>
+image/
 
-These are the files that are required for Spark Application Image.<br>
-Here <b>Start script</b>  is a script file which contains code to start all service(s).
+<b>Start script</b>  is a script file which contains code to start all service(s).
 
-<b>Macros.sh</b> It has all the built in macros of BlueData that would be executed during image creation.
+<b>Macros.sh</b> contains the built in macros of BlueData that would be executed during image creation.
 
-<b>Logging.sh</b> This provides the logging facilities for a catalog configuration bundle. 
+<b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle. 
 
 <b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
 
