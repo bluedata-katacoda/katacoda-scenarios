@@ -79,7 +79,7 @@ To view the content of spark-env.sh file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-env.sh`{{execute}}
 
 <b>Task 10:
-Copy the logo file.</b>\
+Copy the logo file.
 <br>
 <br>To add a logo to your BIN file, copy the .png file to the following location. For this step, we will use an existing .png. 
 <br>`cp ~/test/Logo_Spark.png ~/Spark`{{execute}}
