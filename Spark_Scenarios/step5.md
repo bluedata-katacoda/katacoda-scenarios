@@ -28,7 +28,7 @@ To view the content of spark-slave  file Please execute the below command.
 Copy the spark-master file in to spark directory.</b>
 <br><b>spark-master</b> file which is used for bringing up and down the spark master service.
 <br>`cp ~/test/spark-master ~/Spark/appconfig/spark`{{execute}}
-<br>
+<br><br>
 To view the content of spark-master  file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-master`{{execute}}
 
@@ -36,7 +36,7 @@ To view the content of spark-master  file Please execute the below command.
 Copy the total_vcores.sh script file to appconfig directory.</b>
 <br><b> total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes.
 <br>`cp ~/test/total_vcores.sh ~/Spark/appconfig`{{execute}}
-<br>
+<br><br>
 To view the content of total_vcores.sh file.<br> Please execute the below command.
 <br>`cat ~/Spark/appconfig/total_vcores.sh`{{execute}}
 
@@ -44,7 +44,7 @@ To view the content of total_vcores.sh file.<br> Please execute the below comman
 Copy the core-site.xml file.</b>
 <br><br><b>core-site.xml</b> these files are used to setup Hadoop related configurations
 <br>`cp ~/test/core-site.xml ~/Spark/appconfig`{{execute}}
-<br>
+<br><br>
 To view the content of core-site.xml file Please execute the below command.
 <br>`cat ~/Spark/appconfig/core-site.xml`{{execute}}
 
@@ -52,7 +52,7 @@ To view the content of core-site.xml file Please execute the below command.
 Copy the spark-defaults.conf file.</b>
 </br><br><b>spark-defaults.conf file</b> This is Default system properties included when running spark-submit . 
 <br>`cp ~/test/spark-defaults.conf ~/Spark/appconfig/spark`{{execute}}
-<br>
+<br><br>
 To view the content of spark-defaults.conf file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-defaults.conf`{{execute}}
 
@@ -60,7 +60,7 @@ To view the content of spark-defaults.conf file Please execute the below command
 Copy the hadoop file.</b>
 <br><b>hadoop</b> these files are used to setup Hadoop related configurations
 <br>`cp ~/test/hadoop ~/Spark/appconfig`{{execute}}
-<br>
+<br><br>
 To view the content of hadoop file Please execute the below command.
 <br>`cat ~/Spark/appconfig/hadoop`{{execute}}
 
@@ -68,7 +68,7 @@ To view the content of hadoop file Please execute the below command.
 Copy the spark-env.sh file.</b>
 <br><b>spark-env.sh</b> This file is to setup the spark environment . 
 <br>`cp ~/test/spark-env.sh ~/Spark/appconfig/spark`{{execute}}
-<br>
+<br><br>
 To view the content of spark-env.sh file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-env.sh`{{execute}}
 
