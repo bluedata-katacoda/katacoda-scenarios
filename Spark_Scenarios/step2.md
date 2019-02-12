@@ -6,8 +6,11 @@ To create a directory, execute the following command:
 Change to your new source directory:<br>
 `cd ~/Spark`{{execute}}<br>
 
-Use the bdwb command to create a skeleton file structure with the appropriate directories for creating the Application .bin file:<br>
+Next, we need to create a skeleton file structure. To do so execute the following command:
+
 `bdwb --init`{{execute}}
+
+ <b>bdwb --init</b> command will setup all the base directories and files you need in order to develop any app image
 
 Click on the below command to view the files and directories created in Spark folder.<br>
 `ls -R`{{execute}}
