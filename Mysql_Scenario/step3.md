@@ -8,7 +8,7 @@ We need to create Centos folder under image.<br>
 <br>
 Let’s go ahead and create a Dockerfile inside the newly centos folder.
 <br>
-<br>Now create Dockerfile inside the centos folder.
+<br>Blue Data provides their own base image, which you can use by  utilizing the following command at the start of your Dockerfile: 
 For reference, there's already a Dockerfile.<br>You can just copy the Dockerfile to Centos folder.<br>
 `cp ~/test/Dockerfile ~/Mysql/image/centos`{{execute}}
 
