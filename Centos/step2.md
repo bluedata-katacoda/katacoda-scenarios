@@ -13,3 +13,9 @@ To list the contents inside centos7 directory execute the below command
 `ls -a`{{execute}}
 
 Make sure the Build.sh, Makefile and Template are present. 
+
+<b>Build.sh</b> is a file that contains a build script to build the centos7 image
+<br>
+<b>Makefile</b> is a program building tool which runs on Unix or Linux
+<br>
+<b>Template</b> is a directory that houses the Dockerfile.template and limits-90-nproc.conf files
