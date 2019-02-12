@@ -7,17 +7,11 @@ Create a directory for the helloworld application
 
 `mkdir ~/src/catalog/helloworld/image/centos`{{execute}}
 
-Copy the sample Dockerfile cloned from GitHub in the directory we just created
-<br>
+
 <strong>"A docker file is a text file that the Docker engine understands to automatically build an image by reading the file. The Dockerfile consists of all the commands a user would call to assemble the desired image."</strong>
 <br>
+Copy the sample Dockerfile cloned from BlueData GitHub in to the directory we just created
 <br>
-Let’s go ahead and create a Dockerfile inside the newly centos folder.
-<br>
-For your reference, we have already created a ready Dockerfile in the ~/test directory. We will copy that file into the centos folder using the following command:<br>
-Delete the old docker file to save space on the device by executing this command
-<br><br>
-
 `cp /tmp/samples/solutions/ImageSamples/helloWorld-auto/image/centos/Dockerfile  ~/src/catalog/helloworld/image/centos/`{{execute}}
 
 To view the contents of the Dockerfile, you can use vi, vim, or cat out the contents. To view the contents in the terminal console, execute the following command:<br>
@@ -32,5 +26,5 @@ You will now see many commands populate your terminal. These are the commands yo
 <br>
 <br>
 All the commands proceeding the base image, are the commands used to setup the application. 
-<br>These files / commands will be setup on top of the base image from BlueData and will eventually compile into a .Bin file for use on the EPIC platform. 
+<br>These files or commands will be setup on top of the base image from BlueData and will eventually compile into a .Bin file for use on the EPIC platform. 
 
