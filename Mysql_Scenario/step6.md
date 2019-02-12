@@ -39,7 +39,7 @@ Setting the logo for bin.
 
 Task 9:
 Catalog the package for image
-`image build --basedir image/centos --image-repotag bluedata/mysql-centos7:1.0`{{execute}}
+<br>`image build --basedir image/centos --image-repotag bluedata/mysql-centos7:1.0`{{execute}}
 <br>`image package --image-repotag bluedata/mysql-centos7:1.0 --os centos7 --roles controller`{{execute}}
 <br>`catalog save --filepath staging/mysql-centos7.json --force`{{execute}}
 <br>`sources package`{{execute}}
