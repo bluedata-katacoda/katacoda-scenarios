@@ -38,7 +38,7 @@ Appconfiguration autogenenration
 <br>`appconfig autogen --pkgfile core-site.xml --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/core-site.xml --pkgfile hadoop --dest /usr/bin/hadoop --pkgfile appjob --dest /opt/bluedata/vagent/guestconfig/appconfig/appjob --onroles controller worker`{{execute}}
 
 Task 8:
-<b>Replacing Pattern from Some files.</b>
+Replacing Pattern from Some files.
 <br>`appconfig autogen --execute total_vcores.sh --onroles controller worker`{{execute}}
 
 <br>`appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller" --pattern @@@@SPARK_MAX_CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker`{{execute}}
@@ -51,13 +51,13 @@ Task 8:
 <br>`appconfig package`{{execute}}
 
 Task 9:
-<b>Setting the logo for image</b>
+Setting the logo for image
 <br>`logo file --filepath Logo_Spark.png`{{execute}}
 
 Task 10:
-<br><b>Catalog the package for image</b>
-<br><b>Pulls all of the pieces together and builds the .bin file</b>
-`image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0`{{execute}}
+<br>Catalog the package for image
+<br>Pulls all of the pieces together and builds the .bin file
+<br>`image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0`{{execute}}
 <br>`image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker`{{execute}}
 <br>`catalog save --filepath staging/spark221e1.json --force`{{execute}}
 <br>`sources package`{{execute}}
