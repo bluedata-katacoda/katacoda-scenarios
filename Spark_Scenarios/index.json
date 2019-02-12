@@ -7,11 +7,11 @@
     "steps": [
     { "title": "Step 1 - Preparing the Environment","text": "step1.md"},
     { "title": "Step 2 - Getting Started.", "text": "step2.md"},
-    { "title": "Step 3 - Create the Dockerfile.", "text": "step3.md"},
+    { "title": "Step 3 - Creating the Dockerfile.", "text": "step3.md"},
 	{ "title": "Step 4 - Creating sub directory under appconfig.", "text": "step4.md"},
-	{ "title": "Step 5 - Creating few more file which are used to run Spark services.", "text": "step5.md"},
+	{ "title": "Step 5 - Creating spark, hadoop and java configuration files.", "text": "step5.md"},
 	{ "title": "Step 6 - Building the Bin File using BlueData App Workbench.", "text": "step6.md"},
-	{ "title": "Step 7 - Checking the Bin File For Spark.", "text": "step7.md"}
+	{ "title": "Step 7 - Finalising the build for Spark.", "text": "step7.md"}
     ],
     "intro": {
       "text": "intro.md",
