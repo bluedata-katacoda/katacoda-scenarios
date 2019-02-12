@@ -35,7 +35,7 @@ jupyterhub  ,   spark  ,               systemd.service
 
 <br><b> total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes.
 
-br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.
+<br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.
 
 <br><b>Logging.sh</b> This provides the logging facilities for a catalog configuration bundle. 
 
