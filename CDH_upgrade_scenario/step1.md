@@ -7,6 +7,6 @@ For checking the version of BlueData App-Workbench, execute the following comman
 `bdwb --version`{{execute}}
 
 <br>
-Now, to begin let us create the directory
+Now, to begin let us create the directory to house the files
 <br>`mkdir ~/Source`{{execute}}
 <br>`mkdir ~/Source/CDH`{{execute}}
