@@ -5,7 +5,7 @@
   "time": "10 minutes",
   "details": {
     "steps": [
-     { "title": "Step 1 - Creating and navigating to base image directory ","text": "step1.md"},
+     { "title": "Step 1 - Creating a directory for base image ","text": "step1.md"},
      { "title": "Step 2 - Retriveing base image for CentOS 7 ","text": "step2.md"},
      { "title": "Step 3 - Exporting CentOS 7 base image ","text": "step3.md"},
      { "title": "Step 4 - Creating CentOS 7 base image ","text": "step4.md"},
