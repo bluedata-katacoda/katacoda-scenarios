@@ -40,7 +40,7 @@ Task 7:
 <br>`appconfig autogen --pkgfile core-site.xml --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/core-site.xml --pkgfile hadoop --dest /usr/bin/hadoop --pkgfile appjob --dest /opt/bluedata/vagent/guestconfig/appconfig/appjob --onroles controller worker`{{execute}}
 
 Task 8:
-Replacing Pattern from Some files.
+<b>Replacing Pattern from Some files.</b>
 <br><b>To obtain the total number of virtual CPU cores assigned to the Controller node and any Worker node(s) in the cluster</b>
 <br>`appconfig autogen --execute total_vcores.sh --onroles controller worker`{{execute}}
 
