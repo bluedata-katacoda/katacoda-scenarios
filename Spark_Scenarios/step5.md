@@ -11,7 +11,7 @@ To view the content of appjob file, execute the below command.
 
 <b>Task 2:
 Copy the configure java file.</b>
-<br><br>`cp ~/test/configure_java8.sh ~/Spark/image/centos`{{execute}}
+<br>`cp ~/test/configure_java8.sh ~/Spark/image/centos`{{execute}}
 <br><br>
 To view the content of configure_java8.sh  file, execute the below command.
 <br>`cat ~/Spark/image/centos/configure_java8.sh`{{execute}}
