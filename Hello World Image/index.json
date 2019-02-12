@@ -7,16 +7,16 @@
     "steps": [
     { "title": "Step 1 - Installation of App workbench","text": "step1.md"},
     { "title": "Step 2 - Installation of App workbench","text": "step2.md"},
-    { "title": "Step 3 - Install Git","text": "step3.md"},
+    { "title": "Step 3 - Installing Git","text": "step3.md"},
     { "title": "Step 4 - Clone sample data from GitHub","text": "step4.md"},
     { "title": "Step 5 - Create directory for hello world app","text": "step5.md"},
     { "title": "Step 6 - Creating Dockerfile","text": "step6.md"},
     { "title": "Step 7 - Creating .wb file","text": "step7.md"},
     { "title": "Step 8 - Creating index.html file","text": "step8.md"},
-    { "title": "Step 9 - Creating Logo file","text": "step9.md"},
+    { "title": "Step 9 - Adding Logo file to bin","text": "step9.md"},
     { "title": "Step 10 - Execute the .wb file","text": "step10.md"},
     { "title": "Step 11 - Display the content of json file","text": "step11.md"},
-    { "title": "Step 12 - Verifying the created bin file","text": "step12.md"}
+    { "title": "Step 12 - Finalizing your build","text": "step12.md"}
               ],
     "intro": {
       "text": "intro.md",
