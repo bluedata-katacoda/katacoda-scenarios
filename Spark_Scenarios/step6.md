@@ -1,7 +1,7 @@
 In this step we will be creating the bin using BlueData App Workbench by executing the following commands.
 
 Task 1:
-Go inside the Spark folder.
+Navigate to Spark folder.
 <br>`cd ~/Spark`{{execute}}
 
 <b>.wb</b> file contains a series of App Workbench commands that control the creation of the Catalog Image
@@ -38,7 +38,7 @@ Appconfiguration autogenenration
 <br><br>`appconfig autogen --pkgfile core-site.xml --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/core-site.xml --pkgfile hadoop --dest /usr/bin/hadoop --pkgfile appjob --dest /opt/bluedata/vagent/guestconfig/appconfig/appjob --onroles controller worker`{{execute}}
 
 Task 8:
-Replacing Pattern from Some files.
+Replacing Pattern from files.
 <br>`appconfig autogen --execute total_vcores.sh --onroles controller worker`{{execute}}
 
 <br>`appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller" --pattern @@@@SPARK_MAX_CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker`{{execute}}
