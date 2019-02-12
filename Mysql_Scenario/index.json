@@ -8,8 +8,8 @@
     { "title": "Step 1 - Preparing the environment","text": "step1.md"},
     { "title": "Step 2 - Getting Started", "text": "step2.md"},
     { "title": "Step 3 - Create the Dockerfile", "text": "step3.md"},
-    { "title": "Step 4 - Creating few more files which are used to run MySql services", "text": "step4.md"},
-    { "title": "Step 5 - Adding the logo file", "text": "step5.md"},
+    { "title": "Step 4 - Creating startscript", "text": "step4.md"},
+    { "title": "Step 5 - Adding the logo file to bin", "text": "step5.md"},
     { "title": "Step 6 - Building the Bin File using BlueData App Workbench", "text": "step6.md"},
     { "title": "Step 7 - finalising your build for MySQL", "text": "step7.md"}
     ],
