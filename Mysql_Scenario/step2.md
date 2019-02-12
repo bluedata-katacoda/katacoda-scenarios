@@ -5,15 +5,18 @@ Create a directory on the system named as Mysql.<br>This directory will house al
 Change to your new source directory by executing the following command:<br>
 `cd ~/Mysql`{{execute}}<br>
 
-Use the bdwb command to create a skeleton file structure with the appropriate directories for creating the application .bin file by executing the following commands:<br>
+Next, we need to create a skeleton file structure. To do so execute the following command:<br>
 `bdwb --init`{{execute}}
+
+<b>bdwb --init</b> command will setup all the base directories and files you need in order to develop any app image
 
 To list all the files and folders created by the bdwb command, execute the following :<br>
 `ls -R`{{execute}}
 
-<br><b>appjob</b> Provides the information on the type job to be launched and we can also add application specific jobs.
-<br><b>Logging.sh</b> This provides the logging facilities for a catalog configuration bundle. 
-<br><b>Macros.sh</b> It has all the built in macros of BlueData that would be executed during image creation.
-<br><b>Start script</b> is a script file which contains code to start all service(s). 
-<br><b>systemd.service</b> It is init system used to bootstrap the user space and to manage system processes after booting.
-<br><b>Utils.sh</b> It has utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
+<br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
+<br><b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle.<br> 
+<br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.<br>
+<br><b>Start script</b> is a script file which contains code to start all service(s).<br> 
+<br><b>systemd.service</b> is used to bootstrap the user space and to manage system processes after booting.<br>
+<br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
+
