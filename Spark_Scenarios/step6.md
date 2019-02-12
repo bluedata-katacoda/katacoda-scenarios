@@ -4,7 +4,8 @@ Task 1:
 Go inside the Spark folder.
 <br>`cd ~/Spark`{{execute}}
 
-Please review the link before proceeding for wb file: [Link](http://docs.bluedata.com/awb34_applications-with-multiple-images)
+<b>.wb</b> file contains a series of App Workbench commands that control the creation of the Catalog Image
+<br>Please review the link before proceeding for wb file: [Link](http://docs.bluedata.com/awb34_applications-with-multiple-images)
 
 Task 2:
 Go to Bluedata Workbench.
