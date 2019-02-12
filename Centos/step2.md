@@ -1,4 +1,4 @@
-Please review the link before proceeding: http://docs.bluedata.com/awb34_bdwb-shell-commands
+Please review the link before proceeding:.[here](http://docs.bluedata.com/awb34_bdwb-shell-commands)
 
 Retrieve the BlueData base image for CentOS 7 using bdwb command
 
