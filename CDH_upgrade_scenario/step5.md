@@ -1,6 +1,6 @@
 Now, we will make changes in .wb file <br>
 
-Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb34_updating-an-existing-image)
+Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb34_updating-an-existing-image)<br>
 <br>
 For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the CDH directory using the following command:<br>
 `cd ~/Source/CDH`{{execute}}<br>
