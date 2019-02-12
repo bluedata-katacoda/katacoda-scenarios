@@ -1,7 +1,7 @@
 
 Create the .wb file
 
-Please review this link before you proceed: [Link] (http://docs.bluedata.com/awb34_helloworld-application-build-walkthrough$wb_section_2)
+Please review this link before you proceed: [Link](http://docs.bluedata.com/awb34_helloworld-application-build-walkthrough$wb_section_2)
 
 <b>.wb</b> file contains a series of App Workbench commands that control the creation of the Catalog Image
 
