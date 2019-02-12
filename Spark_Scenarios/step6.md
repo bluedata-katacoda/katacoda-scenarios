@@ -53,8 +53,8 @@ Task 8:
 <br><br>`appconfig autogen --replace /etc/init.d/spark-master --pattern @@@@FQDN@@@@ --macro GET_FQDN_LIST controller --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --onroles controller worker`{{execute}}
 
 <b>Generate the final application package and execute the startscripts when a virtual cluster is created using this application</b>
-<br><br>`appconfig autogen --generate`{{execute}}
-<br><br>`appconfig package`{{execute}}
+<br>`appconfig autogen --generate`{{execute}}
+<br>`appconfig package`{{execute}}
 
 Task 9:
 <b>Setting the logo for image</b>
