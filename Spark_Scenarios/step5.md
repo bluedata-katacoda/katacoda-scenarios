@@ -1,8 +1,8 @@
 In this step we would be creating some more files that are required for Spark Application Image.
 We already have reference files, we can just copy them to appropriate location.
 
-Task 1:
-Copy the appjob utility file.<br>
+<b>Task 1:
+Copy the appjob utility file.</b>
 <br><b>appjob</b> Provides the information on the type job to be launched and we can also add application specific jobs.
 <br>`cp ~/test/appjob  ~/Spark/appconfig`{{execute}}
 <br>
