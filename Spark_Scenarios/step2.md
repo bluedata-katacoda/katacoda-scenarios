@@ -16,8 +16,12 @@ Next, we need to create a skeleton file structure. To do so execute the followin
 `ls -R`{{execute}}
 
 Make sure that you see the following files or directories:
-<br>appconfig/
-appjob  logging.sh  macros.sh  startscript  utils.sh
+<br>appconfig/<br>
+appjob  <br>
+logging.sh  <br>
+macros.sh  <br>
+startscript  <br>
+utils.sh<br>
 <br>image/
 
 Above files are required for Spark Application Image development.<br>
