@@ -58,7 +58,6 @@ Setting the logo for image
 
 Task 10:
 <br>Catalog the package for image
-<br>Pulls all of the pieces together and builds the .bin file
 <br>`image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0`{{execute}}
 <br>`image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker`{{execute}}
 <br>`catalog save --filepath staging/spark221e1.json --force`{{execute}}
