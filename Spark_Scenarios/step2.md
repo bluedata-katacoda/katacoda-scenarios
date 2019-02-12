@@ -32,5 +32,4 @@ Here <b>Start script</b> is a script file which contains code to start all servi
 <br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.<br>
 <br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
 Now, we will create a folder called “centos” inside the empty image directory. Execute the following command to do so :
-
-`mkdir ~/Spark/image/centos`{{execute}}
+<br>`mkdir ~/Spark/image/centos`{{execute}}
