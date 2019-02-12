@@ -36,7 +36,7 @@ Make sure the folllwing files and directories are present:
   
   image/
   
-<br><b>appjob</b> provides the information on the type job to be launched and we can also add application specific jobs.<br>
+<br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
 <br><b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle.<br> 
 <br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.<br>
 <br><b>Start script</b> is a script file which contains code to start all service(s).<br> 
