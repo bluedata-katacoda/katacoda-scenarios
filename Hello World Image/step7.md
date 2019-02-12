@@ -1,7 +1,9 @@
 
 Create the .wb file
 
-Copy the .wb file from  the sample data to the helloworld directory
+<b>.wb</b> file contains a series of App Workbench commands that control the creation of the Catalog Image
+
+In this step, instead of creating your own .wb file, we will be utilizing the .wb file from the github clone from earlier. To use the existing .wb file, please run the following command. 
 
 `cp /tmp/samples/solutions/ImageSamples/helloWorld-auto/helloworld-app.wb ~/src/catalog/helloworld`{{execute}}
 
