@@ -17,7 +17,7 @@ To view the content of configure_java8.sh  file, execute the below command.
 <br>`cat ~/Spark/image/centos/configure_java8.sh`{{execute}}
 
 Task 3:
-Copy the spark-slave file which is used for bringing up and down the spark slave service.
+Copy the spark-slave file in to Spark.
 <br><b>spark-slave</b> file which is used for bringing up and down the spark slave service.
 <br>`cp ~/test/spark-slave ~/Spark/appconfig/spark`{{execute}}
 <br><br>
