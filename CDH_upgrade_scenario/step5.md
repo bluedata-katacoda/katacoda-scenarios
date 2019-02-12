@@ -23,7 +23,7 @@ To view the content of .wb file, execute the following command:<br>
 <br>logo file --filepath Logo_Cloudera.png
 
 <br><b>Section 2:</b> <br>
-<br>Below section of the .wb file pulls all of the pieces together and builds the .bin file.
+<br><b>Below section of the .wb file pulls all of the pieces together and builds the .bin file.</b>
 <br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
 <br>image package --image-repotag bluedata/cdh515:1.0 --os centos7
 <br>catalog save --filepath staging/cdh.json --force
