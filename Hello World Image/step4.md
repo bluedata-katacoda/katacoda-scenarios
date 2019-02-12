@@ -11,7 +11,7 @@ Execute the below command to list all the files and folders
 
 `ls -R`{{execute}}
 
-Make sure that you see the following files or directories:
+Make sure that you see the following files or directories:<br>
 appconfig/index.html,<br>
 helloworld-app.wb,<br>
 helloworld-logo.png<br> 
