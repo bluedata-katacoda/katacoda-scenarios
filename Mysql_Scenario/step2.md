@@ -8,7 +8,7 @@ Change to your new source directory by executing the following command:<br>
 Use the bdwb command to create a skeleton file structure with the appropriate directories for creating the application .bin file by executing the following commands:<br>
 `bdwb --init`{{execute}}
 
-To list all the files and folders created by the bdwb command, execute the following : ls -R<br>
+To list all the files and folders created by the bdwb command, execute the following :<br>
 `ls -R`{{execute}}
 
 <br><b>appjob</b> Provides the information on the type job to be launched and we can also add application specific jobs.
