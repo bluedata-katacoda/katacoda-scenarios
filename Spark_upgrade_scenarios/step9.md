@@ -4,7 +4,7 @@ The newly built application package (or bundle) is saved in the deliverables dir
 
 Congratulations you have successfully upgraded spark with notebook image.
 
-To make the new image appear in App Store.
+To make the new image appear in App Store 
 Copy the bin file to /srv/bluedata/catalog using the following commad
 <br>`cp bdcatalog-centos7-bluedata-spark231mjuphub7x-2.1.bin /srv/bluedata/catalog`{{execute}}
 
