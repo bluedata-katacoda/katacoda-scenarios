@@ -1,5 +1,7 @@
 In this step we will be creating the bin using BlueData App Workbench by executing the following commands.
 
+Please review the link before proceeding for wb file: [Link](http://docs.bluedata.com/awb34_applications-with-multiple-images)
+
 Task 1:
 Go inside the Spark folder.
 <br>`cd ~/Spark`{{execute}}
