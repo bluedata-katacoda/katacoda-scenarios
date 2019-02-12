@@ -9,13 +9,13 @@ For your reference, we have already created a ready Dockerfile in the ~/test dir
 <br>`cp ~/test/Dockerfile ~/Spark/image/centos`{{execute}}
 
 To view the contents of the Dockerfile, you can use vi, vim, or cat out the contents. To view the contents in the terminal console, execute the following command:<br>
-`cat ~/Spark/image/centos/Dockerfile`{{execute}}
+<br>`cat ~/Spark/image/centos/Dockerfile`{{execute}}
 
 You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host. 
 <br>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on. 
 <br>Blue Data provides their own base image, which you can use by simply putting the following command at the top of your Dockerfile: 
 
-<br>FROM bluedata/centos7:latest
+<br><b>FROM bluedata/centos7:latest<b>
 <br>
 <br>
 All the commands proceeding the base image, are the commands used to setup the application. 
