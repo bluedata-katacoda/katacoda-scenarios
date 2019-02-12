@@ -37,7 +37,7 @@ Copy the total_vcores.sh script file to appconfig directory.</b>
 <br><b> total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes.
 <br>`cp ~/test/total_vcores.sh ~/Spark/appconfig`{{execute}}
 <br><br>
-To view the content of total_vcores.sh file.<br> Please execute the below command.
+To view the content of total_vcores.sh file. Please execute the below command.
 <br>`cat ~/Spark/appconfig/total_vcores.sh`{{execute}}
 
 <b>Task 6:<br>
@@ -74,7 +74,6 @@ To view the content of spark-env.sh file Please execute the below command.
 
 <b>Task 10:<br>
 Copy the logo file.
-<br>
 <br>To add a logo to your BIN file, copy the .png file to the following location. For this step, we will use an existing .png file. 
 <b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
 <br>`cp ~/test/Logo_Spark.png ~/Spark`{{execute}}
