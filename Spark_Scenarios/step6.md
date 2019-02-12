@@ -61,7 +61,7 @@ Task 9:
 <br>`logo file --filepath Logo_Spark.png`{{execute}}
 
 Task 10:
-<br>Catalog the package for image</br>
+<br><b>Catalog the package for image</b>
 <br><b>Pulls all of the pieces together and builds the .bin file</b>
 `image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0`{{execute}}
 <br><br>`image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker`{{execute}}
