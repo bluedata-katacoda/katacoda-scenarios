@@ -1,7 +1,7 @@
 
 Create the index.html 
 
-Copy the index.html file from the sample data to the helloworld directory
+In this step, instead of creating your own index.html file, we will be utilizing the index.html file from the github clone from earlier. To use the existing index.html file, please run the following command. 
 
 `cp  /tmp/samples/solutions/ImageSamples/helloWorld-auto/appconfig/index.html ~/src/catalog/helloworld/appconfig/`{{execute}}
 
