@@ -41,13 +41,13 @@ Task 7:
 
 Task 8:
 Replacing Pattern from Some files.
-<b>To obtain the total number of virtual CPU cores assigned to the Controller node and any Worker node(s) in the cluster</b>
-`appconfig autogen --execute total_vcores.sh --onroles controller worker`{{execute}}
+<br><b>To obtain the total number of virtual CPU cores assigned to the Controller node and any Worker node(s) in the cluster</b>
+<br>`appconfig autogen --execute total_vcores.sh --onroles controller worker`{{execute}}
 
-<b>To obtain both the URL of the Spark Master service running on the Controller/worker node and the total number of virtual CPU cores assigned to the virtual cluster</b>
+<br><b>To obtain both the URL of the Spark Master service running on the Controller/worker node and the total number of virtual CPU cores assigned to the virtual cluster</b>
 <br>`appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller" --pattern @@@@SPARK_MAX_CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker`{{execute}}
 
-<b>To obtain FQDNs of all of the virtual nodes, total amount of VRAM, in MB, total number of virtual CPU cores</b>
+<br><b>To obtain FQDNs of all of the virtual nodes, total amount of VRAM, in MB, total number of virtual CPU cores</b>
 <br><br>`appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-env.sh --pattern @@@@MASTER_HOST@@@@ --macro "GET_FQDN_LIST controller" --pattern @@@@MEMORY@@@@ --macro "echo $(GET_TOTAL_VMEMORY_MB)m" --pattern @@@@CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker`{{execute}}
 <br><br>`appconfig autogen --replace /etc/init.d/spark-slave --pattern @@@@FQDN@@@@ --macro GET_NODE_FQDN --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --pattern @@@@SPARK_MASTER@@@@  --macro "GET_SERVICE_URL spark_master controller" --onroles controller worker`{{execute}}
 <br><br>`appconfig autogen --replace /etc/init.d/spark-master --pattern @@@@FQDN@@@@ --macro GET_FQDN_LIST controller --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --onroles controller worker`{{execute}}
