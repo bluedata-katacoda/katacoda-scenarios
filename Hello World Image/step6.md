@@ -1,9 +1,7 @@
 
 Let's create a Dockerfile. 
 
-The Dockerfile is created under the /helloworld/image/centos directory
-
-Create a directory for the helloworld application
+Create a centos directory under /src/catalog/helloworld/ 
 
 `mkdir ~/src/catalog/helloworld/image/centos`{{execute}}
 
