@@ -1,11 +1,11 @@
-Execute the following commands:
+To add your organisation name to the build, run the following command:
 
 Here we have used
-Organization name as SDS
+Organization name as BlueData
 
-`export BASE_IMG_ORGNAME='sds'`{{execute}}
+`export BASE_IMG_ORGNAME='BlueData'`{{execute}}
 
-Version as 1.0
+To identify your build, you add a build version to image. To do so run the following command:
 
 `export BASE_IMG_VERSION='1.0'`{{execute}}
 
