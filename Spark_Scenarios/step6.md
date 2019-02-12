@@ -16,7 +16,6 @@ Setting the organization name.
 
 Task 4:
 Adding a new Catalog Entry.
-
 <br>`catalog new --distroid spark221 --name "Spark 2.2.1 on centos7x" --desc "Spark 2.2.1" --categories Spark --version 1.0`{{execute}}
 
 Task 5:
@@ -27,14 +26,12 @@ Task 5:
 
 Task 6:
 <b>This section define one or more services that are mapped on a per-role basis</b>
-
 <br>`service add --srvcid spark --name "Spark master" --scheme "http" --port 8080 --path "/" --display --onroles controller`{{execute}}
 <br><br>`service add --srvcid spark_master --name "Spark master" --scheme "spark" --port 7077 --export_as "spark" --sysctl spark-master --onroles controller`{{execute}}
 <br><br>`service add --srvcid spark_worker --name "Spark worker" --scheme "http" --port 8081 --path "/" --display --sysctl spark-slave --onroles controller worker`{{execute}}
 
 Task 7:
 <b>Appconfiguration autogenenration</b>
-
 <b>This perticular image use EPIC api version 7 for automated application configuration </b>
 `appconfig autogen --new --configapi 7`{{execute}}
 
@@ -44,12 +41,11 @@ Task 7:
 
 Task 8:
 Replacing Pattern from Some files.
-
 <b>To obtain the total number of virtual CPU cores assigned to the Controller node and any Worker node(s) in the cluster</b>
 `appconfig autogen --execute total_vcores.sh --onroles controller worker`{{execute}}
 
 <b>To obtain both the URL of the Spark Master service running on the Controller/worker node and the total number of virtual CPU cores assigned to the virtual cluster</b>
-<br><br>`appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller" --pattern @@@@SPARK_MAX_CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker`{{execute}}
+<br>`appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pattern @@@@SPARK_MASTER@@@@ --macro "GET_SERVICE_URL spark_master controller" --pattern @@@@SPARK_MAX_CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker`{{execute}}
 
 <b>To obtain FQDNs of all of the virtual nodes, total amount of VRAM, in MB, total number of virtual CPU cores</b>
 <br><br>`appconfig autogen --replace /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-env.sh --pattern @@@@MASTER_HOST@@@@ --macro "GET_FQDN_LIST controller" --pattern @@@@MEMORY@@@@ --macro "echo $(GET_TOTAL_VMEMORY_MB)m" --pattern @@@@CORES@@@@ --macro "GET_TOTAL_VCORES" --onroles controller worker`{{execute}}
