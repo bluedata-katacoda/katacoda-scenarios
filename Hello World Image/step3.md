@@ -1,11 +1,11 @@
 
 Now that we have App Workbench installed
 
-Install Git
+Execute the below command to install Git
 
 `yum install -y git`{{execute}}
 
-Create a directory and navigate to it
+In order to prepare to do a git clone of a project, lets create a directory and navigate to it:
 
 `mkdir /tmp/samples`{{execute}}
 
