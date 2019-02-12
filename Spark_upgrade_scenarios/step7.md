@@ -15,7 +15,7 @@ Unzip the file<br>
 Check files under appconfig directory<br>
 `ls appconfig`{{execute}}
 
-<strong>scripts run inside each container during cluster creation are located in the appconfig folder</strong>
+Make sure you see following files unders appconfig folder:
 
 appjob,         jupyterhub_config.py,  sq_kernel.json,       total_vcores.sh,
 core-site.xml,  logging.sh  ,          start_jupyterhub.sh , utils.sh,
@@ -23,8 +23,7 @@ hadoop ,        macros.sh  ,           start_jupyter.sh,spark-slave,
 jupyter ,       p_kernel.json  ,       startscript,
 jupyterhub  ,   spark  ,               systemd.service
 
-These are the files that are required for Spark Application Image.<br>
-Here <b>Start script</b> is a script file which contains code to start all service(s).<br>
+<b>Start script</b> is a script file which contains code to start all service(s).<br>
 
 <br><b>spark-slave</b> file which is used for bringing up and down the spark slave service.
 
