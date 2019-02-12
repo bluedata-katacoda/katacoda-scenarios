@@ -12,7 +12,7 @@ To view the contents of the Dockerfile, you can use vi, vim, or cat out the cont
 <br>`cat ~/Spark/image/centos/Dockerfile`{{execute}}
 
 You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host. 
-<br>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on. 
+<br>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on. <br>
 <br>Blue Data provides their own base image, which you can use by simply putting the following command at the top of your Dockerfile: 
 <br><b>FROM bluedata/centos7:latest</b>
 <br>
