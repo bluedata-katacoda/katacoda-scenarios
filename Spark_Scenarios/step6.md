@@ -47,7 +47,6 @@ Task 8:
 <br><br>`appconfig autogen --replace /etc/init.d/spark-slave --pattern @@@@FQDN@@@@ --macro GET_NODE_FQDN --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --pattern @@@@SPARK_MASTER@@@@  --macro "GET_SERVICE_URL spark_master controller" --onroles controller worker`{{execute}}
 <br><br>`appconfig autogen --replace /etc/init.d/spark-master --pattern @@@@FQDN@@@@ --macro GET_FQDN_LIST controller --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --pattern @@@@SPARK_HOME@@@@ --macro "echo /usr/lib/spark/spark-2.2.1-bin-hadoop2.7" --onroles controller worker`{{execute}}
 
-
 <br>`appconfig autogen --generate`{{execute}}
 <br>`appconfig package`{{execute}}
 
@@ -59,7 +58,7 @@ Task 10:
 <br><b>Catalog the package for image</b>
 <br><b>Pulls all of the pieces together and builds the .bin file</b>
 `image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0`{{execute}}
-<br><br>`image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker`{{execute}}
-<br><br>`catalog save --filepath staging/spark221e1.json --force`{{execute}}
-<br><br>`sources package`{{execute}}
-<br><br>`catalog package`{{execute}}
+<br>`image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker`{{execute}}
+<br>`catalog save --filepath staging/spark221e1.json --force`{{execute}}
+<br>`sources package`{{execute}}
+<br>`catalog package`{{execute}}
