@@ -22,7 +22,7 @@ logging.sh  <br>
 macros.sh  <br>
 startscript  <br>
 utils.sh<br>
-<br>image/
+image/
 
 Above files are required for Spark Application Image development.<br>
 <br>
