@@ -30,8 +30,8 @@ Define all services that are available in the virtual cluster.
 Task 7:
 Appconfiguration autogenenration.
 `appconfig autogen --new --configapi 7`{{execute}}
-<br><br>`appconfig autogen --generate`{{execute}}
-<br><br>`appconfig package`{{execute}}
+<br>`appconfig autogen --generate`{{execute}}
+<br>`appconfig package`{{execute}}
 
 Task 8:
 Setting the logo for bin.
@@ -40,7 +40,7 @@ Setting the logo for bin.
 Task 9:
 Catalog the package for image
 `image build --basedir image/centos --image-repotag bluedata/mysql-centos7:1.0`{{execute}}
-<br><br>`image package --image-repotag bluedata/mysql-centos7:1.0 --os centos7 --roles controller`{{execute}}
-<br><br>`catalog save --filepath staging/mysql-centos7.json --force`{{execute}}
-<br><br>`sources package`{{execute}}
-<br><br>`catalog package`{{execute}}
+<br>`image package --image-repotag bluedata/mysql-centos7:1.0 --os centos7 --roles controller`{{execute}}
+<br>`catalog save --filepath staging/mysql-centos7.json --force`{{execute}}
+<br>`sources package`{{execute}}
+<br>`catalog package`{{execute}}
