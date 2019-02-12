@@ -7,6 +7,12 @@ Navigate to the helloWorld-auto directory
 
 `cd solutions/ImageSamples/helloWorld-auto`{{execute}}
 
+Execute the below command to list all the files and folders
+
 `ls -R`{{execute}}
 
-Make sure that the appconfig/index.html, helloworld-app.wb, helloworld-logo.png and image/centos/Dockerfile are present
+Make sure that you see the following files or directories:
+appconfig/index.html,<br>
+helloworld-app.wb,<br>
+helloworld-logo.png<br> 
+image/centos/Dockerfile 
