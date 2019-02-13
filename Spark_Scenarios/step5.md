@@ -18,7 +18,7 @@ To view the content of configure_java8.sh  file, execute the below command.
 
 <b>Task 3:<br>
 Copy the spark-slave file in to spark directory.</b>
-<br><b>spark-slave</b> file which is used for bringing up and down the spark slave service.
+<br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service.
 <br>`cp ~/test/spark-slave ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-slave  file Please execute the below command.
@@ -26,7 +26,7 @@ To view the content of spark-slave  file Please execute the below command.
 
 <b>Task 4:<br>
 Copy the spark-master file in to spark directory.</b>
-<br><b>spark-master</b> file which is used for bringing up and down the spark master service.
+<br><b>spark-master</b> file is a service script to start/stop/get-status of the Spark-slave service
 <br>`cp ~/test/spark-master ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-master  file Please execute the below command.
