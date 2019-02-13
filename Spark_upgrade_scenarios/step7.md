@@ -26,7 +26,7 @@ spark-defaults.conf,
 <br>spark-master, 
 <br>spark-slave,      
 spark-env.sh,            
-<br>hadoop,                      
+hadoop,                      
 pam_mkhomedir.sh,  
 systemd.service,
 <br>jupyter,
@@ -41,10 +41,10 @@ total_vcores.sh,
 <br>rstudio,
 <br>rstudioserver,
 <br>start_rstudioserver.sh,
-sq_kernel.json,                      
+<br>sq_kernel.json,                      
 shinyserver,
 <br>start_shinyserver.sh,
-shiro.ini 
+<br>shiro.ini 
 
 <b>Start script</b> is a script file which contains code to start all service(s).<br>
 
