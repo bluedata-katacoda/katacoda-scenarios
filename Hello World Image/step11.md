@@ -1,6 +1,6 @@
 
-By executing the .wb file a new directory will be created named as deliverables and this directory contains the helloworld .bin file
-`cd deliverables`{{execute}}
+By executing the .wb file a new directory will be created named as deliverables and this directory contains the helloworld .bin file<br>
+`cd deliverables`{{execute}}<br>
 `ls`{{execute}}
 
 Congratulations you have successfully created the helloworld .bin file
