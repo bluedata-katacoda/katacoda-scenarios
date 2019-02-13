@@ -7,7 +7,7 @@ We already have a reference json file. We just need to replace the current json 
 To view the content of the file, execute the following
 <br>`cat ~/Source/CDH/cdh515.json`{{execute}}
 
-<b>Json file</b> Contains the application registration and deployment information.
+<b>Json file</b> Contains the application registration and deployment information.<br>
 <br>
 <strong>Json file contain below sections<br></strong>
 <br>
