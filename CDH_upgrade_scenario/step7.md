@@ -15,7 +15,7 @@ To view the content of the file, execute the following
   
 <li><strong>Identification</strong></li>
 <br>
-The example snippet for identification
+<b>The example snippet for identification:</b>
 <br>
 "distro_id": "bluedata/cdh515_centos7x"<br>
 "label": {<br>
@@ -29,10 +29,15 @@ The example snippet for identification
 <br>
 <strong>distro_id </strong> is unique identifier for either a Catalog entry or a versioned set of Catalog entries.
 <br>The <strong>label</strong> is a property contains the following parameters:<br>
+
 <strong>name</strong> which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
+
 <br><strong>description</strong> which is a longer, more detailed blurb about the entry.
+
 <br><strong>version </strong>is a discriminator between multiple Catalog entries that share the same distro ID.
+
 <br><strong>epic_compatible_versions</strong> lists the EPIC platform versions where this Catalog entry may be used.
+
 <br><strong>categories</strong> is a list of strings used by the EPIC interface to group Catalog entries during cluster creation.
 <br>
 <br>Note: Changes that needs to be done in json file for upgrading CDH image is:
@@ -41,7 +46,7 @@ Name and distro_id needs to be updated  based on the version of the CDH image to
 <br>
 <li><strong>Components</strong></li>
 <br>
-The example snippet for components
+<b>The example snippet for components:</b>
 <br>
 "image": {<br>
  "checksum": "65cd4ffd0cac3feec3e0719ae4f3dbcd",
@@ -54,12 +59,13 @@ The example snippet for components
 },<br>
 <br>
 <br><strong>image</strong>  is a property that identifies the location for the image used to launch virtual nodes for this Catalog entry. 
+
 <br><strong>setup_package</strong>  is similar to the image property except for the configuration scripts package that runs inside the launched virtual node.
 
 <br>
 <br>
 <li><strong>Services</strong></li><br>
-The example snippet for services 
+<b>The example snippet for services:</b>
 <br>
 "services": [<br>
   {<br>
@@ -82,7 +88,7 @@ The example snippet for services
 <br>
 <li><strong>Node Roles</strong></li>
 
-<br>The example snippet for Node Roles
+<br><b>The example snippet for Node Roles:</b>
 <br>
 "node_roles": [<br>
   {<br>
@@ -99,7 +105,10 @@ The example snippet for services
 <li><strong>Configuration</strong></li>
 <br>
   <strong>Selected Roles-</strong>lists IDs of roles that will be deployed.<br>
+  
   <strong>Node Services-</strong>lists IDs of services that will be present on nodes of a given role, if that role is deployed.<br>
+  
   <strong>Config Metadata-</strong> lists of string key/value pairs that can be referenced by the setup scripts.<br>
+  
  <strong>Config Choices-</strong> lists both the choices available to the UI/API user and the possible selections for each choice.<br>
 </ul>
