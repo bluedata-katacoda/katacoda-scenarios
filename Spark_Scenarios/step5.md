@@ -75,5 +75,5 @@ To view the content of spark-env.sh file Please execute the below command.
 Task 10:<br>
 Copy the logo file in to Spark folder.
 <br>To add a logo to your BIN file, copy the .png file to the following location. For this step, we will use an existing .png file. 
+<br>`cp ~/test/Logo_Spark.png ~/Spark`{{execute}}<br>
 <br>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
-<br>`cp ~/test/Logo_Spark.png ~/Spark`{{execute}}
