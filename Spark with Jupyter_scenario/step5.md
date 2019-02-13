@@ -1,6 +1,6 @@
 In this step we will be creating the bin using BlueData App Workbench by executing the following commands.
 
-<b>.wb</b> file contains a series of App Workbench commands that control the creation of the Catalog Image
+<b>.wb</b> file contains a series of App Workbench commands that control the creation of the Catalog Image<br>
 Please review the link before proceeding for wb file: [Link](http://docs.bluedata.com/awb34_applications-with-multiple-images)
 
  Task 1:
