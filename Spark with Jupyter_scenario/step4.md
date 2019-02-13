@@ -102,13 +102,13 @@ p_kernel.json
 <p align="center">total_vcores.sh</p>
 
 appjob&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;start_jupyter.sh  
-core-site.xml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jupyterhub_config.py  
-spark&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startscript
-hadoop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logging.sh            
-sq_kernel.json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;systemd.service
-jupyter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;macros.sh             
-start_jupyterhub.sh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total_vcores.sh
-utils.sh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+core-site.xml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jupyterhub_config.py  
+spark&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startscript
+hadoop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logging.sh            
+sq_kernel.json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;systemd.service
+jupyter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;macros.sh             
+start_jupyterhub.sh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total_vcores.sh
+utils.sh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
