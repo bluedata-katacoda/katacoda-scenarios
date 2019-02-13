@@ -86,7 +86,7 @@ p_kernel.json
 </pre>
 
 <pre>
-appjob                    spark
+appjob\r \r \rspark
 </pre>
 
 
