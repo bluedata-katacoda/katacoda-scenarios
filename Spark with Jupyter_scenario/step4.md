@@ -73,18 +73,6 @@ Task3:
 <br>`cp ~/test/Logo_Spark.png ~/Spark`{{execute}}<br>
 <b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
 
-<pre style="font-family:.SF NS Text">
-appjob                     spark                
-core-site.xml              sq_kernel.json
-hadoop                     start_jupyterhub.sh
-jupyter                    start_jupyter.sh  
-jupyterhub                 startscript
-jupyterhub_config.py       systemd.service
-logging.sh                 total_vcores.sh 
-macros.sh                  utils.sh
-p_kernel.json
-</pre>
-
 
 
 
