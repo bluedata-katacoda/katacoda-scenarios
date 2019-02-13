@@ -1,8 +1,8 @@
 In this step we would be creating files to setup spark, hadoop and java configurations.
 We already have reference files, we can just copy them to appropriate location.
 
-<b>Task 1:<br>
-Copy the appjob utility file in to appconfig directory.</b>
+Task 1:<br>
+Copy the appjob utility file in to appconfig directory.
 <br><b>appjob</b> provides the information on the type job to be launched and we can also add application specific jobs.
 <br>`cp ~/test/appjob  ~/Spark/appconfig`{{execute}}
 <br>
