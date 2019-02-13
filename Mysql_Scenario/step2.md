@@ -13,6 +13,16 @@ Next, we need to create a skeleton file structure. To do so execute the followin
 To list all the files and folders created by the bdwb command, execute the following :<br>
 `ls -R`{{execute}}
 
+Make sure that you see the following files or directories:
+<br>appconfig/<br>
+appjob  <br>
+logging.sh  <br>
+macros.sh  <br>
+startscript  <br>
+utils.sh<br>
+systemd.service<br>
+image/
+
 <br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.
 <br>
 <br><b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle.
