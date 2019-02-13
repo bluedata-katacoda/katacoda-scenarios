@@ -101,7 +101,7 @@ p_kernel.json
 <p align="center"> macros.sh</p>
 <p align="center">total_vcores.sh</p>
 
-appjobemspstart_jupyter.sh  
+appjob&emsp;start_jupyter.sh  
 
 
 core-site.xml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jupyterhub_config.py  
