@@ -73,7 +73,7 @@ Task3:
 <br>`cp ~/test/Logo_Spark.png ~/Spark`{{execute}}<br>
 <b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
 
-<pre style="font-family:verdana, arial, helvetica">
+<pre style="font-family:Segoe UI">
 appjob                     spark                
 core-site.xml              sq_kernel.json
 hadoop                     start_jupyterhub.sh
@@ -85,32 +85,7 @@ macros.sh                  utils.sh
 p_kernel.json
 </pre>
 
-<p align="left">appjob </p>
-<p align="left">p_kernel.json </p>
-<p align="justify">spark  </p>
-<p align="left">hadoop</p>
-<p align="justify">sq_kernel.json</p>
-<p align="left">jupyter </p>
-<p align="left">utils.sh</p>
 
-<p align="justify">jupyterhub </p>
-<p align="justify">start_jupyter.sh </p>
-<p align="center">startscript</p>
-<p align="center">logging.sh</p>
-<p align="center">systemd.service</p>
-<p align="center"> macros.sh</p>
-<p align="center">total_vcores.sh</p>
-
-appjob&emsp;start_jupyter.sh  
-
-
-core-site.xml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jupyterhub_config.py  
-spark&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startscript
-hadoop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logging.sh            
-sq_kernel.json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;systemd.service
-jupyter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;macros.sh             
-start_jupyterhub.sh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total_vcores.sh
-utils.sh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
