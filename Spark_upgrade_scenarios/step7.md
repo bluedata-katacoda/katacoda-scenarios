@@ -26,7 +26,6 @@ spark-defaults.conf,
 <br>spark-master, 
 <br>spark-slave,      
 spark-env.sh,            
-start_shinyserver.sh,
 <br>hadoop,                      
 pam_mkhomedir.sh,  
 systemd.service,
@@ -40,10 +39,11 @@ systemd.service,
 p_kernel.json,     
 total_vcores.sh,
 <br>rstudio,
-<br>rstudioserver,            
+<br>rstudioserver,
+<br>start_rstudioserver.sh,
 sq_kernel.json,                      
 shinyserver,
-<br>start_rstudioserver.sh,       
+<br>start_shinyserver.sh,
 shiro.ini 
 
 <b>Start script</b> is a script file which contains code to start all service(s).<br>
@@ -75,6 +75,16 @@ shiro.ini
 <br><b>systemd.service</b> It is init system used to bootstrap the user space and to manage system processes after booting.
 
 <br><b>jupyter and jupyterhub</b> contains all the required configuration to run jupyter and jupyterhub.
+
+<br><b>rstudio</b> is a free and open-source integrated development environment for R, a programming language for statistical computing and graphics. 
+
+<br><b>rstudioserver</b> is a Linux server application that provides a web browser based interface to the version of R running on the server.
+
+<br><b>start_rstudioserver.sh</b> file is a service script to start/stop/get-status of the rstudio service.
+
+<br><b>shinyserver</b> is a back end program, it builds a web server specifically designed to host Shiny apps.
+
+<br><b>start_shinyserver.sh</b> file is a service script to start/stop/get-status of the shiny service.
   
 Remove the zip file from the folder<br>
 `rm -rf appconfig.zip`{{execute}}
