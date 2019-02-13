@@ -42,7 +42,7 @@ To view the content of total_vcores.sh file. Please execute the below command.
 
 <b>Task 6:<br>
 Copy the core-site.xml file in to appconfig directory</b>
-<br><b>core-site.xml</b> these files are used to setup Hadoop related configurations
+<br><b>core-site.xml</b> files are used to setup Hadoop related configurations
 <br>`cp ~/test/core-site.xml ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of core-site.xml file Please execute the below command.
@@ -50,7 +50,7 @@ To view the content of core-site.xml file Please execute the below command.
 
 <b>Task 7:<br>
 Copy the spark-defaults.conf file in to appconfig directory.</b>
-</br><b>spark-defaults.conf file</b> is a Default system properties included when running spark-submit . 
+</br><b>spark-defaults.conf file</b> is a default system properties included when running spark-submit . 
 <br>`cp ~/test/spark-defaults.conf ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-defaults.conf file Please execute the below command.
@@ -58,7 +58,7 @@ To view the content of spark-defaults.conf file Please execute the below command
 
 <b>Task 8:<br>
 Copy the hadoop file in to appconfig directory.</b>
-<br><b>hadoop</b> these files are used to setup Hadoop related configurations
+<br><b>hadoop</b> files are used to setup Hadoop related configurations
 <br>`cp ~/test/hadoop ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of hadoop file Please execute the below command.
@@ -66,7 +66,7 @@ To view the content of hadoop file Please execute the below command.
 
 <b>Task 9:<br>
 Copy the spark-env.sh file in to spark directory.</b>
-<br><b>spark-env.sh</b> This file is to setup the spark environment . 
+<br><b>spark-env.sh</b> file is used to setup the spark environment . 
 <br>`cp ~/test/spark-env.sh ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-env.sh file Please execute the below command.
