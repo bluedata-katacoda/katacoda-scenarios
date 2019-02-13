@@ -71,7 +71,7 @@ Remove the zip file from the folder<br>
 `rm -rf appconfig.zip`{{execute}}
 
 
-<table class="tab">
+<table >
   <tr>
     <td class="first">first row</td>
   </tr>
@@ -80,11 +80,7 @@ Remove the zip file from the folder<br>
   </tr>
 </table>
 
-<style>
-.tab {border-collapse:collapse;}
-.tab .first {border-bottom:1px solid #EEE;}
-.tab .second {border-top:1px solid #CCC;box-shadow: inset 0 1px 0 #CCC;}​
-</style>
+
 
 
 
