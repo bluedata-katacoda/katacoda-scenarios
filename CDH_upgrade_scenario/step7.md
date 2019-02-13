@@ -12,8 +12,9 @@ To view the content of the file, execute the following
 <br>
 <strong>Json file contain below sections<br></strong>
 <ul>
+  
 <li><strong>Identification</strong></li>
-
+<br>
 The example snippet for identification
 <br>
 "distro_id": "bluedata/cdh515_centos7x"<br>
