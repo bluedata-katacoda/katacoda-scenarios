@@ -1,5 +1,4 @@
 In this step we will extract the contents of the .bin file.
-
 <br>For this, execute the following command.<br>
 `./bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.bin --payload`{{execute}}
 <br>
