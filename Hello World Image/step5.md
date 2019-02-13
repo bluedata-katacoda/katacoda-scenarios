@@ -46,7 +46,7 @@ Make sure the folllwing files and directories are present:
 
 
 
-<table style="width:100%";"border-collapse: collapse";>
+
 
   
   <tr>
@@ -62,7 +62,7 @@ Make sure the folllwing files and directories are present:
 <tr>
     <td>image/</td>
   </tr>
-</table>
+
 
 <p align="left">logging.sh</p>
 <p align="right">utils.sh</p>
