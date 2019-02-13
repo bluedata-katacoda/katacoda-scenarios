@@ -25,7 +25,7 @@ startscript  <br>
 utils.sh<br>
 image/
 
-<b>Start script</b>  is a script file which contains code to start all service(s).
+<b>Startscript</b>  is a script file which contains code to start all service(s).
 
 <b>Macros.sh</b> contains the built in macros of BlueData that would be executed during image creation.
 
