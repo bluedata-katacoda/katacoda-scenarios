@@ -46,10 +46,8 @@ Make sure the folllwing files and directories are present:
 
 
 
-<table style="width:100%" border-collapse: collapse;>
- table, th, td {
-  border: 0px;
-}
+<table border='50%' width="100%">
+
   
   <tr>
     <td>appconfig/index.html</td>
