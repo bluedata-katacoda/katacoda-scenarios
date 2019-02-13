@@ -20,7 +20,7 @@ You will now see many commands populate your terminal. These are the commands yo
 <br>
 <br>Blue Data provides their own base image, which you can use by simply adding the following command at the top of your Dockerfile: 
 <br><b>FROM bluedata/centos7:latest</b><br>
-You have ability to craete your own base image<br>
+You have ability to create your own base image<br>
 e.g: FROM ubuntu:12.04, ubuntu:12.04 is used as base image
 <br>
 <br>
