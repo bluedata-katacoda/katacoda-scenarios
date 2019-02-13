@@ -70,6 +70,7 @@ shinyserver,
 <br><b>start_rstudioserver.sh</b> file is a service script to start/stop/get-status of the rstudio service.<br>
 <br><b>shinyserver</b> is a back end program, it builds a web server specifically designed to host Shiny apps.<br>
 <br><b>start_shinyserver.sh</b> file is a service script to start/stop/get-status of the shiny service.<br>
+<br><b>pam_mkhomedir.sh</b> will create a users home directory if it does not exist when the session begins.
   
 Remove the zip file from the folder<br>
 `rm -rf appconfig.zip`{{execute}}
