@@ -28,6 +28,7 @@ To view the content of the file, execute the following
 
 <br>
 <strong>distro_id </strong> is unique identifier for either a Catalog entry or a versioned set of Catalog entries.
+
 <br>The <strong>label</strong> is a property contains the following parameters:<br>
 
 <strong>name</strong> which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
