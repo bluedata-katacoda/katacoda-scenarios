@@ -2,7 +2,7 @@ To begin creating the Mysql application:<br>
 Create a directory on the system named as Mysql.<br>This directory will house all the files and components for the Mysql application.<br>To do this, execute the following command:<br>
 `mkdir ~/Mysql`{{execute}}<br>
 
-Change to your new source directory by executing the following command:<br>
+Navigate to your new source directory by executing the following command:<br>
 `cd ~/Mysql`{{execute}}<br>
 
 Next, we need to create a skeleton file structure. To do so execute the following command:<br>
