@@ -29,7 +29,7 @@ image/
 <br> 
 <br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.
 <br>
-<br><b>Start script</b> is a script file which contains code to start all service(s).
+<br><b>Startscript</b> is a script file which contains code to start all service(s).
 <br> 
 <br><b>systemd.service</b> is used to bootstrap the user space and to manage system processes after booting.
 <br>
