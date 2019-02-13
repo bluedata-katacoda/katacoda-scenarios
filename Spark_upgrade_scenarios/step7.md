@@ -49,6 +49,8 @@ shinyserver,
 <b>Start script</b> is a script file which contains code to start all service(s).<br>
 <br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service<br>
 <br><b>spark-master</b>  file is a service script to start/stop/get-status of the Spark-slave service.<br>
+<br><b>spark-defaults.conf</b> is a default system properties included when running spark-submit.<br>
+<br><b>spark-env.sh</b> is a file to setup the spark environment.<br>
 <br><b>start_jupyterhub.sh</b> file is a service script to start/stop/get-status of the jupyterhub service.<br>
 <br><b>start_jupyter.sh</b> file is a service script to start/stop/get-status of the jupyterhub service.<br>
 <br><b> total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes.<br>
@@ -60,6 +62,8 @@ shinyserver,
 <br><b>core-site.xml,hadoop</b> these files are used to setup Hadoop related configurations.<br>
 <br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
 <br><b>systemd.service</b> It is init system used to bootstrap the user space and to manage system processes after booting.<br>
+<br><b>jupyter-server</b> is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.<br>
+<br><b>jupyterhub_config.py and jupyter_notebook_config.py</b> contains required configuration to setup jupyterhub and jupyter notebook.<br>
 <br><b>jupyter and jupyterhub</b> contains all the required configuration to run jupyter and jupyterhub.<br>
 <br><b>rstudio</b> is a free and open-source integrated development environment for R, a programming language for statistical computing and graphics.<br> 
 <br><b>rstudioserver</b> is a Linux server application that provides a web browser based interface to the version of R running on the server.<br>
