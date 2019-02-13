@@ -16,34 +16,34 @@ Check files under appconfig directory<br>
 `ls appconfig`{{execute}}
 
 Make sure you see following files unders appconfig folder:
-appjob                      
-logging.sh 
-utils.sh
-macros.sh
-startscript
-core-site.xml      
-spark-defaults.conf 
-spark-master 
-spark-slave      
-spark-env.sh            
-start_shinyserver.sh
-hadoop                      
-pam_mkhomedir.sh  
-systemd.service
-jupyter
-jupyterhub
-jupyter_notebook_config.py
-jupyter-server
-jupyterhub_config.py
-start_jupyterhub.sh
-start_jupyter.sh                       
-p_kernel.json     
-total_vcores.sh
-rstudio
-rstudioserver            
-sq_kernel.json                      
-shinyserver
-start_rstudioserver.sh       
+appjob,                      
+logging.sh, 
+utils.sh,
+macros.sh,
+startscript,
+core-site.xml,      
+spark-defaults.conf, 
+spark-master, 
+spark-slave,      
+spark-env.sh,            
+start_shinyserver.sh,
+hadoop,                      
+pam_mkhomedir.sh,  
+systemd.service,
+jupyter,
+jupyterhub,
+jupyter_notebook_config.py,
+jupyter-server,
+jupyterhub_config.py,
+start_jupyterhub.sh,
+start_jupyter.sh,                       
+p_kernel.json,     
+total_vcores.sh,
+rstudio,
+rstudioserver,            
+sq_kernel.json,                      
+shinyserver,
+start_rstudioserver.sh,       
 shiro.ini 
 
 <b>Start script</b> is a script file which contains code to start all service(s).<br>
