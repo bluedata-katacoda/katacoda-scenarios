@@ -37,9 +37,9 @@ Add the appconfig reference files using the below command(Due to space constrain
 
 <b>Start script</b> is a script file which contains code to start all service(s).<br>
 
-<br><b>spark-slave</b> file which is used for bringing up and down the spark slave service.
+<br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service.
 
-<br><b>spark-master</b> file which is used for bringing up and down the spark master service.
+<br><b>spark-master</b> file is a service script to start/stop/get-status of the Spark-slave service.
 
 <br><b>start_jupyterhub.sh</b> file which is used for bringing up and down the jupyterhub service.
 
