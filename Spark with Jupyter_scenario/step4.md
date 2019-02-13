@@ -36,7 +36,7 @@ Add the appconfig reference files using the below command(Due to space constrain
 <br>`ls appconfig`{{execute}}
 
 Make sure you see following files unders appconfig folder:<br>
-<b>Start script</b> is a script file which contains code to start all service(s).
+<b>Startscript</b> is a script file which contains code to start all service(s).
 <br>
 <br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service.
 <br>
@@ -66,6 +66,7 @@ Make sure you see following files unders appconfig folder:<br>
 <br>
 <br><b>jupyter and jupyterhub</b> contains all the required configuration to run jupyter and jupyterhub.
 <br>
+<br><b>p_kernel.json</b> file provides interactive python development for Jupyter.<br>
 <br>Remove the zip file from the folder
 <br>`rm -rf appconfig.zip`{{execute}}
 
