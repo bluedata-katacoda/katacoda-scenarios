@@ -6,6 +6,8 @@ Changes that needs to be done in wb file is: Name and distro_id needs to be upda
 
 <br>-Dockerfile
 
+EPIC always starts with a Dockerfile that explicitly lists all of the software used for building the CDH image and the commands to configure the application.
+
 <br>-json file
 
 Changes that needs to be done in json file is: Name and distro_id needs to be updated based on the version of the Spark image to reflect the changes in the App Store for the upgraded image
