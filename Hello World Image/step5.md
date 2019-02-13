@@ -44,25 +44,3 @@ Make sure the folllwing files and directories are present:
 <br><b>index.html </b> is a web page that will be served by the HTTPD service in this example.<br>
 <br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
 
-
-
-
-
-  
-  <tr>
-    <td>appconfig/index.html</td>
-    <td>appconfig/utils.sh</td> 
-    <td>appconfig/startscript</td>
-  </tr>
-  <tr>
-    <td>appconfig/macros.sh</td>
-    <td>appconfig/logging.sh</td> 
-    <td>appconfig/appjob</td>
-  </tr>
-<tr>
-    <td>image/</td>
-  </tr>
-
-
-<p align="left">logging.sh</p>
-<p align="right">utils.sh</p>
