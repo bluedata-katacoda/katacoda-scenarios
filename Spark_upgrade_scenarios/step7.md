@@ -70,7 +70,7 @@ shinyserver,
 Remove the zip file from the folder<br>
 `rm -rf appconfig.zip`{{execute}}
 
-appjob                      logging.sh        spark-defaults.conf     startscript
+appjob                              logging.sh                spark-defaults.conf             startscript
 core-site.xml               macros.sh         spark-env.sh            start_shinyserver.sh
 hadoop                      pam_mkhomedir.sh  spark-master            systemd.service
 jupyter                     p_kernel.json     spark-slave             total_vcores.sh
