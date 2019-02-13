@@ -85,3 +85,14 @@ macros.sh
 p_kernel.json
 </pre>
 
+<pre>
+appjob               jupyterhub            
+p_kernel.json        start_jupyter.sh  
+core-site.xml        jupyterhub_config.py  
+spark                startscript
+hadoop               logging.sh            
+sq_kernel.json       systemd.service
+jupyter              macros.sh             
+start_jupyterhub.sh  total_vcores.sh
+utils.sh
+</pre>
