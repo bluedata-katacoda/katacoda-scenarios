@@ -1,6 +1,6 @@
 
 
-We need to add additional configuration fils under appconfig directory, We already have a reference configuration files, To add them follow the below steps<br>
+We need to add additional configuration files under appconfig directory, We already have a reference configuration files, To add them follow the below steps<br>
 
 Remove the old appconfig folder from the Spark folder<br>
 `rm -rf appconfig`{{execute}}
