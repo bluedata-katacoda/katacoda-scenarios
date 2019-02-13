@@ -14,7 +14,7 @@ To view the content of the file, execute the following
 <ul>
 <li><strong>Identification</strong></li>
 
-The example snippet for identification:<br>
+The example snippet for identification
 <br>
 "distro_id": "bluedata/cdh515_centos7x"<br>
 "label": {<br>
