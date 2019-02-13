@@ -17,8 +17,8 @@ To make the new image appear in App Store. Copy the bin file to /srv/bluedata/ca
 Make it an executable using the below command 
 `chmod +x bdcatalog-centos7-bluedata-helloworld-10.0.bin`{{execute}}
 
-Go to App Store in the EPIC GUI and click on Refresh button to bring the image in to App Store.
+Go to App Store in the EPIC GUI and click on <b>Refresh</b> button to bring the image in to App Store.
 
-Once the image appears on the App Store click on Install button to install the image.
+Once the image appears on the App Store click on <b>Install</b> button to install the image.
 
 ![alt text](https://dzf8vqv24eqhg.cloudfront.net/userfiles/7467/9720/ckfinder/images/AppWorkbench/Walkthrough/example_3.jpg)
