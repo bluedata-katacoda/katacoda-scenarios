@@ -46,10 +46,8 @@ Make sure the folllwing files and directories are present:
 
 
 
-<table width="100%">
- table, th, td {
-  border: 0px;
-}
+<table border='0' width="100%">
+
   
   <tr>
     <td>appconfig/index.html</td>
