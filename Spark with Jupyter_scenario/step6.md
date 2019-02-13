@@ -5,8 +5,6 @@ The newly built application package (or bundle) is saved in the deliverables dir
 <br>`cd deliverables`{{execute}}
 <br>`ls `{{execute}}
 
-Now you can copy the BIN file to your controller <PROVIDE PATH HERE>. You can now log into your GUI, navigate to the catalog, refresh, and you will see the newly created image available for you to install.
-
 To make the new image appear in App Store
 Copy the bin file to /srv/bluedata/catalog using the following commad
 <br>`cp bdcatalog-centos7-bluedata-spark221-1.0.bin /srv/bluedata/catalog`{{execute}}
