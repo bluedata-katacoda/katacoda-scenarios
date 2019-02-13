@@ -46,7 +46,7 @@ Make sure the folllwing files and directories are present:
 
 
 
-<table width="100%">
+<table style="width:100%";"border-collapse: collapse";>
 
   
   <tr>
