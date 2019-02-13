@@ -70,3 +70,9 @@ shinyserver,
 Remove the zip file from the folder<br>
 `rm -rf appconfig.zip`{{execute}}
 
+
+appconfig/appjob three&nbsp;appconfig/macros.shthree&nbsp;appconfig/startscript
+appconfig/three&nbsp;utils.shappconfig/three&nbsp;index.htmlimage/
+
+
+
