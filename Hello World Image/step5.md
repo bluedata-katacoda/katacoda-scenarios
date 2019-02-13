@@ -46,7 +46,7 @@ Make sure the folllwing files and directories are present:
 
 
 
-<table border='50%' width="100%">
+<table width="100%">
 
   
   <tr>
