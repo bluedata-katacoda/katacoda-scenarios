@@ -17,7 +17,7 @@ Check files under appconfig directory<br>
 
 Make sure you see following files unders appconfig folder:
 appjob,                      
-<br>logging.sh, 
+logging.sh, 
 <br>utils.sh,
 <br>macros.sh,
 <br>startscript,
