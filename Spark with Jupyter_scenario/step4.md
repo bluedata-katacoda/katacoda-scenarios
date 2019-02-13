@@ -32,7 +32,7 @@ Add the appconfig reference files using the below command(Due to space constrain
 <br>Unzip the file<br>
 `unzip appconfig.zip`{{execute}}
 
-<br>Check files under appconfig directory
+<br>Check the files under appconfig directory
 <br>`ls appconfig`{{execute}}
 
 <b>Start script</b> is a script file which contains code to start all service(s).
