@@ -14,7 +14,7 @@ To view the content of the file, execute the following
 <ul>
 <li><strong>Identification</strong></li>
 <br>
-The identification blob appears as follows:<br>
+The example snippet for identification:<br>
 <br>
 "distro_id": "bluedata/cdh515_centos7x"<br>
 "label": {<br>
@@ -39,6 +39,7 @@ Name and distro_id needs to be updated  based on the version of the CDH image to
 
 <br>
 <li><strong>Components</strong></li>
+The example snippet for components
 <br>
 "image": {<br>
  "checksum": "65cd4ffd0cac3feec3e0719ae4f3dbcd",
@@ -56,7 +57,7 @@ Name and distro_id needs to be updated  based on the version of the CDH image to
 <br>
 <br>
 <li><strong>Services</strong></li><br>
-The services blob appears as follows:
+The example snippet for services 
 <br>
 "services": [<br>
   {<br>
@@ -75,10 +76,10 @@ The services blob appears as follows:
     
    <br>
   In this example, services is a list of service objects.
-<br>The defined <strong>services</strong> will be referenced by other elements of this JSON file to determine which services are active on which nodes     within the cluster. <br>
+<br>The defined <strong>services</strong> will be referenced by other elements of this JSON file to determine which services are active on which nodes  within the cluster. <br>
 <br>
 <li><strong>Node Roles</strong></li>
-The Node Roles blob appears as follows:
+The example snippet for Node Roles
 <br>
 "node_roles": [<br>
   {<br>
