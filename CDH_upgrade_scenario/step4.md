@@ -6,7 +6,7 @@ Changes that needs to be done in wb file is: Name and distro_id needs to be upda
 
 <br>-Dockerfile
 
-EEPIC always starts with a Dockerfile, here we need to explicitly list all of the software used for building the CDH image as for the CDH  version that we are going to build and the commands to configure the application.
+EPIC always starts with a Dockerfile, here we need to explicitly list all of the software used for building the CDH image and also add all the required dependencies as for the CDH  version that we are going to build and the commands to configure the application.
 
 <br>-json file
 
