@@ -66,6 +66,8 @@ Make sure you see following files unders appconfig folder:<br>
 <br>
 <br><b>jupyter and jupyterhub</b> contains all the required configuration to run jupyter and jupyterhub.
 <br>
+<br><b>spark-env.sh</b> This file is to setup the spark environment .
+
 <br>Remove the zip file from the folder
 <br>`rm -rf appconfig.zip`{{execute}}
 
