@@ -16,12 +16,23 @@ Check files under appconfig directory<br>
 `ls appconfig`{{execute}}
 
 Make sure you see following files unders appconfig folder:
-
-appjob,         jupyterhub_config.py,  sq_kernel.json,       total_vcores.sh,
-core-site.xml,  logging.sh  ,          start_jupyterhub.sh , utils.sh,
-hadoop ,        macros.sh  ,           start_jupyter.sh,spark-slave,
-jupyter ,       p_kernel.json  ,       startscript,
-jupyterhub  ,   spark  ,               systemd.service
+appjob,<br>         
+jupyterhub_config.py, <br>  
+sq_kernel.json, <br>       
+total_vcores.sh,<br> 
+core-site.xml,<br>  
+logging.sh,<br>           
+start_jupyterhub.sh,<br>  
+utils.sh,<br> 
+hadoop,<br>         
+macros.sh,<br>            
+start_jupyter.sh,spark-slave,<br> 
+jupyter,<br>        
+p_kernel.json,<br>        
+startscript,<br> 
+jupyterhub, <br>   
+spark, <br>            
+systemd.service
 
 <b>Start script</b> is a script file which contains code to start all service(s).<br>
 
