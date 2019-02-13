@@ -77,11 +77,11 @@ Task3:
 appjob                     spark                
 core-site.xml              sq_kernel.json
 hadoop                     start_jupyterhub.sh
-jupyter                    start_jupyter.sh  utils.sh
+jupyter                    start_jupyter.sh  
 jupyterhub                 startscript
 jupyterhub_config.py       systemd.service
 logging.sh                 total_vcores.sh 
-macros.sh 
+macros.sh                  utils.sh
 p_kernel.json
 </pre>
 
