@@ -35,7 +35,7 @@ Add the appconfig reference files using the below command(Due to space constrain
 <br>Check files under appconfig directory
 <br>`ls appconfig`{{execute}}
 
-<b>Start script</b> is a script file which contains code to start all service(s).<br>
+<b>Start script</b> is a script file which contains code to start all service(s).
 <br>
 <br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service.
 <br>
@@ -59,7 +59,7 @@ Add the appconfig reference files using the below command(Due to space constrain
 <br>
 <br><b>core-site.xml,hadoop</b> these files are used to setup Hadoop related configurations
 <br>
-<br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
+<br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.
 <br>
 <br><b>systemd.service</b> is used to bootstrap the user space and to manage system processes after booting.
 <br>
