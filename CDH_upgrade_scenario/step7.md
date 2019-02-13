@@ -15,7 +15,7 @@ To view the content of the file, execute the following
   
 <li><strong>Identification</strong></li>
 <br>
-<b>The example snippet for identification:</b>
+<b>Below is the example snippet for identification:</b>
 <br>
 "distro_id": "bluedata/cdh515_centos7x"<br>
 "label": {<br>
@@ -47,7 +47,7 @@ Name and distro_id needs to be updated  based on the version of the CDH image to
 <br>
 <li><strong>Components</strong></li>
 <br>
-<b>The example snippet for components:</b>
+<b>Below is the example snippet for components:</b>
 <br>
 "image": {<br>
  "checksum": "65cd4ffd0cac3feec3e0719ae4f3dbcd",
@@ -66,7 +66,7 @@ Name and distro_id needs to be updated  based on the version of the CDH image to
 <br>
 <br>
 <li><strong>Services</strong></li><br>
-<b>The example snippet for services:</b>
+<b>Below is the example snippet for services:</b>
 <br>
 "services": [<br>
   {<br>
