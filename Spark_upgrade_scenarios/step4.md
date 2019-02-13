@@ -6,6 +6,6 @@ Changes that needs to be done in wb file is: Name and distro_id needs to be upda
 
 <br>-Dockerfile
 
-EPIC always starts with a Dockerfile, here we need to explicitly list all of the software used for building the Spark image as for the version of the Spark that we are going to build and the commands to configure the application.
+EPIC always starts with a Dockerfile, here we need to explicitly list all of the software used for building the Spark image and also add all the required dependencies as for the Spark version that we are going to build and the commands to configure the application.
 
 In the next few steps we will be modifying these files to upgrade our application image.
