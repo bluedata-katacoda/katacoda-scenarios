@@ -50,7 +50,7 @@ To view the content of core-site.xml file Please execute the below command.
 
 <b>Task 7:<br>
 Copy the spark-defaults.conf file in to appconfig directory.</b>
-</br><b>spark-defaults.conf file</b> This is Default system properties included when running spark-submit . 
+</br><b>spark-defaults.conf file</b> is a Default system properties included when running spark-submit . 
 <br>`cp ~/test/spark-defaults.conf ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-defaults.conf file Please execute the below command.
