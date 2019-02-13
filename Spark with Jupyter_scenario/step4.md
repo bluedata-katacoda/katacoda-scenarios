@@ -85,8 +85,21 @@ macros.sh                  utils.sh
 p_kernel.json
 </pre>
 
-<p align="right">A right-aligned paragraph.</p><p align="left">A light-aligned paragraph.</p><p align="right">A right-aligned paragraph.</p><p align="right">A right-aligned paragraph.</p>
-<p align="right">A right-aligned paragraph.</p>
+<p align="left">appjob </p>
+<p align="left">p_kernel.json </p>
+<p align="left">spark  </p>
+<p align="left">hadoop</p>
+<p align="left">sq_kernel.json</p>
+<p align="left">jupyter </p>
+<p align="left">utils.sh</p>
+
+<p align="center">jupyterhub </p>
+<p align="center">start_jupyter.sh </p>
+<p align="center">startscript</p>
+<p align="center">logging.sh</p>
+<p align="center">systemd.service</p>
+<p align="center"> macros.sh</p>
+<p align="center">total_vcores.sh</p>
 
 
 
