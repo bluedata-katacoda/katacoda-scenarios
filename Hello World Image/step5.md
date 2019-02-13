@@ -46,7 +46,7 @@ Make sure the folllwing files and directories are present:
 
 
 
-<table style="width:100%" "border:none">
+<table style="width:100%">
   
   <tr>
     <td>appconfig/index.html</td>
@@ -55,7 +55,7 @@ Make sure the folllwing files and directories are present:
   </tr>
   <tr>
     <td>appconfig/macros.sh</td>
-    <td>appconfig/logging.sh/td> 
+    <td>appconfig/logging.sh</td> 
     <td>appconfig/appjob</td>
   </tr>
 <tr>
