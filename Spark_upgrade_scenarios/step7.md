@@ -38,12 +38,12 @@ systemd.service,
 <br>start_jupyterhub.sh,
 <br>start_jupyter.sh,                       
 p_kernel.json,     
-<br>total_vcores.sh,
-rstudio,
-rstudioserver,            
+total_vcores.sh,
+<br>rstudio,
+<br>rstudioserver,            
 sq_kernel.json,                      
 shinyserver,
-start_rstudioserver.sh,       
+<br>start_rstudioserver.sh,       
 shiro.ini 
 
 <b>Start script</b> is a script file which contains code to start all service(s).<br>
