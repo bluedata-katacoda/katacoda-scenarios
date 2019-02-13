@@ -87,14 +87,14 @@ p_kernel.json
 
 <p align="left">appjob </p>
 <p align="left">p_kernel.json </p>
-<p align="left">spark  </p>
+<p align="justify">spark  </p>
 <p align="left">hadoop</p>
-<p align="left">sq_kernel.json</p>
+<p align="justify">sq_kernel.json</p>
 <p align="left">jupyter </p>
 <p align="left">utils.sh</p>
 
-<p align="center">jupyterhub </p>
-<p align="center">start_jupyter.sh </p>
+<p align="justify">jupyterhub </p>
+<p align="justify">start_jupyter.sh </p>
 <p align="center">startscript</p>
 <p align="center">logging.sh</p>
 <p align="center">systemd.service</p>
