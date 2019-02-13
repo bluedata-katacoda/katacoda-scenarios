@@ -71,46 +71,4 @@ Remove the zip file from the folder<br>
 `rm -rf appconfig.zip`{{execute}}
 
 
-<table >
-  <tr>
-    <td class="first">first row</td>
-  </tr>
-  <tr>
-    <td class="second">second row</td>
-  </tr>
-</table>
-
-
-<head>
-<style>
-table, td, th {
-  
-}
-
-#table2 {
-
-  border: 0;
-}
-</style>
-</head>
-<body>
-
-<h2>border-collapse: collapse:</h2>
-<table id="table2">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-  </tr>
-  <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-  </tr>
-  <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
-  </tr>
-</table>
-
-</body>
-
 
