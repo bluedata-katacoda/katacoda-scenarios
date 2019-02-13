@@ -17,7 +17,7 @@ Check files under appconfig directory<br>
 
 Make sure you see following files unders appconfig folder:<br>
 
-<b>Start script</b> is a script file which contains code to start all service(s).<br>
+<b>Startscript</b> is a script file which contains code to start all service(s).<br>
 <br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service<br>
 <br><b>spark-master</b>  file is a service script to start/stop/get-status of the Spark-slave service.<br>
 <br><b>spark-defaults.conf</b> is a default system properties included when running spark-submit.<br>
