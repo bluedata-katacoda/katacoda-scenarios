@@ -41,9 +41,9 @@ systemd.service
 
 <br><b>spark-master</b>  file is a service script to start/stop/get-status of the Spark-slave service.
 
-<br><b>start_jupyterhub.sh</b> file which is used for bringing up and down the jupyterhub service.
+<br><b>start_jupyterhub.sh</b> file is a service script to start/stop/get-status of the jupyterhub service.
 
-<br><b>start_jupyter.sh</b> file which is used for bringing up and down the jupyter service.
+<br><b>start_jupyter.sh</b> file is a service script to start/stop/get-status of the jupyterhub service.
 
 <br><b> total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes.
 
