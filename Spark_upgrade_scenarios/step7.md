@@ -2,7 +2,7 @@
 
 We need to add additional configuration files under appconfig directory, We already have a reference configuration files, To add them follow the below steps<br>
 
-Remove the old appconfig folder from the Spark folder<br>
+Remove the existing appconfig folder from the Spark folder<br>
 `rm -rf appconfig`{{execute}}
 
 Add the appconfig reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)<br>
