@@ -66,7 +66,11 @@ Make sure you see following files unders appconfig folder:<br>
 <br>
 <br><b>jupyter and jupyterhub</b> contains all the required configuration to run jupyter and jupyterhub.
 <br>
+<br><b>spark-defaults.conf</b> is a default system properties included when running spark-submit.<br>
+<br><b>spark-env.sh</b> is a file to setup the spark environment.<br>
 <br><b>p_kernel.json</b> file provides interactive python development for Jupyter.<br>
+<br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service<br>
+<br><b>spark-master</b>  file is a service script to start/stop/get-status of the Spark-slave service.<br>
 <br>Remove the zip file from the folder
 <br>`rm -rf appconfig.zip`{{execute}}
 
