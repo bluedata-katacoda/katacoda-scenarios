@@ -39,6 +39,7 @@ Name and distro_id needs to be updated  based on the version of the CDH image to
 
 <br>
 <li><strong>Components</strong></li>
+<br>
 The example snippet for components
 <br>
 "image": {<br>
@@ -79,7 +80,8 @@ The example snippet for services
 <br>The defined <strong>services</strong> will be referenced by other elements of this JSON file to determine which services are active on which nodes  within the cluster. <br>
 <br>
 <li><strong>Node Roles</strong></li>
-The example snippet for Node Roles
+
+<br>The example snippet for Node Roles
 <br>
 "node_roles": [<br>
   {<br>
