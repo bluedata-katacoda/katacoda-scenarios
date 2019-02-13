@@ -15,7 +15,7 @@ Unzip the file<br>
 Check files under appconfig directory<br>
 `ls appconfig`{{execute}}
 
-Make sure you see following files unders appconfig folder:
+Make sure you see following files unders appconfig folder:<br>
 appjob,                      
 logging.sh, 
 <br>utils.sh,
