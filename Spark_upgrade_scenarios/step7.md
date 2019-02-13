@@ -71,8 +71,20 @@ Remove the zip file from the folder<br>
 `rm -rf appconfig.zip`{{execute}}
 
 
-appconfig/appjob&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;appconfig/macros.sh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;appconfig/startscript
-<br>appconfig/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;utils.shappconfig&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.htmlimage/
+<table class="tab">
+  <tr>
+    <td class="first">first row</td>
+  </tr>
+  <tr>
+    <td class="second">second row</td>
+  </tr>
+</table>
+
+<style>
+.tab {border-collapse:collapse;}
+.tab .first {border-bottom:1px solid #EEE;}
+.tab .second {border-top:1px solid #CCC;box-shadow: inset 0 1px 0 #CCC;}​
+</style>
 
 
 
