@@ -36,35 +36,35 @@ Add the appconfig reference files using the below command(Due to space constrain
 <br>`ls appconfig`{{execute}}
 
 <b>Start script</b> is a script file which contains code to start all service(s).<br>
-
+<br>
 <br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service.
-
+<br>
 <br><b>spark-master</b> file is a service script to start/stop/get-status of the Spark-slave service.
-
+<br>
 <br><b>start_jupyterhub.sh</b> file which is used for bringing up and down the jupyterhub service.
-
+<br>
 <br><b>start_jupyter.sh</b> file which is used for bringing up and down the jupyter service.
-
+<br>
 <br><b> total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes.
-
+<br>
 <br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.
-
+<br>
 <br><b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle. 
-
+<br>
 <br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
-
+<br>
 <br><b>p_kernel.json</b> file provides interactive python development for Jupyter.
-
+<br>
 <br><b> sq_kernel.json</b> file provides interactive SQL interpreter for Jupyter.
-
+<br>
 <br><b>core-site.xml,hadoop</b> these files are used to setup Hadoop related configurations
-
+<br>
 <br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
-
+<br>
 <br><b>systemd.service</b> is used to bootstrap the user space and to manage system processes after booting.
-
+<br>
 <br><b>jupyter and jupyterhub</b> contains all the required configuration to run jupyter and jupyterhub.
-
+<br>
 <br>Remove the zip file from the folder
 <br>`rm -rf appconfig.zip`{{execute}}
 
