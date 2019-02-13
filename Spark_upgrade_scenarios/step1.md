@@ -8,6 +8,6 @@ To check what version of the Application Workbench is running, please execute th
 `bdwb --version`{{execute}}
 
 <br>
-Now, to begin let us create the directory
+Now, to begin let us create the directory. This directory will house all the files and components necessary to create the application image. 
 <br>`mkdir ~/Source`{{execute}}<br>
 `mkdir ~/Source/Spark`{{execute}}
