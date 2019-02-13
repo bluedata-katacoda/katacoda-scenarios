@@ -47,7 +47,6 @@ shinyserver,
 <br>shiro.ini 
 
 <b>Start script</b> is a script file which contains code to start all service(s).<br>
-
 <br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service
 
 <br><b>spark-master</b>  file is a service script to start/stop/get-status of the Spark-slave service.
