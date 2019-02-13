@@ -70,5 +70,12 @@ shinyserver,
 Remove the zip file from the folder<br>
 `rm -rf appconfig.zip`{{execute}}
 
-
+appjob                      logging.sh        spark-defaults.conf     startscript
+core-site.xml               macros.sh         spark-env.sh            start_shinyserver.sh
+hadoop                      pam_mkhomedir.sh  spark-master            systemd.service
+jupyter                     p_kernel.json     spark-slave             total_vcores.sh
+jupyterhub                  rstudio           sq_kernel.json          utils.sh
+jupyterhub_config.py        rstudioserver     start_jupyterhub.sh
+jupyter_notebook_config.py  shinyserver       start_jupyter.sh
+jupyter-server              shiro.ini         start_rstudioserver.sh
 
