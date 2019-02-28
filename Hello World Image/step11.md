@@ -5,11 +5,10 @@ By executing the .wb file a new directory will be created named as deliverables 
 
 Congratulations you have successfully created the helloworld .bin file
 
-To make the new image appear in App Store. Copy the bin file to /srv/bluedata/catalog using the following commad 
-`cp bdcatalog-centos7-bluedata-helloworld-10.0.bin /srv/bluedata/catalog`{{execute}}
-
 Make it an executable using the below command 
 `chmod +x bdcatalog-centos7-bluedata-helloworld-10.0.bin`{{execute}}
+
+To make the new image appear in App Store. Copy the bin file to /srv/bluedata/catalog 
 
 Go to App Store in the EPIC GUI and click on <b>Refresh</b> button to bring the image in to App Store.
 
