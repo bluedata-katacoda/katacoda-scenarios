@@ -1,9 +1,9 @@
-Let's build a CentOS 7 base image.
+Let's Start App workbench Tutorial 
 
-Create a directory for base images and navigate to it
+App Workbench – A tool provided by BlueData to create, assemble, and share dockerized applications running on BlueData
 
-`mkdir -p ~/src/base_images.`{{execute}}
-
-`cd ~/src/base_images.`{{execute}}
-
-You are in the base image directory.
+App workbench is a python based sdk created to package
+Docker images
+Cluster orchestration scripts
+Application configurations 
+into a Bluedata distribution (.bin) package 
