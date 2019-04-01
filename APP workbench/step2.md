@@ -1,13 +1,18 @@
-Retrieve the BlueData base image for CentOS 7
+Manual installation exercise
 
-`bdwb --baseimg centos7`{{execute}}
+Goal: Install java, Spark, Webssh on all nodes
 
-A CentOS 7 directory will be created in the current directory. Navigate to it.
+1. Download scripts from 
+`wget –O https://s3.amazonaws.com/bluedata-training/scripts/manual_install.zip`
 
-`cd centos7`{{execute}}
+2. Configure Java on all nodes 
 
-List of contents
+3. Install Spark on all nodes
 
-`ls -a`{{execute}}
+4. Install WebSSH on controller
 
-Make sure the Build.sh, Makefile and Template are present. 
+5. Add a link to WebSSH from UI
+
+6. Add a user “john” using script 
+
+7. Login as “john” “bluedata123”. Run command: /usr/lib/spark/spark*/bin/spark-shell
