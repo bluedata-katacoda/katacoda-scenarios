@@ -1,5 +1,10 @@
 Manual installation exercise
 
+Skills needed
+Ability to install applications manually
+Familiarity with shell and python scripting
+Linux admin skills
+
 Goal: Install java, Spark, Webssh on all nodes
 
 1. Download scripts from 
