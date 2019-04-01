@@ -16,3 +16,11 @@ Goal: Install java, Spark, Webssh on all nodes
 6. Add a user “john” using script 
 
 7. Login as “john” “bluedata123”. Run command: /usr/lib/spark/spark*/bin/spark-shell
+
+Manual install is similar to installing on  physical machines or VMs
+Software installation should be moved to Dockerfile
+Configuration and startscripts should move to appconfig scripts
+Roles and services are defined in metadata json file
+Services are mapped to roles
+Systemctl scripts are needed to register services to BlueData
+
