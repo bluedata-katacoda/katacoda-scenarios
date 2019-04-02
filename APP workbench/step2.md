@@ -10,6 +10,13 @@ Goal: Install java, Spark, Webssh on all nodes
 1. Download scripts from 
 `wget –O https://s3.amazonaws.com/bluedata-training/scripts/manual_install.zip`
 
+(Extract the bdworkbench-*-tar.gz file using the gunzip utility.
+Change directory into bdworkbench-*.
+Execute the command sudo python setup.py install.)
+
+To install app workbench dependencies using yum:
+$> `yum install -y python-setuptools`
+
 2. Configure Java on all nodes 
 
 3. Install Spark on all nodes
