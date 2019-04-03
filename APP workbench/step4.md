@@ -15,7 +15,7 @@
 <br>Most Big Data applications require running multiple services per node, and running different sets of services on different nodes. The set of services that run on a given node is controlled by the role assigned to that node.
 <br>The Catalog metadata JSON file includes the application name, ID, version, logo, and UI preferences. This JSON file also includes a list of the services, roles, and role-to-service assignments that will be used when a cluster is created from that image.
 
-<li>Startscripts<li>
+<li>Startscripts</li>
 <br>The application package (.bin file) contains all of the scripts that are executed as part of the cluster bring-up process, as well as logic to start services that must be run on node(s) assigned to one or more specific role(s) defined in the metadata JSON file.
 
 <li>Creating the .bin File</li>
