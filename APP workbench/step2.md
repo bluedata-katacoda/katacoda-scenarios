@@ -1,3 +1,21 @@
+Application Classification and Integration Patterns
+
+Big Data Application Classification :
+Big Data applications fall into the following categories:
+<ol>
+  <li>Data ingestion (Ingress)</li>
+  <li>Data storage</li>
+  <li>Data processing and machine learning</li>
+  <li>View or output (Egress)</li>
+  </ol>
+
+Application Integration Patterns
+Users can connect to Big Data applications in three ways:
+1.From a desktop/laptop computer
+2.As Edge/client nodes
+3.Embedded with Hadoop
+
+
 Manual installation exercise
 
 Skills needed
