@@ -12,7 +12,8 @@ Execute the below command to list all the files and folders
 `ls -R`{{execute}}
 
 Make sure that you see the following files or directories:<br>
-appconfig/index.html,<br>
-helloworld-app.wb,<br>
-helloworld-logo.png<br> 
-image/centos/Dockerfile 
+
+<li>appconfig/index.html</li><br>
+<li>helloworld-app.wb</li><br>
+<li>helloworld-logo.png</li><br> 
+<li>image/centos/Dockerfile</li> 
