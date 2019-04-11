@@ -16,11 +16,13 @@ To list all the files and folders created by the bdwb command, execute the follo
 Make sure that you see the following files or directories:
 <li>appconfig/</li>
 <li>appjob</li>
-<li>logging.sh</li>  <li>macros.sh</li>  
-<li>startscript</li>  
+<li>logging.sh</li>
+<li>macros.sh</li>
+<li>startscript</li>
 <li>utils.sh</li>
 <li>systemd.service</li>
 <li>image/</li>
+
 
 <br><b><li>Appjob:</li></b> Provides the information on the type of job to be launched and we can also add application specific jobs.
 <br>
