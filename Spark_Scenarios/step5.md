@@ -3,7 +3,6 @@ We already have reference files, we can just copy them to appropriate location.
 
 Task 1:<br>
 Copy the appjob utility file in to appconfig directory.
-<br><b>appjob</b> provides the information on the type job to be launched and we can also add application specific jobs.
 <br>`cp ~/test/appjob  ~/Spark/appconfig`{{execute}}
 <br>
 <br>To view the content of appjob file, execute the below command.
@@ -73,13 +72,14 @@ Copy the logo file in to Spark folder.
 
 
 Explanations for the configurations files used for creation of spark image:
-<b><li>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service
-<br><b><li>spark-master</b> file is a service script to start/stop/get-status of the Spark-master service
-<br><b><li>total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes
-<br><b><li>core-site.xml</b> files are used to setup Hadoop related configurations
-</br><b><li>spark-defaults.conf file</b> is a default system properties included when running spark-submit
-<br><b><li>hadoop</b> files are used to setup Hadoop related configurations
-<br><b><li>spark-env.sh</b> file is used to setup the spark environment
+<br><b><li>Appjob:</b> Provides the information on the type job to be launched and we can also add application specific jobs.
+<br><b><li>Spark-slave:</b> It is a service script to start/stop/get-status of the Spark-slave service
+<br><b><li>Spark-master:</b> It is a service script to start/stop/get-status of the Spark-master service
+<br><b><li>Total_vcores.sh:</b> It is a file which is used to obtain the total number of virtual CPU cores assigned to the nodes
+<br><b><li>Core-site.xml:</b> It is used to setup Hadoop related configurations
+</br><b><li>Spark-defaults.conf file:</b> It is a default system properties included when running spark-submit
+<br><b><li>Hadoop:</b> It is used to setup Hadoop related configurations
+<br><b><li>Spark-env.sh:</b> It is used to setup the spark environment
 
 
 
