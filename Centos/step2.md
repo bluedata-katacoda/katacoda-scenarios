@@ -18,8 +18,9 @@ Make sure the folllwing files and directories are present:
 <li>Makefile</li>
 <li>Template</li> 
 
-<b>Build.sh</b> is a file that contains a build script to build the centos7 image<br>
+
+<b><li>Build.sh:<li></b> is a file that contains a build script to build the centos7 image<br>
 <br>
-<b>Makefile</b> is a program building tool which runs on Unix or Linux<br>
+<b><li>Makefile:<li></b> is a program building tool which runs on Unix or Linux<br>
 <br>
-<b>Template</b> is a directory that houses the Dockerfile.template and limits-90-nproc.conf files<br>
+<b><li>Template:<li></b> is a directory that houses the Dockerfile.template and limits-90-nproc.conf files<br>
