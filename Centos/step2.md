@@ -12,7 +12,11 @@ To list the contents inside centos7 directory execute the below command
 
 `ls -a`{{execute}}
 
-Make sure the Build.sh, Makefile and Template are present. 
+Make sure the folllwing files and directories are present:
+
+<li>Build.sh</li>
+<li>Makefile</li>
+<li>Template</li> 
 
 <b>Build.sh</b> is a file that contains a build script to build the centos7 image<br>
 <br>
