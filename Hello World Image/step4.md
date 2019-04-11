@@ -13,7 +13,7 @@ Execute the below command to list all the files and folders
 
 Make sure that you see the following files or directories:<br>
 
-<li>appconfig/index.html</li><br>
-<li>helloworld-app.wb</li><br>
-<li>helloworld-logo.png</li><br> 
+<li>appconfig/index.html</li>
+<li>helloworld-app.wb</li>
+<li>helloworld-logo.png</li>
 <li>image/centos/Dockerfile</li> 
