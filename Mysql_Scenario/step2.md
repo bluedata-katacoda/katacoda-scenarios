@@ -26,12 +26,12 @@ Make sure that you see the following files or directories:
 
 <br><b><li>Appjob:</li></b> Provides the information on the type of job to be launched and we can also add application specific jobs.
 <br>
+<br><b><li>Startscript:</li></b> It is a script file which contains code to start all service(s).
+<br> 
 <br><b><li>Logging.sh:</li></b> Provides the logging facilities for a catalog configuration bundle.
 <br> 
 <br><b><li>Macros.sh:</li></b> Contains all the built in macros of BlueData that would be executed during image creation.
 <br>
-<br><b><li>Startscript:</li></b> It is a script file which contains code to start all service(s).
-<br> 
 <br><b><li>Systemd.service:</li></b> It is used to bootstrap the user space and to manage system processes after booting.
 <br>
 <br><b><li>Utils.sh:</li></b> Contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
