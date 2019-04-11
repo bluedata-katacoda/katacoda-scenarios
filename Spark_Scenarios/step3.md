@@ -5,6 +5,7 @@ The next step is to create a Dockerfile.
 <br>
 Let’s go ahead and create a Dockerfile inside the newly created centos folder.
 <br>
+
 For your reference, we have already created a ready Dockerfile in the ~/test directory. We will copy that file into the centos folder using the following command:
 <br>`cp ~/test/Dockerfile ~/Spark/image/centos`{{execute}}
 
