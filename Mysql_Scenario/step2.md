@@ -15,23 +15,23 @@ To list all the files and folders created by the bdwb command, execute the follo
 
 Make sure that you see the following files or directories:
 <br>appconfig/<br>
-appjob  <br>
-logging.sh  <br>
-macros.sh  <br>
-startscript  <br>
-utils.sh<br>
-systemd.service<br>
-image/
+<li>appjob</li>
+<li>logging.sh</li>  
+<li>macros.sh</li>  
+<li>startscript</li>  
+<li>utils.sh</li>
+<li>systemd.service</li>
+<li>image/</li>
 
-<br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.
+<br><b><li>appjob:</li></b> provides the information on the type of job to be launched and we can also add application specific jobs.
 <br>
-<br><b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle.
+<br><b><li>Logging.sh:</li></b> provides the logging facilities for a catalog configuration bundle.
 <br> 
-<br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.
+<br><b><li>Macros.sh:</li></b> contains all the built in macros of BlueData that would be executed during image creation.
 <br>
-<br><b>Startscript</b> is a script file which contains code to start all service(s).
+<br><b><li>Startscript:</li></b> is a script file which contains code to start all service(s).
 <br> 
-<br><b>systemd.service</b> is used to bootstrap the user space and to manage system processes after booting.
+<br><b><li>Systemd.service:</li></b> is used to bootstrap the user space and to manage system processes after booting.
 <br>
-<br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
+<br><b><li>Utils.sh:</li></b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
 
