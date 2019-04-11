@@ -17,10 +17,10 @@ Next, we need to create a skeleton file structure. To do so execute the followin
 
 Make sure that you see the following files or directories:
 <li>appconfig/</li>
-<li>appjob</li> 
+<li>appjob</li>
+<li>macros.sh</li> 
 <li>startscript</li>
-<li>logging.sh</li>  
-<li>macros.sh</li>    
+<li>logging.sh</li>     
 <li>utils.sh</li>
 <li>image/</li>
 
