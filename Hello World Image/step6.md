@@ -14,17 +14,17 @@ Copy the sample Dockerfile cloned from BlueData GitHub in to the directory we ju
 To view the contents of the Dockerfile, execute the following command:<br>
 `cat ~/src/catalog/helloworld/image/centos/Dockerfile`{{execute}}
 
-You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host. <br>
-<br>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on. 
+<li>You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host</li><br>
+<br><li>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on</li> 
 
-Blue Data provides their own base image, which you can use by simply adding the following command at the top of your Dockerfile: 
+<li>Blue Data provides their own base image, which you can use by simply adding the following command at the top of your Dockerfile:</li> 
 <br><b>FROM bluedata/centos7:latest</b><br>
 
 You have ability to create your own base image.<br>
 e.g: <b>FROM ubuntu:12.04</b>, ubuntu:12.04 is the base image used here.
 <br>
 <br>
-All the commands proceeding the base image, are the commands used to setup the application. 
+<li>All the commands proceeding the base image, are the commands used to setup the application</li>
 
-These files or commands will be setup on top of the base image from BlueData and will eventually compile into a .Bin file for use on the EPIC platform. 
+<li>These files or commands will be setup on top of the base image from BlueData and will eventually compile into a .Bin file for use on the EPIC platform</li> 
 
