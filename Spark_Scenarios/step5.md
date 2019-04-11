@@ -71,8 +71,9 @@ Copy the logo file in to Spark folder.
 <br>`cp ~/test/Logo_Spark.png ~/Spark`{{execute}}<br>
 <br><b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
 
+
 Explanations for the configurations files used for creation of spark image:
-<br><b><li>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service
+<b><li>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service
 <br><b><li>spark-master</b> file is a service script to start/stop/get-status of the Spark-master service
 <br><b><li>total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes
 <br><b><li>core-site.xml</b> files are used to setup Hadoop related configurations
