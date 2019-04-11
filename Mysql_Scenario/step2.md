@@ -14,7 +14,7 @@ To list all the files and folders created by the bdwb command, execute the follo
 `ls -R`{{execute}}
 
 Make sure that you see the following files or directories:
-<br>appconfig/<br>
+<li>appconfig/</li>
 <li>appjob</li>
 <li>logging.sh</li>  
 <li>macros.sh</li>  
