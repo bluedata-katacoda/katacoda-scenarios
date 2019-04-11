@@ -36,11 +36,11 @@ Make sure the folllwing files and directories are present:
   
   <li>image/</li>
   
-<br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
-<br><b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle.<br> 
-<br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.<br>
-<br><b>Start script</b> is a script file which contains code to start all service(s).<br> 
-<br><b>systemd.service</b> is used to bootstrap the user space and to manage system processes after booting.<br>
-<br><b>index.html </b> is a web page that will be served by the HTTPD service in this example.<br>
-<br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
+<br><b><li>appjob:</li></b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
+<br><b><li>Logging.sh:</li></b> provides the logging facilities for a catalog configuration bundle.<br> 
+<br><b><li>Macros.sh:</li></b> contains all the built in macros of BlueData that would be executed during image creation.<br>
+<br><b><li>Start script:</li></b> is a script file which contains code to start all service(s).<br> 
+<br><b><li>systemd.service:</li></b> is used to bootstrap the user space and to manage system processes after booting.<br>
+<br><b><li>index.html:</li></b> is a web page that will be served by the HTTPD service in this example.<br>
+<br><b><li>Utils.sh:</li></b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
 
