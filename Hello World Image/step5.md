@@ -24,17 +24,17 @@ Make sure the folllwing files and directories are present:
 
   <li>appconfig/appjob</li>
   
-  appconfig/logging.sh
+  <li>appconfig/logging.sh</li>
   
-  appconfig/macros.sh
+  <li>appconfig/macros.sh</li>
   
-  appconfig/startscript
+  <li>appconfig/startscript</li>
   
-  appconfig/utils.sh
+  <li>appconfig/utils.sh</li>
  
-  appconfig/index.html  
+  <li>appconfig/index.html</li>  
   
-  image/
+  <li>image/</li>
   
 <br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
 <br><b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle.<br> 
