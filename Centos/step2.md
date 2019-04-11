@@ -20,6 +20,7 @@ Make sure the folllwing files and directories are present:
 
 
 
+
 <b><li>Build.sh:</li></b>It is a file that contains a build script to build the centos7 image<br>
 <br>
 <b><li>Makefile:</li></b> It is a program building tool which runs on Unix or Linux<br>
