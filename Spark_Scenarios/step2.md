@@ -26,7 +26,7 @@ Make sure that you see the following files or directories:
 
 Above files are required for Spark Application Image development.<br>
 <br>
-Here <b><li>Startscript</li></b> is a script file which contains code to start all service(s). 
+<b><li>Startscript</li></b> is a script file which contains code to start all service(s). 
 <br>
 <br><b><li>Macros.sh</li></b> contains all the built in macros of BlueData that would be executed during image creation.
 <br>
