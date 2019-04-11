@@ -23,7 +23,7 @@ Make sure that you see the following files or directories:
 <li>systemd.service</li>
 <li>image/</li>
 
-<br><b><li>appjob:</li></b> Provides the information on the type of job to be launched and we can also add application specific jobs.
+<br><b><li>Appjob:</li></b> Provides the information on the type of job to be launched and we can also add application specific jobs.
 <br>
 <br><b><li>Logging.sh:</li></b> Provides the logging facilities for a catalog configuration bundle.
 <br> 
