@@ -21,5 +21,7 @@ To view the content of Dockerfile please execute the following command.<br>
 <br><b>FROM bluedata/centos7:latest</b></li>
 You have ability to create your own base image.<br>
 e.g: <b>FROM ubuntu:12.04</b>, ubuntu:12.04 is the base image used here.
+
+
 <br><li>All the commands proceeding the base image, are the commands used to setup the application</li><br>
 <li>These files or commands will be setup on top of the base image from BlueData and will eventually compile into a .Bin file for use on the EPIC platform</li> 
