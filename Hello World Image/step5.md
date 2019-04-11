@@ -22,7 +22,7 @@ Next, we need to create a skeleton file structure. To do so execute the followin
 
 Make sure the folllwing files and directories are present:
 
-  appconfig/appjob
+  <li>appconfig/appjob</li>
   
   appconfig/logging.sh
   
