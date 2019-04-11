@@ -16,23 +16,23 @@ Next, we need to create a skeleton file structure. To do so execute the followin
 `ls -R`{{execute}}
 
 Make sure that you see the following files or directories:
-<br>appconfig/<br>
-appjob  <br>
-logging.sh  <br>
-macros.sh  <br>
-startscript  <br>
-utils.sh<br>
-image/
+<li>appconfig/</li>
+<li>appjob</li> 
+<li>logging.sh</li>  
+<li>macros.sh</li>  
+<li>startscript</li>  
+<li>utils.sh</li>
+<li>image/</li>
 
 Above files are required for Spark Application Image development.<br>
 <br>
-Here <b>Startscript</b> is a script file which contains code to start all service(s). 
+Here <b><li>Startscript</li></b> is a script file which contains code to start all service(s). 
 <br>
-<br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.
+<br><b><li>Macros.sh</li></b> contains all the built in macros of BlueData that would be executed during image creation.
 <br>
-<br><b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle. 
+<br><b><li>Logging.sh</li></b> provides the logging facilities for a catalog configuration bundle. 
 <br>
-<br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.<br>
-<br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
+<br><b><li>Utils.sh</li></b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.<br>
+<br><b><li>Appjob</li></b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
 <br>Now, we will create a folder called “centos” inside the empty image directory. Execute the following command to do so :
 <br>`mkdir ~/Spark/image/centos`{{execute}}
