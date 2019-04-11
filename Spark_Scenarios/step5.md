@@ -18,7 +18,6 @@ To view the content of configure_java8.sh  file, execute the below command.
 
 Task 3:<br>
 Copy the spark-slave file in to spark directory.
-<br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service.
 <br>`cp ~/test/spark-slave ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-slave  file Please execute the below command.
@@ -26,7 +25,6 @@ To view the content of spark-slave  file Please execute the below command.
 
 Task 4:<br>
 Copy the spark-master file in to spark directory.
-<br><b>spark-master</b> file is a service script to start/stop/get-status of the Spark-slave service
 <br>`cp ~/test/spark-master ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-master  file Please execute the below command.
@@ -34,7 +32,6 @@ To view the content of spark-master  file Please execute the below command.
 
 Task 5:<br>
 Copy the total_vcores.sh script file in to appconfig directory.
-<br><b> total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes.
 <br>`cp ~/test/total_vcores.sh ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of total_vcores.sh file. Please execute the below command.
@@ -42,15 +39,13 @@ To view the content of total_vcores.sh file. Please execute the below command.
 
 Task 6:<br>
 Copy the core-site.xml file in to appconfig directory
-<br><b>core-site.xml</b> files are used to setup Hadoop related configurations
 <br>`cp ~/test/core-site.xml ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of core-site.xml file Please execute the below command.
 <br>`cat ~/Spark/appconfig/core-site.xml`{{execute}}
 
 Task 7:<br>
-Copy the spark-defaults.conf file in to appconfig directory.
-</br><b>spark-defaults.conf file</b> is a default system properties included when running spark-submit . 
+Copy the spark-defaults.conf file in to appconfig directory. 
 <br>`cp ~/test/spark-defaults.conf ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-defaults.conf file Please execute the below command.
@@ -58,7 +53,6 @@ To view the content of spark-defaults.conf file Please execute the below command
 
 Task 8:<br>
 Copy the hadoop file in to appconfig directory.
-<br><b>hadoop</b> files are used to setup Hadoop related configurations
 <br>`cp ~/test/hadoop ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of hadoop file Please execute the below command.
@@ -66,7 +60,6 @@ To view the content of hadoop file Please execute the below command.
 
 Task 9:<br>
 Copy the spark-env.sh file in to spark directory.
-<br><b>spark-env.sh</b> file is used to setup the spark environment . 
 <br>`cp ~/test/spark-env.sh ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-env.sh file Please execute the below command.
@@ -77,3 +70,15 @@ Copy the logo file in to Spark folder.
 <br>To add a logo to your BIN file, copy the .png file to the following location. For this step, we will use an existing .png file. 
 <br>`cp ~/test/Logo_Spark.png ~/Spark`{{execute}}<br>
 <br><b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
+
+Explanations for the configurations files used for creation of spark image:
+<br><b><li>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service</li>
+<br><b><li>spark-master</b> file is a service script to start/stop/get-status of the Spark-master service
+<br><b><li>total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes
+<br><b><li>core-site.xml</b> files are used to setup Hadoop related configurations
+</br><b><li>spark-defaults.conf file</b> is a default system properties included when running spark-submit
+<br><b><li>hadoop</b> files are used to setup Hadoop related configurations
+<br><b><li>spark-env.sh</b> file is used to setup the spark environment
+
+
+
