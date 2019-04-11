@@ -18,7 +18,7 @@ To view the contents of the Dockerfile, execute the following command:<br>
 <li>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on</li> 
 
 <br><li>Blue Data provides their own base image, which you can use by simply adding the following command at the top of your Dockerfile:</li> 
-<br><b>FROM bluedata/centos7:latest</b><br>
+<b>FROM bluedata/centos7:latest</b><br>
 
 You have ability to create your own base image.<br>
 e.g: <b>FROM ubuntu:12.04</b>, ubuntu:12.04 is the base image used here.
