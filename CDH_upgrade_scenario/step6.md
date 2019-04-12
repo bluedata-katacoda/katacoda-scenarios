@@ -14,8 +14,7 @@ copy the Dockerfile into the centos folder using the following command:
 <br>`cp ~/test/Dockerfile ~/Source/CDH/image/centos/`{{execute}}<br>
 <br>Execute the following command To view the contents of the Dockerfile:
 <br>`cat ~/Source/CDH/image/centos/Dockerfile`{{execute}}<br>
-
-<li>You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host
+<br><li>You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host
   
 <br><li>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on
 <br>
@@ -23,7 +22,6 @@ copy the Dockerfile into the centos folder using the following command:
 <br><b>FROM bluedata/centos7:latest</b><br>
 You have ability to create your own base image.<br>
 e.g: <b>FROM ubuntu:12.04</b>, ubuntu:12.04 is the base image used here.
-<br>
 <br>
 <li>All the commands proceeding the base image, are the commands used to setup the application
   
