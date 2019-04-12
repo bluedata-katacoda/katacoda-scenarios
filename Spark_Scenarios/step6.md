@@ -1,43 +1,43 @@
 In this step we will be creating the bin using BlueData App Workbench by executing the following commands.
 
-Task 1:
+<b>Task 1:</b>
 <br>Navigate to Spark folder.
 <br>`cd ~/Spark`{{execute}}
 
 <b>.wb</b> file contains a series of App Workbench commands that control the creation of the Catalog Image
 <br>Please review the link before proceeding for wb file: [Link](http://docs.bluedata.com/awb34_applications-with-multiple-images)
 
-Task 2:
+<b>Task 2:</b>
 <br>Go to Bluedata Workbench.
 <br>`bdwb`{{execute}}
 
-Task 3:
+<b>Task 3:</b>
 <br>Setting the organization name.
 <br>`builder organization --name BlueData`{{execute}}
 
-Task 4:
+<b>Task 4:</b>
 <br>Adding a new Catalog Entry.
 <br>`catalog new --distroid spark221 --name "Spark 2.2.1 on centos7x" --desc "Spark 2.2.1" --categories Spark --version 1.0`{{execute}}
 
-Task 5:
+<b>Task 5:</b>
 <br>This is to define node roles for the virtual cluster
 <br>`role add controller 1`{{execute}}
 <br>`role add worker 0+`{{execute}}
 
 
-Task 6:
+<b>Task 6:</b>
 <br>This section define one or more services that are mapped on a per-role basis
 <br>`service add --srvcid spark --name "Spark master" --scheme "http" --port 8080 --path "/" --display --onroles controller`{{execute}}
 <br><br>`service add --srvcid spark_master --name "Spark master" --scheme "spark" --port 7077 --export_as "spark" --sysctl spark-master --onroles controller`{{execute}}
 <br><br>`service add --srvcid spark_worker --name "Spark worker" --scheme "http" --port 8081 --path "/" --display --sysctl spark-slave --onroles controller worker`{{execute}}
 
-Task 7:
+<b>Task 7:</b>
 <br>Appconfiguration autogenenration
 <br>`appconfig autogen --new --configapi 7`{{execute}}
 <br><br>`appconfig autogen --pkgfile spark/spark-defaults.conf --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-defaults.conf --pkgfile spark/spark-env.sh --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/spark-env.sh --pkgfile spark/spark-master --dest /etc/init.d/ --pkgfile spark/spark-slave --dest /etc/init.d/ --onroles controller worker`{{execute}}
 <br><br>`appconfig autogen --pkgfile core-site.xml --dest /usr/lib/spark/spark-2.2.1-bin-hadoop2.7/conf/core-site.xml --pkgfile hadoop --dest /usr/bin/hadoop --pkgfile appjob --dest /opt/bluedata/vagent/guestconfig/appconfig/appjob --onroles controller worker`{{execute}}
 
-Task 8:
+<b>Task 8:</b>
 <br>Replacing Pattern
 <br>`appconfig autogen --execute total_vcores.sh --onroles controller worker`{{execute}}
 
@@ -52,11 +52,11 @@ Task 8:
 <br>`appconfig autogen --generate`{{execute}}
 <br>`appconfig package`{{execute}}
 
-Task 9:
+<b>Task 9:</b>
 <br>Setting the logo for image
 <br>`logo file --filepath Logo_Spark.png`{{execute}}
 
-Task 10:
+<b>Task 10:</b>
 <br>Catalog the package for image
 <br>`image build --basedir image/centos --image-repotag bluedata/sparkbase:2.0`{{execute}}
 <br>`image package --image-repotag bluedata/sparkbase:2.0 --os centos7  --roles controller worker`{{execute}}
