@@ -7,7 +7,7 @@ We have already referenced the files that are needed, all you would need to do i
 <br>It is always good to check what version of Spark you are using to understand the dependencies you may need setup in your base image.
 
 
-Task1:
+<b>Task1:</b>
 <br>Copy the pre-made jupyter script to the centos folder:<br>
 `cp ~/test/configure_jupyter.sh ~/Spark/image/centos`{{execute}}
 
@@ -19,7 +19,7 @@ You will see the steps required to setup jupyter listed.
 Next, copy over the java script:.<br>
 `cp ~/test/configure_java8.sh ~/Spark/image/centos`{{execute}}
 
-Task2: 
+<b>Task2:</b> 
 <br>We need to add additional configuration files under the appconfig directory. We have already made these files for you, to add them in, please execute the following commands:
 <br>Remove the appconfig folder from the Spark folder<br>
 `rm -rf appconfig`{{execute}}
@@ -72,7 +72,7 @@ Make sure you see following files unders appconfig folder:<br>
 <br>Remove the zip file from the folder
 <br>`rm -rf appconfig.zip`{{execute}}
 
-Task3:
+<b>Task3:</b>
 <br>When our image is ready to deploy in the EPIC Application Catalog, we need to include a picture that represents the image. For your reference, we have already created a .png file for your use.
 <br>`cp ~/test/Logo_Spark.png ~/Spark`{{execute}}<br>
 <br><b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
