@@ -1,6 +1,6 @@
 Creating bin using App Workbench by executing the following commands.
 
-Task 1:</b>
+<b>Task 1:</b>
 <br>Go inside the Mysql folder.
 <br>`cd ~/Mysql`{{execute}}
 
