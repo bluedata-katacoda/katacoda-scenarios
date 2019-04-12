@@ -27,7 +27,7 @@ To view the content of the file, execute the following
 "categories": [ "Hadoop", "HBase" ],<br>
 
 <br>
-<strong>distro_id </strong> is unique identifier for either a Catalog entry or a versioned set of Catalog entries.
+<strong>distro_id </strong> is a unique identifier for either a Catalog entry or a versioned set of Catalog entries.
 <br>
 <br>The <strong>label</strong> is a property contains the following parameters:<br>
 <br>
