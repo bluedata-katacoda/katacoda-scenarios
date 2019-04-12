@@ -16,7 +16,7 @@ Task 2:
 <br>
 
  Task 3:
-<br>Execute the wb file<br>
+<br>Execute the .wb file<br>
 `./Spark.wb`{{execute}}
 
 After executing the above command wait for sometime until bin gets created!!
