@@ -8,12 +8,14 @@ Copy the appjob utility file in to appconfig directory.
 <br>To view the content of appjob file, execute the below command.
 <br>`cat  ~/Spark/appconfig/appjob`{{execute}}
 
+
 Task 2:<br>
 Copy the configure java file in to centos directory
 <br>`cp ~/test/configure_java8.sh ~/Spark/image/centos`{{execute}}
 <br><br>
 To view the content of configure_java8.sh  file, execute the below command.
 <br>`cat ~/Spark/image/centos/configure_java8.sh`{{execute}}
+
 
 Task 3:<br>
 Copy the spark-slave file in to spark directory.
@@ -22,12 +24,14 @@ Copy the spark-slave file in to spark directory.
 To view the content of spark-slave  file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-slave`{{execute}}
 
+
 Task 4:<br>
 Copy the spark-master file in to spark directory.
 <br>`cp ~/test/spark-master ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-master  file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-master`{{execute}}
+
 
 Task 5:<br>
 Copy the total_vcores.sh script file in to appconfig directory.
@@ -36,12 +40,14 @@ Copy the total_vcores.sh script file in to appconfig directory.
 To view the content of total_vcores.sh file. Please execute the below command.
 <br>`cat ~/Spark/appconfig/total_vcores.sh`{{execute}}
 
+
 Task 6:<br>
 Copy the core-site.xml file in to appconfig directory
 <br>`cp ~/test/core-site.xml ~/Spark/appconfig`{{execute}}
 <br><br>
 To view the content of core-site.xml file Please execute the below command.
 <br>`cat ~/Spark/appconfig/core-site.xml`{{execute}}
+
 
 Task 7:<br>
 Copy the spark-defaults.conf file in to appconfig directory. 
@@ -50,6 +56,7 @@ Copy the spark-defaults.conf file in to appconfig directory.
 To view the content of spark-defaults.conf file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-defaults.conf`{{execute}}
 
+
 Task 8:<br>
 Copy the hadoop file in to appconfig directory.
 <br>`cp ~/test/hadoop ~/Spark/appconfig`{{execute}}
@@ -57,12 +64,14 @@ Copy the hadoop file in to appconfig directory.
 To view the content of hadoop file Please execute the below command.
 <br>`cat ~/Spark/appconfig/hadoop`{{execute}}
 
+
 Task 9:<br>
 Copy the spark-env.sh file in to spark directory.
 <br>`cp ~/test/spark-env.sh ~/Spark/appconfig/spark`{{execute}}
 <br><br>
 To view the content of spark-env.sh file Please execute the below command.
 <br>`cat ~/Spark/appconfig/spark/spark-env.sh`{{execute}}
+
 
 Task 10:<br>
 Copy the logo file in to Spark folder.
