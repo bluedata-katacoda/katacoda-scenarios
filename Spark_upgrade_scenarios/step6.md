@@ -28,7 +28,7 @@ e.g: <b>FROM ubuntu:12.04</b>, ubuntu:12.04 is the base image used here.
 <br>
 <br>
 <li>All the commands proceeding the base image, are the commands used to setup the application<br> 
-  
+
 <li>These files or commands will be setup on top of the base image from BlueData and will eventually compile into a .Bin file for use on the EPIC platform. 
 
 Copy java8.sh file to centos directory<br> 
