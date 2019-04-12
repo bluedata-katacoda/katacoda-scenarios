@@ -1,0 +1,37 @@
+{
+  "title": "Intro To BlueData Application Workbench",
+  "description": "Introduction to building Apps with BlueData Workbench for BlueData's EPIC platform.",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+     { "title": "Step 1 - Intro To BlueData Application Workbench. ","text": "step1.md"},
+     { "title": "Step 2 - Application Classification and Integration Patterns ","text": "step2.md"},
+     { "title": "Step 3 - installation of App work bench ","text": "step3.md"},
+     { "title": "Step 4 - Application Design Considerations and Image lifecycle  ","text": "step4.md"},
+      { "title": "Step 5 - Cluster Deployment Lifecycle  ","text": "step5.md"},
+      { "title": "Step 6 - Creating an example image using app work bench  ","text": "step6.md"},
+     { "title": "Step 7 - Verify that the image:","text": "step7.md"}
+            ],
+    "intro": {
+      "text": "intro.md",
+      "code": "init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+        "host01": {
+            "file": "catalogsdk-master.tgz",
+            "target": "/"
+        }
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mInitializing Bluedata Application Workbench environment.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "centos-vm"
+  }
+}
