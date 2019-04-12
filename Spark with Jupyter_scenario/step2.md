@@ -6,12 +6,12 @@ To create a directory, execute the following command:<br>
 Navigate to the newly created directory:<br>
 `cd ~/Spark`{{execute}}<br>
 
-Next, we need to create a skeleton file structure. To do so execute the following command:
+Next, we need to create a skeleton file structure. To do so execute the following command:<br>
 `bdwb --init`{{execute}}
 
  <b>bdwb --init</b> command will setup all the base directories and files you need in order to develop any app image
  
- Execute the below command to list all the files and folders created by bdwb command:
+ Execute the below command to list all the files and folders created by bdwb command:<br>
 `ls -R`{{execute}}
 
 Make sure you will see the following files and folders:
