@@ -23,15 +23,16 @@ Make sure you will see the following files and folders:
 <li>utils.sh</li>
 <li>image/</li>
 
-<b><li>Startscript:</b>  is a script file which contains code to start all service(s).
 
-<b><li>Macros.sh:</b> contains the built in macros of BlueData that would be executed during image creation.
+<b><li>Startscript:</b> It is a script file which contains code to start all service(s).
 
-<b><li>Logging.sh:</b> provides the logging facilities for a catalog configuration bundle. 
+<b><li>Macros.sh:</b> Contains the built in macros of BlueData that would be executed during image creation.
 
-<b><li>Utils.sh:</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
+<b><li>Logging.sh:</b> Provides the logging facilities for a catalog configuration bundle. 
 
-<b><li>Appjob:</b> provides the information on the type of job to be launched and we can also add application specific jobs.
+<b><li>Utils.sh:</b> Contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
+
+<b><li>Appjob:</b> Provides the information on the type of job to be launched and we can also add application specific jobs.
 
 Now, we will create a folder called “centos” inside the empty image directory.
 <br>Execute the following command to do so :
