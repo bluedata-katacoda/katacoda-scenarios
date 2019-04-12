@@ -4,7 +4,7 @@ In this step we will be creating the bin using BlueData App Workbench by executi
 Please review the link before proceeding for wb file: [Link](http://docs.bluedata.com/awb34_applications-with-multiple-images)
 
  Task 1:
-<br>For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the Spark directory using the following command:
+<br>For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the Spark directory using the following command:<br>
 `cp ~/test/Spark.wb  ~/Spark`{{execute}}
 
 To check the files in Spark folder<br>
