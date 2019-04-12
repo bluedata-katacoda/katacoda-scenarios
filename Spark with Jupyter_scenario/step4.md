@@ -8,7 +8,7 @@ We have already referenced the files that are needed, all you would need to do i
 
 
 Task1:
-Copy the pre-made jupyter script to the centos folder:<br>
+<br>Copy the pre-made jupyter script to the centos folder:<br>
 `cp ~/test/configure_jupyter.sh ~/Spark/image/centos`{{execute}}
 
 Feel free to run the following command to see what is being executed in the shell script:<br>
