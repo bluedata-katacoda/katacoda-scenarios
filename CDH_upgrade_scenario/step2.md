@@ -1,5 +1,6 @@
 For upgrading the image, we will be using a bin file of the existing image already developed. Let us download a .bin file to the directory we have created in the earlier step. 
 <br>
+
 Before that, let us install wget package. For doing so, execute the following command
 <br>
 `yum install wget -y`{{execute}}<br>
