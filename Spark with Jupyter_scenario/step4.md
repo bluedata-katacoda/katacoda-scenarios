@@ -36,39 +36,39 @@ Add the appconfig reference files using the below command(Due to space constrain
 <br>`ls appconfig`{{execute}}
 
 Make sure you see following files unders appconfig folder:<br>
-<b>Startscript</b> is a script file which contains code to start all service(s).
+<b><li>Startscript:</b> It is a script file which contains code to start all service(s).
 <br>
-<br><b>spark-slave</b> file is a service script to start/stop/get-status of the Spark-slave service.
+<br><b><li>spark-slave:</b> It is a service script to start/stop/get-status of the Spark-slave service.
 <br>
-<br><b>spark-master</b> file is a service script to start/stop/get-status of the Spark-slave service.
+<br><b><li>spark-master:</b> It is a service script to start/stop/get-status of the Spark-slave service.
 <br>
-<br><b>spark-defaults.conf</b> is a default system properties included when running spark-submit.<br>
-<br><b>spark-env.sh</b> is a file to setup the spark environment.<br>
-<br><b>start_jupyterhub.sh</b> file which is used for bringing up and down the jupyterhub service.
+<br><b><li>spark-defaults.conf:</b> It is a default system properties included when running spark-submit.<br>
+<br><b><li>spark-env.sh:</b> It is a file to setup the spark environment.<br>
+<br><b><li>start_jupyterhub.sh:</b> It is used for bringing up and down the jupyterhub service.
 <br>
-<br><b>start_jupyter.sh</b> file which is used for bringing up and down the jupyter service.
+<br><b><li>start_jupyter.sh:</b> It is used for bringing up and down the jupyter service.
 <br>
-<br><b> total_vcores.sh</b> file which is used to obtain the total number of virtual CPU cores assigned to the nodes.
+<br><b><li>total_vcores.sh:</b> It is used to obtain the total number of virtual CPU cores assigned to the nodes.
 <br>
-<br><b>Macros.sh</b> contains all the built in macros of BlueData that would be executed during image creation.
+<br><b><li>Macros.sh:</b> Contains all the built in macros of BlueData that would be executed during image creation.
 <br>
-<br><b>Logging.sh</b> provides the logging facilities for a catalog configuration bundle. 
+<br><b><li>Logging.sh:</b> Provides the logging facilities for a catalog configuration bundle. 
 <br>
-<br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
+<br><b><li>Utils.sh:</b> Contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.
 <br>
-<br><b>p_kernel.json</b> file provides interactive python development for Jupyter.
+<br><b><li>p_kernel.json:</b> Provides interactive python development for Jupyter.
 <br>
-<br><b> sq_kernel.json</b> file provides interactive SQL interpreter for Jupyter.
+<br><b><li>sq_kernel.json:</b> Provides interactive SQL interpreter for Jupyter.
 <br>
-<br><b>core-site.xml,hadoop</b> these files are used to setup Hadoop related configurations
+<br><b><li>core-site.xml,hadoop:</b> These files are used to setup Hadoop related configurations
 <br>
-<br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.
+<br><b><li>Appjob:</b> Provides the information on the type of job to be launched and we can also add application specific jobs.
 <br>
-<br><b>systemd.service</b> is used to bootstrap the user space and to manage system processes after booting.
+<br><b><li>Systemd.service:</b> It is used to bootstrap the user space and to manage system processes after booting.
 <br>
-<br><b>jupyter and jupyterhub</b> contains all the required configuration to run jupyter and jupyterhub.
+<br><b><li>jupyter and jupyterhub:</b> Contains all the required configuration to run jupyter and jupyterhub.
 <br>
-<br><b>p_kernel.json</b> file provides interactive python development for Jupyter.<br>
+<br><b><li>p_kernel.json:</b> Provides interactive python development for Jupyter.<br>
 <br>Remove the zip file from the folder
 <br>`rm -rf appconfig.zip`{{execute}}
 
