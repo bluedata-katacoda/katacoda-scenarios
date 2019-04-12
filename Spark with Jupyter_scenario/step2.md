@@ -23,6 +23,7 @@ Make sure you will see the following files and folders:
 <li>utils.sh</li>
 <li>image/</li>
 
+
 <br>
 <b><li>Startscript:</b> It is a script file which contains code to start all service(s).
 
