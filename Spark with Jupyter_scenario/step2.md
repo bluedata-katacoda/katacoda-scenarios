@@ -24,8 +24,7 @@ Make sure you will see the following files and folders:
 <li>image/</li>
 
 
-<br>
-<b><li>Startscript:</b> It is a script file which contains code to start all service(s).
+<br><b><li>Startscript:</b> It is a script file which contains code to start all service(s).
 
 <b><li>Macros.sh:</b> Contains the built in macros of BlueData that would be executed during image creation.
 
