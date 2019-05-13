@@ -13,7 +13,7 @@ Now, we will create a folder called “centos” inside the empty image director
 <br>`mkdir image`{{execute}}
 <br>`mkdir ~/HDP/image/centos`{{execute}}
 
-Execute the below command to list all the files and folders created by bdwb command:
+Execute the below command to list all the files and folders created
 
 `ls -R`{{execute}}
 
