@@ -14,7 +14,7 @@
 	{ "title": "Step 7 - Modifying the json file", "text": "step7.md"},
         { "title": "Step 8 - Adding configuration set-up files", "text": "step8.md"},
 	{ "title": "Step 9 - Creating the image", "text": "step9.md"},
-	{ "title": "Step 10 - Finalising your build for CDH image", "text": "step10.md"}
+	{ "title": "Step 10 - Finalising your build for HDP image", "text": "step10.md"}
         
     ],
     "intro": {
