@@ -1,0 +1,42 @@
+{
+  "title": "Upgrading a HDP application image",
+  "description": "Process to upgrade HDP Application image with BlueData Workbench for BlueData's EPIC platform.",
+  "difficulty": "Expert",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+   	 { "title": "Step 1 - Creating the base directory","text": "step1.md"},
+   	 { "title": "Step 2 - Copying the bin file", "text": "step2.md"},
+   	 { "title": "Step 3 - Extracting the contents of the bin file", "text": "step3.md"},
+   	 { "title": "Step 4 - Modifying existing image", "text": "step4.md"},
+	{ "title": "Step 5 - Modifying the .wb file", "text": "step5.md"},
+	{ "title": "Step 6 - Modifying the Dockerfile", "text": "step6.md"},
+	{ "title": "Step 7 - Modifying the json file", "text": "step7.md"},
+        { "title": "Step 8 - Adding configuration set-up files", "text": "step8.md"},
+	{ "title": "Step 9 - Creating the image", "text": "step9.md"},
+	{ "title": "Step 10 - Finalising your build for CDH image", "text": "step10.md"}
+        
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code" : "init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+       "host01": [
+		{"file": "hdp26-ambari26.json", "target": "/root/test", "chmod": "+x"},
+		{"file": "hdp26-ambari26.wb", "target": "/root/test", "chmod": "+x"},
+		{"file": "Dockerfile", "target": "/root/test"}
+                ] 
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mInitializing Bluedata Application Workbench environment.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "bluedata-workbench"
+  }
+}
