@@ -17,7 +17,7 @@ To view the content of the file, execute the following
 <br>
 <b>Below is the example snippet for identification:</b>
 <br>
-"distro_id": "bluedata/hdp26-ambari26-7x-macys"<br>
+"distro_id": "bluedata/hdp26-ambari26"<br>
 "label": {<br>
   "name": ""name": "HDP 2.6 on 7.x with Ambari 2.6",<br>
   "description": "HDP 2.6.4.0 on 7.x with Ambari 2.6.2.2 with YARN support. Includes Pig, Hive, Oozie and HBase"<br>
