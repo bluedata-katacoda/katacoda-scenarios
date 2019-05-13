@@ -27,8 +27,8 @@ To view the content of .wb file, execute the following command:<br>
 
 <br><b>Section 2:</b> <br>
 <br><b>Below section of the .wb file pulls all of the pieces together and builds the .bin file.</b>
-<br>image build --basedir image/centos --image-repotag bluedata/hdp26-ambari26-7x-macys:1.0
-<br>image package --image-repotag bluedata/hdp26-ambari26-7x-macys:1.0 --os centos7
+<br>image build --basedir image/centos --image-repotag bluedata/hdp26-ambari26
+<br>image package --image-repotag bluedata/hdp26-ambari26 --os centos7
 <br>catalog save --filepath staging/hdp26ambari26-centos.json --force
 <br>sources package
 <br>catalog package
