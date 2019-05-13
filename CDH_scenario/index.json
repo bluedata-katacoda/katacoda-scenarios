@@ -8,12 +8,11 @@
    	 { "title": "Step 1 - Creating the base directory","text": "step1.md"},
    	 { "title": "Step 2 - Copying the bin file", "text": "step2.md"},
    	 { "title": "Step 3 - Extracting the contents of the bin file", "text": "step3.md"},
-   
-	{ "title": "Step 5 - Content of the .wb file", "text": "step5.md"},
-	{ "title": "Step 6 - Content the Dockerfile", "text": "step6.md"},
-	{ "title": "Step 7 - Content the json file", "text": "step7.md"},
-        { "title": "Step 9 - Creating the image", "text": "step9.md"},
-	{ "title": "Step 10 - Finalising your build for CDH image", "text": "step10.md"}
+	{ "title": "Step 4 - Content of the .wb file", "text": "step5.md"},
+	{ "title": "Step 5 - Content the Dockerfile", "text": "step6.md"},
+	{ "title": "Step 6 - Content the json file", "text": "step7.md"},
+        { "title": "Step 7 - Creating the image", "text": "step9.md"},
+	{ "title": "Step 8 - Finalising your build for CDH image", "text": "step10.md"}
 	
     ],
     "intro": {
