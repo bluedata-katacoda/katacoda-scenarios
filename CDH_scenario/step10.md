@@ -3,7 +3,7 @@ The newly built application package (or bundle) is saved in the deliverables dir
 <br>`cd deliverables`{{execute}}
 <br>`ls `{{execute}}
 
-Congratulations you have successfully upgraded the HDP image.
+Congratulations you have successfully created CDH image.
 
 To make the new image appear in App Store.
 Copy the bin file to /srv/bluedata/catalog using the following commad
