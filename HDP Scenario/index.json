@@ -1,0 +1,40 @@
+{
+  "title": "Create HDP Application on BlueData App Workbench",
+  "description": "Process to build HDP Application image using BlueData Workbench on EPIC platform.",
+  "difficulty": "intermediate",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+    { "title": "Step 1 - Preparing the Environment","text": "step1.md"},
+    { "title": "Step 2 - Getting Started.", "text": "step2.md"},
+    { "title": "Step 3 - Create the Dockerfile.", "text": "step3.md"},
+	{ "title": "Step 4 - Creating  configuration files", "text": "step4.md"},
+	{ "title": "Step 5 - Building the Bin File using BlueData App Workbench.", "text": "step5.md"},
+	{ "title": "Step 6 - Finalising the build for HDP .", "text": "step6.md"}
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+       "host01": [
+				 
+                 {"file": "Dockerfile", "target": "/root/test" ,"chmod": "+x"},
+	         {"file": "hdp26-ambari26.json", "target": "/root/test","chmod": "+x" },
+		 
+                 {"file": "Logo_HortonWorks.png", "target": "/root/test" },
+		 {"file": "hdp26-ambari26.wb", "target": "/root/test",  "chmod": "+x" }
+                 ] 
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mInitializing BlueData Application Workbench environment.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "centos-vm"
+  }
+}
