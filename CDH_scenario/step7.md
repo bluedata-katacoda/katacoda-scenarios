@@ -13,7 +13,7 @@ To view the content of the file, execute the following
 <br>
 <b>Below is the example snippet for identification:</b>
 <br>
-"distro_id": "bluedata/hdp26-ambari26-7x-macys"<br>
+"distro_id": "bluedata/cdh514_centos7x"<br>
 "label": {<br>
   "name": ""name": "CDH 5.14.0 with Cloudera manager",<br>
   "description": "CDH 5.14.0 with Cloudera manager with YARN support. Includes Pig, Hive, Oozie and HBase"<br>
