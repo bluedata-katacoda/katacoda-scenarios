@@ -3,7 +3,6 @@ Setup additional dependencies which are needed for HDP.
 <br>
 In this step, we will be showing you the additional steps needed to create a successful HDP image.<br> 
 We have already referenced the files that are needed, all you would need to do is copy them into the appropriate location. <br>
-<br>The dependencies that need to be configured is Jupyter, which we will provide a shell script , and configuring the correct version of Java for HDP. <br>
 <br>It is always good to check what version of HDP you are using to understand the dependencies you may need setup in your base image.
 
 
