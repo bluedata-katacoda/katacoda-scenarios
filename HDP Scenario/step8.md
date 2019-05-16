@@ -4,7 +4,7 @@ Now, we will Look in to our .json file.<br>
 <br>`cp ~/test/hdp26-ambari26.json ~/HDP`{{execute}}<br>
 
 To view the content of the file, execute the following
-<br>`cat ~/Source/HDP/hdp26-ambari26.json`{{execute}}
+<br>`cat ~/Source/HDP/hdp26-ambari26.json`{{execute}}<br>
 <b>Json file</b> Contains the application registration and deployment information.<br>
 <br>
 <strong>Json file contain below sections<br></strong>
