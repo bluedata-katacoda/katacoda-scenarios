@@ -1,4 +1,4 @@
-Now, we will make Look in to our .json file.<br>
+Now, we will Look in to our .json file.<br>
 
 <br>Copy the json file from test directory to HDP
 <br>`cp ~/test/hdp26-ambari26.json ~/HDP`{{execute}}<br>
