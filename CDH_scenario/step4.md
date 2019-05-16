@@ -21,8 +21,8 @@ Let's Look in to Startscript<br>
 `cat /root/HDP/cdh5-cm-setup/startscript`{{execute}}
 <br>
 <br>Start script will execute in each and every host when all host get created 
-<br>After creating the hosts cloudera manager and agent gets register in each host
-<br>Then Mysql database gets deployed in cmserver role and also cloudera database will be created.
+<br>
+<br>After creating the hosts cloudera manager and agent gets register in each host Then Mysql database gets deployed in cmserver role and also cloudera database will be created.<br>
 <br>After that main setup script gets executed
 <br>The main script in files contain code for Cluster creation, Activating licence ,Deploying zookeeper, hdfs and other services
 
