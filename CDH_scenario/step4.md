@@ -18,7 +18,7 @@ Execute the below command to list the all Files in cdh5-cm-setup directory <br>
 <br>
 
 Let's Look in to Startscript<br>
-`cat startscript`{{execute}}
+`cat /root/HDP/cdh5-cm-setup/startscript`{{execute}}
 <br>
 <br>Start script will execute in each and every host when all host get created 
 <br>After creating the hosts cloudera manager and agent gets register in each host
