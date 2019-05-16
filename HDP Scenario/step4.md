@@ -6,7 +6,6 @@ We have already referenced the files that are needed, all you would need to do i
 <br>It is always good to check what version of HDP you are using to understand the dependencies you may need setup in your base image.
 
 
-Task1: 
 <br>We need to add additional configuration files under the HDP directory. We have already made these files for you, to add them in, please execute the following commands:
 Execute the below command
 <br>`yum install wget -y`{{execute}}
@@ -29,14 +28,8 @@ Add the Configuration files using the below command(Due to space constraint in K
 <br>Remove the zip file from the folder
 <br>`rm -rf ambari-26-setup.zip`{{execute}}
 
-Task2:
-<br>When our image is ready to deploy in the EPIC Application Catalog, we need to include a picture that represents the image. For your reference, we have already created a .png file for your use.
-<br>`cp ~/test/Logo_HortonWorks.png ~/HDP`{{execute}}<br>
-<br><b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
 
-Task3:
-<br>Copy the json file from test directory to HDP
-<br>`cp ~/test/hdp26-ambari26.json ~/HDP`{{execute}}<br>
+
 
 
 
