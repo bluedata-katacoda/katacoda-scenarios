@@ -39,7 +39,7 @@ Let's Look in to Startscript<br>
 <br>Tenant Level settings  for HDP .
 <br>
 <br>Start script will execute in each and every host when all host get created 
-<br>After creating the hosts, ambari_server and agent gets register in each host Then HiveOozie database gets deployed created.
+<br>After creating the hosts, ambari_server and agent gets register in each host Then HiveOozie database gets deployed.
 <br>Later setup Ambari server, register Ambari server with vagents and set up base url for HDP stack
 
 <br>Cluster creation metadata section :
