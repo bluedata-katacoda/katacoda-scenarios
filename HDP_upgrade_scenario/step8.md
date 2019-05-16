@@ -31,8 +31,8 @@ Make sure you see following files unders set-up folder:<br>
 <br><b>Enable_Kerberos.py</b> script enable Kerberos in CDH cluster<br>
 
 Let's Look in to Startscript<br>
-
 `cat /root/HDP/ambari-26-setup/startscript`{{execute}}
+<br>Stratscript contain scripts like cluster creation metadata for HDP image ,cluster config choice selections for HDP image ,Tenant Level settings  for HDP .
 <br>
 <br>Start script will execute in each and every host when all host get created 
 <br>After creating the hosts, ambari_server and agent gets register in each host Then HiveOozie database gets deployed created.
