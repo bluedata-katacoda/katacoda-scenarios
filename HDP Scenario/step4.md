@@ -32,7 +32,10 @@ Add the Configuration files using the below command(Due to space constraint in K
 <br><b>Enable_Kerberos.py</b> script enable Kerberos in CDH cluster<br>
 
 Let's Look in to Startscript<br>
-<br>Startscript contain scripts like cluster creation metadata for HDP image ,cluster config choice selections for HDP image ,Tenant Level settings  for HDP .
+<br>Startscript contain scripts like cluster creation metadata for HDP image 
+<br>cluster config choice selections for HDP image
+<br>Tenant Level settings  for HDP .
+
 `cat /root/HDP/ambari-26-setup/startscript`{{execute}}
 <br>
 <br>Start script will execute in each and every host when all host get created 
