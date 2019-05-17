@@ -6,8 +6,8 @@ Move to CDH directory by the using the following command:<br>
 `cd ~/Source/CDH`{{execute}}<br>
 
 Following configuration will be done in the .WB file :
-loading json file, generating scripts(loggin.sh, appjob etc..) inside cdh5-cm-setup directory and adding logo to the cdh Image
-creating the docker image with dockerfile under “image/centos”  and packaging docker image
+<br>loading json file, generating scripts(loggin.sh, appjob etc..) inside cdh5-cm-setup directory and adding logo to the cdh Image
+<br>creating the docker image with dockerfile under “image/centos”  and packaging docker image
 
 To view the content of .wb file, execute the following command:<br>
 `cat ~/Source/CDH/cdh514.wb`{{execute}}
