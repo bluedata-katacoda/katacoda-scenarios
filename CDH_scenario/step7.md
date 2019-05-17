@@ -5,6 +5,14 @@ To view the content of the file, execute the following
 
 <b>Json file</b> Contains the application registration and deployment information.<br>
 <br>
+<br>Following configuration will be done in the JSON file :
+<ul> 
+<li>In this JSON file we are setting cardinality for different- different role(cmserver, controller, standby, ..etc)<\li>
+<li>Exporting and defining endpoint for a service<\li>
+<li>Enabling GUI service</li>
+<li>Providing name, description and distro_id for CDH image also we are deploying selected services in a particular role<\li>
+</ul>
+  
 <strong>Json file contain below sections<br></strong>
 <br>
 <ul>
