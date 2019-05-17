@@ -7,6 +7,13 @@ To view the content of the file, execute the following
 <br>`cat ~/Source/HDP/hdp26-ambari26.json`{{execute}}<br>
 <b>Json file</b> Contains the application registration and deployment information.<br>
 <br>
+<br>Following configuration will be done in the JSON file :
+<br>we are setting cardinality for different- different role(controller, standby, arbiter, worker, ..etc)
+<br>Exporting and defining endpoint for a service
+<br>Enabling GUI service
+<br>Providing name, description and distro_id for HDP image Also we are deploying selected services in a particular role
+<br>
+
 <strong>Json file contain below sections<br></strong>
 <br>
 <ul>
