@@ -8,7 +8,7 @@ To view the content of the file, execute the following
 <br>
 <b>Json file</b> Contains the application registration and deployment information.<br>
 <br>
-<ul><br>Following configuration will be done in the JSON file :
+<ul>Following configuration will be done in the JSON file :
 <li>we are setting cardinality for different- different role(controller, standby, arbiter, worker, ..etc)</li>
 <li>Exporting and defining endpoint for a service</li>
 <li>Enabling GUI service</li>
