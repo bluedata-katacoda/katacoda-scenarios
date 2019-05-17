@@ -3,7 +3,7 @@ Now, we will look in our .json file.<br>
 To view the content of the file, execute the following
 <br>`cat ~/Source/CDH/cdh514.json`{{execute}}
 
-<b>Json file</b> Contains the application registration and deployment information.<br>
+<b>Json file</b> Contains the application registration and deployment information.
 <br>
 <br>Following configuration will be done in the JSON file :
 <ul> 
