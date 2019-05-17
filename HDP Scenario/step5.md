@@ -16,6 +16,10 @@ To view the content of the file, execute the following<br>
 `cat ~/HDP/hdp26-ambari26.wb`{{execute}}
 <br>
 
+Following configuration will be done in the .WB file :
+<br>loading json file, generating scripts(loggin.sh, appjob etc..) inside ambari-26-setup directory and adding logo to the HDP Image
+<br>creating the docker image with dockerfile under “image/centos”  and packaging docker image
+
  Task 3:
 Execute the wb file<br>
 `./hdp26-ambari26.wb`{{execute}}
