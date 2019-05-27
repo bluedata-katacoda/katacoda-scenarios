@@ -38,9 +38,7 @@ Let's Look in to Startscript<br>
 <br>cluster config choice selections for HDP image 
 <br>Tenant Level settings  for HDP .
 <br>
-<br>Start script will execute in each and every host when all host get created 
-<br>After creating the hosts, ambari_server and agent gets register in each host Then HiveOozie database gets deployed.
-<br>Later setup Ambari server, register Ambari server with vagents and set up base url for HDP stack
+<br>The Start script will execute in each and very host. Once the host is created, the process for Ambari installation will occur. Ambari_server and agents will register in each host. Followed by Hive Oozie databases getting created.
 
 <br>Cluster creation metadata section :
 <br>Here we are using bdvcli utility to create information regarding node role, node fqdn , node distro_id and node group id<br>
