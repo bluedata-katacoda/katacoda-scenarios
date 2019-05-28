@@ -40,7 +40,7 @@ Let's Look in to Startscript<br>
 <br>
 <br>The Start script will execute in each and very host. Once the host is created, the process for Ambari installation will occur. Ambari_server and agents will register in each host. Followed by Hive Oozie databases getting created.
 
-<br>check the link  [Link] (https://docs.hortonworks.com/HDPDocuments/Ambari-2.7.3.0/administering-ambari/content/amb_install_the_ambari_agents_manually_on_rhel-centos-oracle_7.html) to know more about process of Ambari installation and setup
+<br>check the link [Link](https://docs.hortonworks.com/HDPDocuments/Ambari-2.7.3.0/administering-ambari/content/amb_install_the_ambari_agents_manually_on_rhel-centos-oracle_7.html) to know more about process of Ambari installation and setup
 
 <br>Cluster creation metadata section :
 <br>Here we are using bdvcli utility to create information regarding node role, node fqdn , node distro_id and node group id
