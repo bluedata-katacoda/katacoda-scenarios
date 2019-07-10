@@ -24,7 +24,7 @@ Let's Look in to Startscript<br>
 <br>Tenant Level settings  for Kerberos
 <br>Tenant Level settings for CDH parcels and repo .
 
-`cat /root/HDP/cdh5-cm-setup/startscript`{{execute}}
+`cat /root/Source/CDH/cdh5-cm-setup/startscript`{{execute}}
 <br>
 <br>Start script will execute in each and every host when all host get created 
 <br>
