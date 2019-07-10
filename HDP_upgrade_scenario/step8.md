@@ -32,7 +32,7 @@ Make sure you see following files unders set-up folder:<br>
 
 Let's Look in to Startscript<br>
 
-`cat /root/HDP/ambari-26-setup/startscript`{{execute}}
+`cat /root/Source/HDP/ambari-26-setup/startscript`{{execute}}
 
 <br>Startscript contain scripts like cluster creation metadata for HDP image 
 <br>cluster config choice selections for HDP image 
