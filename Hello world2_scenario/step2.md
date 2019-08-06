@@ -4,14 +4,12 @@ For upgrading the image, we will be using a bin file of the existing image alrea
 Before that, let us install wget package. For doing so, execute the following command
 <br>
 `yum install wget -y`{{execute}}<br>
-<br> Create a new directory to house the image you are going to create called
-<br>mkdir -p /source/helloworld2
 <br>
 Now, navigate to the Source directory.
 <br>
 `cd ~/source/helloworld2`{{execute}}
 <br>
-Download the bin file by executing the following command.
+Download the bin file of Hello-world1 by executing the following command.
 <br>
 `wget https://www.dropbox.com/s/0tg7nn86xkucfb6/bdcatalog-centos7-bluedata-helloworld-10.0.bin`{{execute}}
 <br><br>
