@@ -10,7 +10,7 @@ This will create two files in the directory.
 <br>payload.tar
 <br>decompress.sh
 <br><br>Untar the payload.tar file by executing the following command
-<br>`tar xvf payload.tar`{{execute}}<br>
+<br>`tar xvf payload.tar`{{execute}}
 <br><br>This will creates a new directory, bdcatalog-centos7-bluedata-helloworld-10.0. 
 <br>to view the files execute the following command<br>
 `ls`{{execute}}
