@@ -2,15 +2,15 @@ Now, we will make changes in .wb file <br>
 
 Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb34_updating-an-existing-image)<br>
 <br>
-For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the CDH directory using the following command:<br>
-`cd ~/Source/CDH`{{execute}}<br>
+For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the Hello-world2 directory using the following command:<br>
+`cd ~/source/helloworld2`{{execute}}<br>
 <br>Delete the existing .wb file before you copy the new .wb file by executing the below command
-<br>`rm -rf cdh514.wb`{{execute}}<br>
+<br>`rm -rf helloworld-app.wb `{{execute}}<br>
 <br>Copy the new .wb file into CDH directory using the following command:
-<br>`cp ~/test/cdh515.wb ~/Source/CDH`{{execute}}
+<br>`cp ~/test/helloworld2-app.wb  ~/source/helloworld2`{{execute}}
 
 To view the content of .wb file, execute the following command:<br>
-`cat ~/Source/CDH/cdh515.wb`{{execute}}
+`cat ~/Source/helloworld2/helloworld2-app.wb`{{execute}}
 
 <br><strong>cdh515.wb file contain following section</strong>
 <br>
@@ -19,7 +19,6 @@ To view the content of .wb file, execute the following command:<br>
 <br>builder organization --name BlueData
 <br>
 <br><b><li>The below line will load the Metadata JSON file and set up files</b>
-<br>catalog load --filepath cdh515:1.0 .json
 <br>appconfig package --dir cdh-cm-setup
 <br>
 <br><b><li>The below line will add the logo file to the image</b>
