@@ -15,9 +15,6 @@ Download the bin file by executing the following command.
 <br>
 `wget https://www.dropbox.com/s/0tg7nn86xkucfb6/bdcatalog-centos7-bluedata-helloworld-10.0.bin`{{execute}}
 <br><br>
-Extract the content of the tar file by executing the following command
-<br>`tar xvf bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.tar`{{execute}}
-<br><br>
 Now, Make the .bin file executable by executing the following command<br>
 `chmod +x bdcatalog-centos7-bluedata-helloworld-10.0.bin`{{execute}}
 
