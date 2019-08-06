@@ -24,7 +24,7 @@
     },
     "assets": {
        "host01": [
-		{"file": "helloworld2.png", "target": "/root/test"},
+		
 		{"file": "helloworld2-app.wb", "target": "/root/test", "chmod": "+x"},
 		{"file": "Dockerfile", "target": "/root/test"}
                 ] 
