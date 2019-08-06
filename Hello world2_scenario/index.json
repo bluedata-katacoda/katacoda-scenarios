@@ -1,6 +1,6 @@
 {
-  "title": "Upgrading a CDH application image",
-  "description": "Process to upgrade CDH Application image with BlueData Workbench for BlueData's EPIC platform.",
+  "title": "Upgrading a Hello-world application image",
+  "description": "Process to upgrade Hello-world Application image with BlueData Workbench for BlueData's EPIC platform.",
   "difficulty": "Expert",
   "time": "30 minutes",
   "details": {
@@ -13,7 +13,7 @@
 	{ "title": "Step 6 - Modifying the Dockerfile", "text": "step6.md"},
 	{ "title": "Step 7 - Modifying the json file", "text": "step7.md"},
 	{ "title": "Step 8 - Creating the image", "text": "step8.md"},
-	{ "title": "Step 9 - Finalising your build for CDH image", "text": "step9.md"}
+	{ "title": "Step 9 - Finalising your build for Hello-world image", "text": "step9.md"}
     ],
     "intro": {
       "text": "intro.md",
