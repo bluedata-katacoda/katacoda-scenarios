@@ -13,7 +13,7 @@ This will create two files in the directory. (to view the files execute the foll
 <br> This will creates a new directory, bdcatalog-centos7-bluedata-helloworld-10.0. (to view the files execute the following command)<br>
 `ls`{{execute}}
 <br><br>Delete the bin file to save space on the device<br>
-`rm -rf bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.bin`{{execute}}
+`rm -rf bdcatalog-centos7-bluedata-helloworld-10.0.bin`{{execute}}
 <br><br>Navigate to the new directory, and untar the file by executing the following command
 <br>`cd bdcatalog-centos7-bluedata-helloworld-10.0`{{execute}}
 <br>
