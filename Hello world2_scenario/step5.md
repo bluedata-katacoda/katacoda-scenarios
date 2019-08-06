@@ -20,23 +20,24 @@ To view the content of .wb file, execute the following command:<br>
 <br>
 <br><b><li>The below line will add the logo file to the image</b>
 <br>logo file --filepath helloworld-logo.png
+<br>
 <br><b><li>This is to define node roles for the virtual cluster</b>
 <br>role add webserver 1
 <br>role add controller 1
 <br>role add worker 0+
+<br>
 <br><b><li>This section define one or more services that are mapped on a per-role basis</b>
 <br>service add --srvcid httpd --name "HelloWorld" --scheme "http" --port 80 \
 	            --path "/" --display  \
 	            --sysctl httpd \
 	            --onroles webserver controller worker 
+<br>		    <
 <br><b>Section 2:</b> <br>
-<br>Adding a new Catalog Entry.
+<br><b><li>Adding a new Catalog Entry.</b>
 <br>catalog new --distroid Helloworld2 --name "Hello World2 on Centos"  \
 	            --desc "http service running Hello World page"    \
 	            --categories Greetings --version 10.0
-<br>This section define one or more services that are mapped on a per-role basis
-<br>Adding a new Catalog Entry.
-<br>
+<br>		    
 <strong>distro_id </strong> is a unique identifier for either a Catalog entry or a versioned set of Catalog entries.
 <br>
 <strong>name</strong> which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
