@@ -11,9 +11,9 @@ For your reference, we have already created a ready Dockerfile in the ~/test dir
 <br>`rm -rf ~/source/helloworld2/image/centos/Dockerfile`{{execute}}<br>
 <br>
 copy the Dockerfile into the centos folder using the following command:
-<br>`cp ~/test/Dockerfile ~/Source/helloworld2/image/centos/`{{execute}}<br>
+<br>`cp ~/test/Dockerfile ~/source/helloworld2/image/centos/`{{execute}}<br>
 <br>Execute the following command to view the content of the Dockerfile:
-<br>`cat ~/Source/helloworld2/image/centos/Dockerfile`{{execute}}<br>
+<br>`cat ~/source/helloworld2/image/centos/Dockerfile`{{execute}}<br>
 <br><li>You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host  
 <br><li>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on
 <br>
