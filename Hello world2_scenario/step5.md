@@ -10,7 +10,7 @@ For your reference, we have already created a ready .wb file in the ~/test direc
 <br>`cp ~/test/helloworld2-app.wb  ~/source/helloworld2`{{execute}}
 
 To view the content of .wb file, execute the following command:<br>
-`cat ~/Source/helloworld2/helloworld2-app.wb`{{execute}}
+`cat ~/source/helloworld2/helloworld2-app.wb`{{execute}}
 
 <br><strong>cdh515.wb file contain following section</strong>
 <br>
