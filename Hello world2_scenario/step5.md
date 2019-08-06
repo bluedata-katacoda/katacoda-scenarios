@@ -42,7 +42,6 @@ To view the content of .wb file, execute the following command:<br>
 <br>
 <strong>name</strong> which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
 <br><strong>description</strong> which is a longer, more detailed blurb about the entry.
-<br>
 <br><strong>version </strong>is a discriminator between multiple Catalog entries that share the same distro ID.
 <br>
 <br><b>Section 3:</b> <br>
