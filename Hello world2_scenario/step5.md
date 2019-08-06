@@ -18,9 +18,6 @@ To view the content of .wb file, execute the following command:<br>
 <br><b><li>The below line will Set the organization name</b>
 <br>builder organization --name BlueData
 <br>
-<br><b><li>The below line will load the set up files</b>
-<br>appconfig package --dir cdh-cm-setup
-<br>
 <br><b><li>The below line will add the logo file to the image</b>
 <br>logo file --filepath helloworld-logo.png
 <br>This is to define node roles for the virtual cluster
