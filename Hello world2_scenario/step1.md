@@ -8,5 +8,5 @@ For checking the version of BlueData App-Workbench, execute the following comman
 
 <br>
 Now, to begin let us create the directory to house the files
-<br>`mkdir ~/Source`{{execute}}
-<br>`mkdir ~/Source/helloworld2`{{execute}}
+<br>`mkdir ~/source`{{execute}}
+<br>`mkdir ~/source/helloworld2`{{execute}}
