@@ -16,9 +16,9 @@ builder organization --name Bluedata
 ######## Identification #############
 # App id, name, version, description, group (category)
 ######################################
-catalog new --distroid Helloworld --name "Hello World2 on Centos"  \
+catalog new --distroid Helloworld2 --name "Hello World2 on Centos"  \
             --desc "http service running Hello World page"    \
-            --categories Greetings --version 10.0
+            --categories Greetings --version2 10.0
 
 ####### Supported Roles ############
 # All possible roles supported in the app
