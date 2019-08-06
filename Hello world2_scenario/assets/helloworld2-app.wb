@@ -88,7 +88,7 @@ appconfig package
 ########################################################
 # Add Logo file for App store visual                   #
 ########################################################
-logo file --filepath helloworld2-logo.png
+logo file --filepath helloworld-logo.png
 
 ################### Final bin package creation ###############################
 #  This section creates docker tgz and bin file                              #
