@@ -3,14 +3,15 @@ In this step we will extract the contents of the .bin file.
 `./bdcatalog-centos7-bluedata-helloworld-10.0.bin --payload`{{execute}}
 <br>
 <br>
-This will create two files in the directory. (to view the files execute the following command)<br>
+This will create two files in the directory. 
+<br>To view the files execute the following command<br>
 `ls`{{execute}}
-<br>This will generates some files in the source directory:
+<br><br>This will generates some files in the source directory:
 <br>payload.tar
 <br>decompress.sh
 <br><br>Untar the payload.tar file by executing the following command
 <br>`tar xvf payload.tar`{{execute}}<br>
-<br> This will creates a new directory, bdcatalog-centos7-bluedata-helloworld-10.0. 
+<br> <br>This will creates a new directory, bdcatalog-centos7-bluedata-helloworld-10.0. 
 <br>to view the files execute the following command<br>
 `ls`{{execute}}
 <br><br>Delete the bin file to save space on the device<br>
