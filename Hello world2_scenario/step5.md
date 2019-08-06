@@ -15,7 +15,7 @@ To view the content of .wb file, execute the following command:<br>
 <br><strong>Helloworld2-app.wb file contain following section</strong>
 <br>
 <br><b>Section 1:</b> <br>
-<br><b><li>The below line will Set the organization name</b>
+<br><b><li>The below line will set the organization name</b>
 <br>builder organization --name BlueData
 <br>
 <br><b><li>The below line will add the logo file to the image</b>
@@ -31,7 +31,7 @@ To view the content of .wb file, execute the following command:<br>
 	            --path "/" --display  \
 	            --sysctl httpd \
 	            --onroles webserver controller worker 
-<br>		    <
+<br>		    
 <br><b>Section 2:</b> <br>
 <br><b><li>Adding a new Catalog Entry.</b>
 <br>catalog new --distroid Helloworld2 --name "Hello World2 on Centos"  \
