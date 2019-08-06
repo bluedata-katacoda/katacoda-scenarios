@@ -20,11 +20,11 @@ To view the content of .wb file, execute the following command:<br>
 <br>
 <br><b><li>The below line will add the logo file to the image</b>
 <br>logo file --filepath helloworld-logo.png
-<br>This is to define node roles for the virtual cluster
+<br><b><li>This is to define node roles for the virtual cluster</b>
 <br>role add webserver 1
 <br>role add controller 1
 <br>role add worker 0+
-<br>This section define one or more services that are mapped on a per-role basis
+<br><b><li>This section define one or more services that are mapped on a per-role basis</b>
 <br>service add --srvcid httpd --name "HelloWorld" --scheme "http" --port 80 \
 	            --path "/" --display  \
 	            --sysctl httpd \
