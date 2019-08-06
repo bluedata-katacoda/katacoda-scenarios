@@ -22,13 +22,21 @@ To view the content of .wb file, execute the following command:<br>
 <br>appconfig package --dir cdh-cm-setup
 <br>
 <br><b><li>The below line will add the logo file to the image</b>
-<br>logo file --filepath Logo_Cloudera.png
+<br>logo file --filepath helloworld-logo.png
+<br
+<br>role add webserver 1
+<br>role add controller 1
+<br>role add worker 0+
+<br>
+<br>service add --srvcid httpd --name "HelloWorld" --scheme "http" --port 80 \
+	            --path "/" --display  \
+	            --sysctl httpd \
+	            --onroles webserver controller worker 
 
 <br><b>Section 2:</b> <br>
 <br><b><li>Below section of the .wb file pulls all of the pieces together and builds the .bin file</b>
-<br>image build --basedir image/centos --image-repotag bluedata/cdh515:1.0
-<br>image package --image-repotag bluedata/cdh515:1.0 --os centos7
-<br>catalog save --filepath staging/cdh.json --force
+<br>image build --basedir image/centos --image-repotag bluedata/helloworld2:1.0
+<br>image package --image-repotag bluedata/helloworld2:1.0 --os centos7  --roles webserver controller worker
 <br>sources package
 <br>catalog package
 
