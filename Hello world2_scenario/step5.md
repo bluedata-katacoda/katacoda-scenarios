@@ -23,17 +23,31 @@ To view the content of .wb file, execute the following command:<br>
 <br>
 <br><b><li>The below line will add the logo file to the image</b>
 <br>logo file --filepath helloworld-logo.png
-<br
+<br>This is to define node roles for the virtual cluster
 <br>role add webserver 1
 <br>role add controller 1
 <br>role add worker 0+
-<br>
+<br>This section define one or more services that are mapped on a per-role basis
 <br>service add --srvcid httpd --name "HelloWorld" --scheme "http" --port 80 \
 	            --path "/" --display  \
 	            --sysctl httpd \
 	            --onroles webserver controller worker 
-
 <br><b>Section 2:</b> <br>
+<br>Adding a new Catalog Entry.
+<br>catalog new --distroid Helloworld2 --name "Hello World2 on Centos"  \
+	            --desc "http service running Hello World page"    \
+	            --categories Greetings --version 10.0
+<br>This section define one or more services that are mapped on a per-role basis
+<br>Adding a new Catalog Entry.
+<br>
+<strong>distro_id </strong> is a unique identifier for either a Catalog entry or a versioned set of Catalog entries.
+<br>
+<strong>name</strong> which is the "short name" of the Catalog entry. The Catalog API does not allow entries with different distro IDs to share the same name.
+<br><strong>description</strong> which is a longer, more detailed blurb about the entry.
+<br>
+<br><strong>version </strong>is a discriminator between multiple Catalog entries that share the same distro ID.
+<br>
+<br><b>Section 3:</b> <br>
 <br><b><li>Below section of the .wb file pulls all of the pieces together and builds the .bin file</b>
 <br>image build --basedir image/centos --image-repotag bluedata/helloworld2:1.0
 <br>image package --image-repotag bluedata/helloworld2:1.0 --os centos7  --roles webserver controller worker
