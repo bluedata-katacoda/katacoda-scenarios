@@ -5,7 +5,7 @@ Before that, let us install wget package. For doing so, execute the following co
 <br>
 `yum install wget -y`{{execute}}<br>
 <br>
-Now, navigate to the Source directory.
+Now, navigate to the source directory.
 <br>
 `cd ~/source/helloworld2`{{execute}}
 <br>
