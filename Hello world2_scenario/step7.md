@@ -1,5 +1,5 @@
 
-Here we are cleaning up your source directory by removing the following items so that only the image directory remains:
+Here we are cleaning up our source directory by removing the following items so that only the image directory remains:
 
 <br>`rm -rf payload.tar`{{execute}}
 <br>`rm -rf decompress.sh`{{execute}}
