@@ -2,7 +2,7 @@ Now, we will make changes in .wb file <br>
 
 Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb34_updating-an-existing-image)<br>
 <br>
-For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the helloworld2 directory using the following command:<br>
+
 `cd ~/source/helloworld2`{{execute}}<br>
 To view the content of .wb file, execute the following command:<br>
 `cat ~/source/helloworld2/helloworld-app.wb`{{execute}}
@@ -12,7 +12,7 @@ To modify the name of .wb file, execute the following command:<br>
 `sed -i 's/distroid Helloworld/distroid Helloworld2/g' helloworld2-app.wb`{{execute}}
 <br>`sed -i 's/Hello World on Centos/Hello World2 on Centos/g' helloworld2-app.wb`{{execute}}
 
-<br>Execute the following command to get the reference ready .wb file in test directory:
+For your reference, we have already created a ready .wb file in the ~/test directory:<br>
 <br>`cat ~/test/helloworld2-app.wb`{{execute}}
 
 To view the content of updated .wb file, execute the following command:<br>
