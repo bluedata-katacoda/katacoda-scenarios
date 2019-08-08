@@ -1,4 +1,11 @@
 
+Clean up your source directory by removing the following items so that only the image directory remains:
+
+<br>`rm payload.tar`{{execute}}
+<br>`rm decompress.sh`{{execute}}
+<br>`rm helloworld-logo.png`{{execute}}
+<br>`rm -rf bdcatalog-centos7-bluedata-helloworld-10.0`{{execute}}
+
 Create the .wb file
 
 Please review this link before you proceed: [Link](http://docs.bluedata.com/awb34_helloworld-application-build-walkthrough$wb_section_2)
