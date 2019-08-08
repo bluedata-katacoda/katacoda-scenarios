@@ -3,6 +3,7 @@ Now, we will make changes in .wb file <br>
 Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb34_updating-an-existing-image)<br>
 <br>
 `cd ~/source/helloworld2`{{execute}}<br>
+
 To view the content of .wb file, execute the following command:<br>
 `cat ~/source/helloworld2/helloworld-app.wb`{{execute}}
 <br>
