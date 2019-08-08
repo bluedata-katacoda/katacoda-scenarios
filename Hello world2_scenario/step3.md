@@ -6,6 +6,7 @@ In this step we will extract the contents of the .bin file.
 This will create two files in the directory. 
 <br>payload.tar
 <br>decompress.sh
+
 <br>To view the files execute the following command<br>
 `ls`{{execute}}
 <br><br>Untar the payload.tar file by executing the following command
