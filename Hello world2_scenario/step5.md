@@ -9,9 +9,10 @@ To view the content of .wb file, execute the following command:<br>
 <br>To modify the name of .wb file, execute the following command:<br>
 `mv helloworld-app.wb helloworld2-app.wb`{{execute}}
 <br>
-<br>In This .wb file we need change the ditroid and name of Image:<br>
+<br>In This .wb file we need change the ditroid and name of Image and logo name:<br>
 `sed -i 's/distroid Helloworld/distroid Helloworld2/g' helloworld2-app.wb`{{execute}}
 <br>`sed -i 's/Hello World on Centos/Hello World2 on Centos/g' helloworld2-app.wb`{{execute}}
+<br>`sed -i 's/helloworld-logo.png/helloworld2-logo.png/g' helloworld2-app.wb`{{execute}}
 <br>
 <br>For your reference, we have already created a ready .wb file in the ~/test directory:
 <br>`cat ~/test/helloworld2-app.wb`{{execute}}
