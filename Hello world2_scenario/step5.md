@@ -12,7 +12,7 @@ To modify the name of .wb file, execute the following command:<br>
 `sed -i 's/distroid Helloworld/distroid Helloworld2/g' helloworld2-app.wb`{{execute}}
 <br>`sed -i 's/Hello World on Centos/Hello World2 on Centos/g' helloworld2-app.wb`{{execute}}
 
-<br>For reference we have ready .wb file in test directory:
+<br>Execute the following command to get the reference ready .wb file in test directory:
 <br>`cat ~/test/helloworld2-app.wb`{{execute}}
 
 To view the content of updated .wb file, execute the following command:<br>
