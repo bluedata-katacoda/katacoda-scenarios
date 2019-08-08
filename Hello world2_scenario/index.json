@@ -27,6 +27,7 @@
 		
 		{"file": "helloworld2-app.wb", "target": "/root/test", "chmod": "+x"},
 		{"file": "Dockerfile", "target": "/root/test"},
+	       {"file": "index2.html", "target": "/root/test"},
 	       {"file":"helloworld2-logo.png", "target": "/root/test"}
                 ] 
     }
