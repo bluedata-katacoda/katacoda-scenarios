@@ -12,7 +12,7 @@ For your reference, we have already created a ready .wb file in the ~/test direc
 To view the content of .wb file, execute the following command:<br>
 `cat ~/source/helloworld2/helloworld2-app.wb`{{execute}}
 
-<br><strong>Helloworld2-app.wb file contain following section</strong>
+<br><strong>Helloworld2-app.wb file contains following section</strong>
 <br>
 <br><b>Section 1:</b> <br>
 <br><b><li>The below line will set the organization name</b>
