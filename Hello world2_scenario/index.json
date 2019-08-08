@@ -11,9 +11,10 @@
    	 { "title": "Step 4 - Modifying existing image", "text": "step4.md"},
 	{ "title": "Step 5 - Modifying the .wb file", "text": "step5.md"},
 	{ "title": "Step 6 - Modifying the Dockerfile", "text": "step6.md"},
-	{ "title": "Step 7 - Clean up source directory", "text": "step7.md"},
-	{ "title": "Step 8 - Creating the image", "text": "step8.md"},
-	{ "title": "Step 9 - Finalising your build for Hello-world2 image", "text": "step9.md"}
+	{ "title": "Step 7 - Modifying the Index file", "text": "step11.md"},
+	{ "title": "Step 8 - Clean up source directory", "text": "step7.md"},
+	{ "title": "Step 9 - Creating the image", "text": "step8.md"},
+	{ "title": "Step 10 - Finalising your build for Hello-world2 image", "text": "step9.md"}
     ],
     "intro": {
       "text": "intro.md",
