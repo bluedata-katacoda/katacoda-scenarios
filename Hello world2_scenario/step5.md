@@ -6,17 +6,17 @@ Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb3
 To view the content of .wb file, execute the following command:<br>
 `cat ~/source/helloworld2/helloworld-app.wb`{{execute}}
 <br>
-To modify the name of .wb file, execute the following command:<br>
+<br>To modify the name of .wb file, execute the following command:<br>
 `mv helloworld-app.wb helloworld2-app.wb`{{execute}}
 <br>
 <br>In This .wb file we need change the ditroid and name of Image:<br>
 `sed -i 's/distroid Helloworld/distroid Helloworld2/g' helloworld2-app.wb`{{execute}}
 <br>`sed -i 's/Hello World on Centos/Hello World2 on Centos/g' helloworld2-app.wb`{{execute}}
 <br>
-For your reference, we have already created a ready .wb file in the ~/test directory:<br>
+<br>For your reference, we have already created a ready .wb file in the ~/test directory:<br>
 <br>`cat ~/test/helloworld2-app.wb`{{execute}}
 <br>
-To view the content of updated .wb file, execute the following command:<br>
+<br>To view the content of updated .wb file, execute the following command:<br>
 `cat ~/source/helloworld2/helloworld2-app.wb`{{execute}}
 
 <br><strong>Helloworld2-app.wb file contains following section</strong>
