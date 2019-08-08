@@ -26,7 +26,7 @@ To view the content of .wb file, execute the following command:<br>
 <br>builder organization --name BlueData
 <br>
 <br><b><li>The below line will add the logo file to the image</b>
-<br>logo file --filepath helloworld-logo.png
+<br>logo file --filepath helloworld2-logo.png
 <br>
 <br><b><li>This is to define node roles for the virtual cluster</b>
 <br>role add webserver 1
