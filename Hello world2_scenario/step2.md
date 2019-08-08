@@ -9,7 +9,7 @@ Now, navigate to the Source directory.
 <br>
 `cd ~/source/helloworld2`{{execute}}
 <br>
-<br>Download the bin file of Hello-world1 by executing the following command.
+<br>Download the bin file of Hello-world by executing the following command.
 <br>
 `wget https://www.dropbox.com/s/0tg7nn86xkucfb6/bdcatalog-centos7-bluedata-helloworld-10.0.bin`{{execute}}
 <br><br>
