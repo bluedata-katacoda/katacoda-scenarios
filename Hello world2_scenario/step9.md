@@ -16,5 +16,5 @@ Go to App Store in the EPIC GUI and click on <b>Refresh </b>button to bring the 
 
 Once the image appears on the App Store click on <b>Install </b> button to install the image.
 
-![alt text](https://dzf8vqv24eqhg.cloudfront.net/userfiles/7467/9720/ckfinder/images/AppWorkbench/Walkthrough/example_3.jpg)
+
 
