@@ -1,6 +1,9 @@
 Now, we will make changes in our index.html file.<br>
 
 We already have a reference index2.html file. We just need to replace the current json file with the reference one. For doing so, execute the following commands.
+
+This is the web page that will be served by the HTTPD service in this example. This file illustrates the use of various templates and files.
+
 To view the content of index.html file, execute the following command:<br>
 `cat ~/source/helloworld2/appconfig/index.html`{{execute}}
 To modify the name of index.html, execute the following command:<br>
@@ -12,5 +15,5 @@ To modify the name of index.html, execute the following command:<br>
 
 To view the content of updated .wb file, execute the following command:<br>
 `cat ~/source/helloworld2/appconfig/index2.html`{{execute}}
-Following configuration will be done in the Index file :
-We are setting FQDN , Vcore , memory information it is just a index file
+
+
