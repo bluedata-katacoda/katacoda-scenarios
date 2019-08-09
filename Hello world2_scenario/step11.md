@@ -1,6 +1,6 @@
 Now, we will make changes in our index.html file.<br>
 
-We already have a reference index2.html file. We just need to replace the current json file with the reference one. For doing so, execute the following commands.
+We already have a reference index2.html file. We just need to replace the current index file with the reference one. For doing so, execute the following commands.
 
 This is the web page that will be served by the HTTPD service in this example. This file illustrates the use of various templates and files.
 
