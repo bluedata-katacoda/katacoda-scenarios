@@ -11,9 +11,14 @@ To view the content of .wb file, execute the following command:<br>
 `mv helloworld-app.wb helloworld2-app.wb`{{execute}}
 <br>
 <br>In This .wb file we need change the ditroid and name of Image and logo name:<br>
-`sed -i 's/distroid Helloworld/distroid Helloworld2/g' helloworld2-app.wb`{{execute}}
+<br>Here we are using sed command to Find and replace the text within a file.
+<br>Execute the below command to change the distroid:
+<br>`sed -i 's/distroid Helloworld/distroid Helloworld2/g' helloworld2-app.wb`{{execute}}
+<br>Execute the below command to change the image name:
 <br>`sed -i 's/Hello World on Centos/Hello World2 on Centos/g' helloworld2-app.wb`{{execute}}
+<br>Execute the below command to change the logo name:
 <br>`sed -i 's/helloworld-logo.png/helloworld2-logo.png/g' helloworld2-app.wb`{{execute}}
+<br>Execute the below command to change the name of index file:
 <br>`sed -i 's/index.html/index2.html/g' helloworld2-app.wb`{{execute}}
 <br>
 <br>For your reference, we have already created a ready .wb file in the ~/test directory:
