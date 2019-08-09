@@ -21,7 +21,7 @@ This will create two files in the directory.
 <br>
 `tar xvf bdcatalog-centos7-bluedata-helloworld-10.0-src.tgz`{{execute}}
 <br><br>Now navigate to the directory created after the above step
-`cd bdcatalog-centos7-bluedata-helloworld-10.0-src`{{execute}}
+<br>`cd bdcatalog-centos7-bluedata-helloworld-10.0-src`{{execute}}
 <br><br>
 Copy the content of this directory to the directory you created initially<br>
 `cp -R * ~/source/helloworld2`{{execute}}
