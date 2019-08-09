@@ -1,6 +1,6 @@
 
 Here we are cleaning up our source directory by removing the following items so that only the image directory remains:
-
+<br>Execute the below commands to remove the directory which are not required
 <br>`rm -rf payload.tar`{{execute}}
 <br>`rm -rf decompress.sh`{{execute}}
 <br>`rm -rf helloworld-logo.png`{{execute}}
