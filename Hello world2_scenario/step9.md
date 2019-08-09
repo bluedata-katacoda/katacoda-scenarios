@@ -16,5 +16,5 @@ Go to App Store in the EPIC GUI and click on <b>Refresh </b>button to bring the 
 
 Once the image appears on the App Store click on <b>Install </b> button to install the image.
 
-![alt text](https://www.dropbox.com/s/j86kop0a3xoxq8l/c1.PNG)
+![alt text](https://www.dropbox.com/s/gwfxq7osaoiltxm/c1.jpg)
 
