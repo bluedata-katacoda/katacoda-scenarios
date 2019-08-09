@@ -7,7 +7,7 @@ The newly built application package (or bundle) is saved in the deliverables dir
 Make it an executable using the below command
 <br>`chmod +x bdcatalog-centos7-bluedata-helloworld2-10.0.bin`{{execute}}
 
-Congratulations you have successfully upgraded the CDH image.
+Congratulations you have successfully upgraded the Hello world image.
 
 To make the new image appear in App Store.
 Copy the bin file to /srv/bluedata/catalog 
