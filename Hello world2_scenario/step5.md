@@ -1,6 +1,6 @@
 Now, we will make changes in .wb file <br>
 
-Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb34_updating-an-existing-image)<br>
+Please review this link before you proceed: [Link](http://docs.bluedata.com/awb34_updating-an-existing-image)<br>
 <br>
 `cd ~/source/helloworld2`{{execute}}<br>
 
