@@ -18,3 +18,4 @@ Once the image appears on the App Store click on <b>Install </b> button to insta
 
 ![alt text](https://www.dropbox.com/s/gwfxq7osaoiltxm/c1.jpg)
 
+![picture](test/c1.jpg)
