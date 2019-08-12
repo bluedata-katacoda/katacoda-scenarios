@@ -1,0 +1,490 @@
+{
+    "persist_dirs": [
+        "/data"
+    ], 
+    "catalog_api_version": 5, 
+    "config": {
+        "config_meta": {
+            "ambari_user": "admin", 
+            "ambari_port": "8080", 
+            "ambari_build_number": "136", 
+            "ambari_password": "admin", 
+            "hdp_utils_version": "1.1.0.21", 
+            "hdp_distro_version": "2.6", 
+            "ambari_version": "2.5.2.0", 
+            "streaming_jar": "/usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar"
+        }, 
+        "config_choices": [
+            {
+                "selections": [
+                    {
+                        "id": false
+                    }, 
+                    {
+                        "config": {
+                            "node_services": [
+                                {
+                                    "service_ids": [
+                                        "mysql", 
+                                        "pig", 
+                                        "hive_server", 
+                                        "hive_metastore", 
+                                        "oozie", 
+                                        "webhcat", 
+                                        "sqoop", 
+                                        "flume"
+                                    ], 
+                                    "role_id": "controller"
+                                }
+                            ], 
+                            "selected_roles": [
+                                "controller"
+                            ]
+                        }, 
+                        "id": true
+                    }
+                ], 
+                "type": "boolean", 
+                "id": "apps", 
+                "label": {
+                    "name": "Pig, Hive, Oozie, Sqoop and Flume"
+                }
+            }, 
+            {
+                "selections": [
+                    {
+                        "id": false
+                    }, 
+                    {
+                        "config": {
+                            "node_services": [
+                                {
+                                    "service_ids": [], 
+                                    "role_id": "controller"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "zookeeper", 
+                                        "yarn_rm", 
+                                        "hbase_master", 
+                                        "hive_server", 
+                                        "hive_metastore", 
+                                        "hdfs_nn"
+                                    ], 
+                                    "role_id": "standby"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "zookeeper", 
+                                        "hive_server", 
+                                        "hive_metastore"
+                                    ], 
+                                    "role_id": "arbiter"
+                                }
+                            ], 
+                            "selected_roles": [
+                                "controller", 
+                                "standby", 
+                                "arbiter"
+                            ]
+                        }, 
+                        "id": true
+                    }
+                ], 
+                "type": "boolean", 
+                "id": "all_ha", 
+                "label": {
+                    "name": "YARN, HDFS, HBase, HiveServer2 High Availability"
+                }
+            }, 
+            {
+                "selections": [
+                    {
+                        "id": false
+                    }, 
+                    {
+                        "id": true
+                    }
+                ], 
+                "type": "boolean", 
+                "id": "kerberos", 
+                "label": {
+                    "name": "Enable kerberos for this cluster"
+                }
+            }
+        ], 
+        "node_services": [
+            {
+                "service_ids": [
+                    "ambari", 
+                    "ambari_agent", 
+                    "zookeeper", 
+                    "yarn_rm", 
+                    "hdfs_nn", 
+                    "hdfs_snn", 
+                    "yarn_timelineserver", 
+                    "mapred_history", 
+                    "ssh", 
+                    "httpd", 
+                    "hbase_master", 
+                    "mysql"
+                ], 
+                "role_id": "controller"
+            }, 
+            {
+                "service_ids": [
+                    "ambari_agent", 
+                    "yarn_nm", 
+                    "hdfs_dn", 
+                    "ssh", 
+                    "hbase_regionserver"
+                ], 
+                "role_id": "standby"
+            }, 
+            {
+                "service_ids": [
+                    "ambari_agent", 
+                    "yarn_nm", 
+                    "hdfs_dn", 
+                    "ssh", 
+                    "hbase_regionserver"
+                ], 
+                "role_id": "arbiter"
+            }, 
+            {
+                "service_ids": [
+                    "ambari_agent", 
+                    "yarn_nm", 
+                    "hdfs_dn", 
+                    "ssh", 
+                    "hbase_regionserver"
+                ], 
+                "role_id": "worker"
+            }, 
+            {
+                "service_ids": [
+                    "ambari_agent", 
+                    "ssh"
+                ], 
+                "role_id": "edge"
+            }
+        ], 
+        "selected_roles": [
+            "controller", 
+            "worker"
+        ]
+    }, 
+    "image": {
+        "checksum": "to be inserted by build", 
+        "import_url": "to be inserted by build"
+    }, 
+    "label": {
+        "name": "HDP 2.6 on 7.x with Ambari 2.5", 
+        "description": "HDP 2.6.4.0 on 7.x with Ambari 2.5.2.0 with YARN support. Includes Pig, Hive, Oozie and HBase"
+    }, 
+    "distro_id": "bluedata/hdp26-ambari25-7x", 
+    "version": "3.6", 
+    "services": [
+        {
+            "exported_service": "ambari", 
+            "endpoint": {
+                "is_dashboard": true, 
+                "url_scheme": "http", 
+                "port": "8080", 
+                "path": "/"
+            }, 
+            "id": "ambari", 
+            "label": {
+                "name": "Ambari"
+            }
+        }, 
+        {
+            "exported_service": "ambari_agent", 
+            "id": "ambari_agent", 
+            "label": {
+                "name": "Ambari Agent"
+            }
+        }, 
+        {
+            "exported_service": "hbase", 
+            "endpoint": {
+                "is_dashboard": true, 
+                "url_scheme": "http", 
+                "port": "16010", 
+                "path": "/"
+            }, 
+            "id": "hbase_master", 
+            "label": {
+                "name": "HMaster"
+            }
+        }, 
+        {
+            "endpoint": {
+                "is_dashboard": true, 
+                "url_scheme": "http", 
+                "port": "16030", 
+                "path": "/"
+            }, 
+            "id": "hbase_regionserver", 
+            "label": {
+                "name": "HRegionServer"
+            }
+        }, 
+        {
+            "id": "hbase_thrift", 
+            "label": {
+                "name": "HBase Thrift service."
+            }
+        }, 
+        {
+            "id": "hbase_rest", 
+            "label": {
+                "name": "HBase REST service."
+            }
+        }, 
+        {
+            "exported_service": "hadoop", 
+            "label": {
+                "name": "ResourceManager"
+            }, 
+            "endpoint": {
+                "is_dashboard": true, 
+                "url_scheme": "http", 
+                "port": "8088", 
+                "path": "/cluster"
+            }, 
+            "id": "yarn_rm", 
+            "qualifiers": [
+                "yarn"
+            ]
+        }, 
+        {
+            "endpoint": {
+                "is_dashboard": true, 
+                "url_scheme": "http", 
+                "port": "8042", 
+                "path": "/"
+            }, 
+            "id": "yarn_nm", 
+            "label": {
+                "name": "NodeManager"
+            }
+        }, 
+        {
+            "endpoint": {
+                "is_dashboard": true, 
+                "url_scheme": "http", 
+                "port": "50070", 
+                "path": "/"
+            }, 
+            "id": "hdfs_nn", 
+            "label": {
+                "name": "NameNode"
+            }
+        }, 
+        {
+            "endpoint": {
+                "is_dashboard": true, 
+                "url_scheme": "http", 
+                "port": "50075", 
+                "path": "/"
+            }, 
+            "id": "hdfs_dn", 
+            "label": {
+                "name": "DataNode"
+            }
+        }, 
+        {
+            "id": "hdfs_snn", 
+            "label": {
+                "name": "Secondary NameNode"
+            }
+        }, 
+        {
+            "exported_service": "hadoop", 
+            "label": {
+                "name": "Timeline Server"
+            }, 
+            "endpoint": {
+                "is_dashboard": false, 
+                "url_scheme": "http", 
+                "port": "8188", 
+                "path": "/applicationhistory"
+            }, 
+            "id": "yarn_timelineserver", 
+            "qualifiers": [
+                "yarn"
+            ]
+        }, 
+        {
+            "endpoint": {
+                "is_dashboard": true, 
+                "url_scheme": "http", 
+                "port": "19888", 
+                "path": "/jobhistory"
+            }, 
+            "id": "mapred_history", 
+            "label": {
+                "name": "Yarn Job history server"
+            }
+        }, 
+        {
+            "endpoint": {
+                "port": "2181", 
+                "is_dashboard": false
+            }, 
+            "id": "zookeeper", 
+            "label": {
+                "name": "Zookeeper Server"
+            }
+        }, 
+        {
+            "exported_service": "pig", 
+            "id": "pig", 
+            "label": {
+                "name": "Pig"
+            }
+        }, 
+        {
+            "exported_service": "hive", 
+            "id": "hive", 
+            "label": {
+                "name": "Hive"
+            }
+        }, 
+        {
+            "id": "webhcat", 
+            "label": {
+                "name": "WebHcat"
+            }
+        }, 
+        {
+            "id": "hive_metastore", 
+            "label": {
+                "name": "HIVE Metastore"
+            }
+        }, 
+        {
+            "exported_service": "hive", 
+            "id": "hive_server", 
+            "label": {
+                "name": "HIVE Server 2"
+            }
+        }, 
+        {
+            "endpoint": {
+                "port": "22", 
+                "is_dashboard": false
+            }, 
+            "id": "ssh", 
+            "label": {
+                "name": "SSH"
+            }
+        }, 
+        {
+            "id": "mysql", 
+            "label": {
+                "name": "MySql Daemon"
+            }
+        }, 
+        {
+            "id": "httpd", 
+            "label": {
+                "name": "Apache HTTP Server"
+            }
+        }, 
+        {
+            "id": "oozie", 
+            "label": {
+                "name": "OOZIE service"
+            }
+        }, 
+        {
+            "id": "sqoop", 
+            "label": {
+                "name": "SQOOP service"
+            }
+        }, 
+        {
+            "id": "flume", 
+            "label": {
+                "name": "FLUME service"
+            }
+        }
+    ], 
+    "logo": {
+        "checksum": "7e8720a9bd8099e3489d603fbc1907bd", 
+        "source_file": "Logo_HortonWorks.png"
+    }, 
+    "setup_package": {
+        "config_api_version": 7, 
+        "checksum": "c6ddde49ebe5c183a9f5c15a8a347419", 
+        "source_file": "ambari-25-setup.tgz"
+    }, 
+    "node_roles": [
+        {
+            "image": {
+                "imageOSMajor": "7", 
+                "checksum": "8bf5abf264b6c17246bfeb43e70a23e0", 
+                "imageOS": "centos", 
+                "source_file": "bluedata-hdp26-3.6.tar.gz", 
+                "imageRepotag": "bluedata/hdp26:3.6"
+            }, 
+            "min_cores": "4", 
+            "cardinality": "1", 
+            "min_memory": "12288", 
+            "id": "controller", 
+            "anti_affinity_group_id": "HDP"
+        }, 
+        {
+            "image": {
+                "imageOSMajor": "7", 
+                "checksum": "8bf5abf264b6c17246bfeb43e70a23e0", 
+                "imageOS": "centos", 
+                "source_file": "bluedata-hdp26-3.6.tar.gz", 
+                "imageRepotag": "bluedata/hdp26:3.6"
+            }, 
+            "cardinality": "1", 
+            "id": "standby", 
+            "anti_affinity_group_id": "HDP"
+        }, 
+        {
+            "image": {
+                "imageOSMajor": "7", 
+                "checksum": "8bf5abf264b6c17246bfeb43e70a23e0", 
+                "imageOS": "centos", 
+                "source_file": "bluedata-hdp26-3.6.tar.gz", 
+                "imageRepotag": "bluedata/hdp26:3.6"
+            }, 
+            "cardinality": "1", 
+            "id": "arbiter", 
+            "anti_affinity_group_id": "HDP"
+        }, 
+        {
+            "image": {
+                "imageOSMajor": "7", 
+                "checksum": "8bf5abf264b6c17246bfeb43e70a23e0", 
+                "imageOS": "centos", 
+                "source_file": "bluedata-hdp26-3.6.tar.gz", 
+                "imageRepotag": "bluedata/hdp26:3.6"
+            }, 
+            "cardinality": "1+", 
+            "id": "worker"
+        }, 
+        {
+            "image": {
+                "imageOSMajor": "7", 
+                "checksum": "8bf5abf264b6c17246bfeb43e70a23e0", 
+                "imageOS": "centos", 
+                "source_file": "bluedata-hdp26-3.6.tar.gz", 
+                "imageRepotag": "bluedata/hdp26:3.6"
+            }, 
+            "cardinality": "0+", 
+            "id": "edge"
+        }
+    ], 
+    "categories": [
+        "Hadoop", 
+        "HBase"
+    ]
+}
