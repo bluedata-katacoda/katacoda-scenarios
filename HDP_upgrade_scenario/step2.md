@@ -11,7 +11,7 @@ Now, navigate to the source directory.
 <br>
 <br>Download the bin file HDP by executing the following command.
 <br>
-`wget https://www.dropbox.com/s/0tg7nn86xkucfb6/bdcatalog-centos7-bluedata-helloworld-10.0.bin`{{execute}}
+`wget https://www.dropbox.com/s/g0s8x1m24yvxpau/bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin`{{execute}}
 <br><br>
 Now, Make the .bin file executable by executing the following command<br>
 `chmod +x bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin`{{execute}}
