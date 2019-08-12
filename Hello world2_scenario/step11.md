@@ -11,7 +11,7 @@ To view the content of index.html file, execute the following command:<br>
 <br>In This index2.html file we need change the name of Image:<br>
 `sed -i 's/Hello World/Hello World2/g' appconfig/index2.html`{{execute}}
 <br>
-<br>Execute the following command to get the reference ready index2 file in test directory:
+<br>Execute the following command to get the reference index2 file in test directory:
 <br>`cat ~/test/index2.html`{{execute}}
 <br>
 <br>To view the content of updated index2 file, execute the following command:<br>
