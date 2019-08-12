@@ -7,7 +7,7 @@ Before that, let us install wget package. For doing so, execute the following co
 <br>
 Now, navigate to the source directory.
 <br>
-`cd ~/Source/hdp`{{execute}}
+`cd ~/Source/HDP`{{execute}}
 <br>
 <br>Download the bin file HDP by executing the following command.
 <br>
