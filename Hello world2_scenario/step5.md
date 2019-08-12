@@ -65,8 +65,8 @@ To view the content of .wb file, execute the following command:<br>
 <br>
 <br><b>Section 3:</b> <br>
 <br><b><li>Below section of the .wb file pulls all of the pieces together and builds the .bin file</b>
-<br>image build --basedir image/centos --image-repotag bluedata/helloworld2:1.0
-<br>image package --image-repotag bluedata/helloworld2:1.0 --os centos7  --roles webserver controller worker
+<br>image build --basedir image/centos --image-repotag bluedata/helloworld:1.0
+<br>image package --image-repotag bluedata/helloworld:1.0 --os centos7  --roles webserver controller worker
 <br>sources package
 <br>catalog package
 
