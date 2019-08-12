@@ -8,7 +8,7 @@ To view the content of index.html file, execute the following command:<br>
 <br>To modify the name of index.html, execute the following command:<br>
 `mv appconfig/index.html appconfig/index2.html`{{execute}}
 <br>
-<br>In This index2.html file we need change the name of Image:<br>
+<br>In this index2.html file we need change the name of Image:<br>
 `sed -i 's/Hello World/Hello World2/g' appconfig/index2.html`{{execute}}
 <br>
 <br>Execute the following command to get the reference index2 file in test directory:
