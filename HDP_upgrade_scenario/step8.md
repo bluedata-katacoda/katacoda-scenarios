@@ -4,12 +4,12 @@ Remove the existing set-up folder from the HDP folder
 `rm -rf ambari-24-setup`{{execute}}
 
 Add the reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
-`wget https://www.dropbox.com/s/67atp94br8yct42/ambari-26-setup.zip`{{execute}} 
+`wget https://www.dropbox.com/s/kqgcjxit57995rp/ambari-26-set.tgz`{{execute}} 
 
 `yum install unzip -y`{{execute}}
 
 Unzip the file
-`unzip ambari-26-setup.zip`{{execute}}
+`tar -xvf ambari-26-setup.zip`{{execute}}
 
 Delete Zip folder of set-up files to save a memory
 `rm -rf ambari-26-setup.zip`{{execute}}
