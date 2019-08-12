@@ -11,7 +11,7 @@ To view the content of .wb file, execute the following command:<br>
 `mv helloworld-app.wb helloworld2-app.wb`{{execute}}
 <br>
 <br>In this .wb file we need change the distroid and name of image and logo:<br>
-<br>Here we are using sed command to Find and replace the text within a file.
+<br>Here we are using sed command to find and replace the text within a file.
 <br>
 <br>Execute the below command to change the distroid:
 <br>`sed -i 's/distroid Helloworld/distroid Helloworld2/g' helloworld2-app.wb`{{execute}}
