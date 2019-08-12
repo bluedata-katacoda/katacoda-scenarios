@@ -9,7 +9,7 @@ Make it an executable using the below command
 
 Congratulations you have successfully upgraded the Hello world image.
 
-To make the new image appear in App Store.
+To make the new image appear in App Store
 Copy the bin file to /srv/bluedata/catalog 
 
 Go to App Store in the EPIC GUI and click on <b>Refresh </b>button to bring the image in to App Store.
