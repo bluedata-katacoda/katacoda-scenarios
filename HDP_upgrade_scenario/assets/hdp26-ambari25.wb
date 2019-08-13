@@ -5,7 +5,7 @@
 # refer to 'help builder organization' for details.
 builder organization --name BlueData
 
-catalog load --filepath hdp26-ambari25.json
+catalog load --filepath hdp26ambari25-centos.json
 appconfig package --dir ambari-25-setup
 logo file --filepath Logo_HortonWorks.png
 
