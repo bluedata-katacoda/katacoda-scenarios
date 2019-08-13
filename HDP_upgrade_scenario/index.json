@@ -26,8 +26,8 @@
     },
     "assets": {
        "host01": [
-		{"file": "hdp26-ambari26.json", "target": "/root/test", "chmod": "+x"},
-		{"file": "hdp26-ambari26.wb", "target": "/root/test", "chmod": "+x"},
+		{"file": "hdp26ambari25-centos.json", "target": "/root/test", "chmod": "+x"},
+		{"file": "hdp26-ambari25.wb", "target": "/root/test", "chmod": "+x"},
 		{"file": "Dockerfile", "target": "/root/test"}
                 ] 
     }
