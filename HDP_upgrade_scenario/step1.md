@@ -12,4 +12,4 @@ Now, to begin let us create the directory to house the files
 <br>`mkdir ~/Source/HDP`{{execute}}
 
 <br>Now, Remove all folders which are pre-installed to save the space. 
-<br>rm -rf $(ls | grep -v Source | grep -v test)
+<br>`rm -rf $(ls | grep -v Source | grep -v test)`{{execute}}
