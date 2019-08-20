@@ -10,3 +10,6 @@ For checking the version of BlueData App-Workbench, execute the following comman
 Now, to begin let us create the directory to house the files
 <br>`mkdir ~/Source`{{execute}}
 <br>`mkdir ~/Source/HDP`{{execute}}
+
+<br>Now, Remove all folders which are pre-installed to save the space. 
+<br>rm -rf $(ls | grep -v Source | grep -v test)
