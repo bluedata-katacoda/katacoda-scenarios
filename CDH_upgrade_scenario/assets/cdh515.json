@@ -1,0 +1,637 @@
+{
+    "catalog_api_version": 3, 
+    "node_roles": [
+        {
+            "min_cores": "4", 
+            "cardinality": "1", 
+            "min_memory": "12288", 
+            "id": "controller", 
+            "anti_affinity_group_id": "CM"
+        }, 
+        {
+            "cardinality": "1", 
+            "id": "standby", 
+            "anti_affinity_group_id": "CM"
+        }, 
+        {
+            "cardinality": "1", 
+            "id": "arbiter", 
+            "anti_affinity_group_id": "CM"
+        }, 
+        {
+            "cardinality": "1+", 
+            "id": "worker"
+        }
+    ], 
+    "image": {
+        "checksum": "21e49760c461515f41f9c88f9f93f30f", 
+        "source_file": "bluedata-cdh515.tar.gz"
+    }, 
+    "label": {
+        "name": "CDH 5.15.0 on 7x  with Cloudera Manager", 
+        "description": "CDH 5.15.0 with MRv1/YARN and HBase support. Includes Pig, Hive, Hue and Spark."
+    }, 
+    "distro_id": "bluedata/cdh515_centos7x", 
+    "version": "1.7", 
+    "services": [
+        {
+            "exported_service": "hbase", 
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/", 
+                "is_dashboard": true, 
+                "port": "60010"
+            }, 
+            "id": "hbase_master", 
+            "label": {
+                "name": "HMaster"
+            }
+        }, 
+        {
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/", 
+                "is_dashboard": true, 
+                "port": "60030"
+            }, 
+            "id": "hbase_worker", 
+            "label": {
+                "name": "HRegionServer"
+            }
+        }, 
+        {
+            "id": "hbase_thrift", 
+            "label": {
+                "name": "HBase Thrift service."
+            }
+        }, 
+        {
+            "exported_service": "cloudera_scm_server", 
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/", 
+                "is_dashboard": true, 
+                "port": "7180"
+            }, 
+            "id": "cloudera_scm_server", 
+            "label": {
+                "name": "Cloudera Manager"
+            }
+        }, 
+        {
+            "id": "cloudera_scm_server_db", 
+            "label": {
+                "name": "Cloudera manager database"
+            }
+        }, 
+        {
+            "id": "cloudera_scm_agent", 
+            "label": {
+                "name": "Cloudera manager agent"
+            }
+        }, 
+        {
+            "qualifiers": [
+                "mrv1"
+            ], 
+            "exported_service": "hadoop", 
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/jobtracker.jsp", 
+                "is_dashboard": true, 
+                "port": "50030"
+            }, 
+            "id": "mrv1_jt", 
+            "label": {
+                "name": "JobTracker"
+            }
+        }, 
+        {
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/", 
+                "is_dashboard": true, 
+                "port": "50060"
+            }, 
+            "id": "mrv1_tt", 
+            "label": {
+                "name": "TaskTracker"
+            }
+        }, 
+        {
+            "qualifiers": [
+                "yarn"
+            ], 
+            "exported_service": "hadoop", 
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/cluster", 
+                "is_dashboard": true, 
+                "port": "8088"
+            }, 
+            "id": "yarn_rm", 
+            "label": {
+                "name": "ResourceManager"
+            }
+        }, 
+        {
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/", 
+                "is_dashboard": true, 
+                "port": "8042"
+            }, 
+            "id": "yarn_nm", 
+            "label": {
+                "name": "NodeManager"
+            }
+        }, 
+        {
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/", 
+                "is_dashboard": true, 
+                "port": "50070"
+            }, 
+            "id": "hdfs_nn", 
+            "label": {
+                "name": "NameNode"
+            }
+        }, 
+        {
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/", 
+                "is_dashboard": true, 
+                "port": "50075"
+            }, 
+            "id": "hdfs_dn", 
+            "label": {
+                "name": "DataNode"
+            }
+        }, 
+        {
+            "id": "hdfs_jn", 
+            "label": {
+                "name": "HDFS JournalNode"
+            }
+        }, 
+        {
+            "id": "hdfs_snn", 
+            "label": {
+                "name": "Secondary NameNode"
+            }
+        }, 
+        {
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/jobhistory", 
+                "is_dashboard": true, 
+                "port": "19888"
+            }, 
+            "id": "job_history_server", 
+            "label": {
+                "name": "Yarn Job history server"
+            }
+        }, 
+        {
+            "endpoint": {
+                "port": "2181", 
+                "is_dashboard": false
+            }, 
+            "id": "zookeeper", 
+            "label": {
+                "name": "Zookeeper Server"
+            }
+        }, 
+        {
+            "exported_service": "pig", 
+            "id": "pig", 
+            "label": {
+                "name": "Pig"
+            }
+        }, 
+        {
+            "id": "hive_metastore", 
+            "label": {
+                "name": "HIVE Metastore"
+            }
+        }, 
+        {
+            "exported_service": "hive", 
+            "id": "hive_server", 
+            "label": {
+                "name": "HIVE Server 2"
+            }
+        }, 
+        {
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/", 
+                "is_dashboard": true, 
+                "port": "8888"
+            }, 
+            "id": "hue", 
+            "label": {
+                "name": "Hue Console"
+            }
+        }, 
+        {
+            "id": "httpfs", 
+            "label": {
+                "name": "Hadoop HTTPFS"
+            }
+        }, 
+        {
+            "id": "sqoop2", 
+            "label": {
+                "name": "Sqoop2 server"
+            }
+        }, 
+        {
+            "exported_service": "impala", 
+            "id": "impala", 
+            "label": {
+                "name": "Impala service"
+            }
+        }, 
+        {
+            "exported_service": "spark", 
+            "endpoint": {
+                "url_scheme": "http", 
+                "path": "/", 
+                "is_dashboard": true, 
+                "port": "18088"
+            }, 
+            "id": "spark_history", 
+            "label": {
+                "name": "Spark history server"
+            }
+        }, 
+        {
+            "endpoint": {
+                "port": "22", 
+                "is_dashboard": false
+            }, 
+            "id": "ssh", 
+            "label": {
+                "name": "SSH"
+            }
+        }, 
+        {
+            "id": "mysqld", 
+            "label": {
+                "name": "Mysqld server"
+            }
+        }, 
+        {
+            "id": "oozie", 
+            "label": {
+                "name": "OOZIE service"
+            }
+        }
+    ], 
+    "logo": {
+        "checksum": "7cf82ef2656600a9b7c1cfc8d0e24d51", 
+        "source_file": "Logo_Cloudera.png"
+    }, 
+    "setup_package": {
+        "config_api_version": 7, 
+        "checksum": "831fdb78004c9df3a3f4175feef924fa", 
+        "source_file": "cdh5-cm-setup.tgz"
+    }, 
+    "config": {
+        "config_meta": {
+            "streaming_jar": "/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-streaming.jar", 
+            "cdh_major_version": "CDH5", 
+            "cdh_parcel_repo": "http://archive.cloudera.com/cdh5/parcels/5.15.0", 
+            "cdh_full_version": "5.15.0", 
+            "cdh_parcel_version": "5.15.0-1.cdh5.15.0.p0.21", 
+            "impala_jar_version": "0.1-SNAPSHOT"
+        }, 
+        "config_choices": [
+            {
+                "label": {
+                    "name": "HBase"
+                }, 
+                "type": "boolean", 
+                "id": "hbase", 
+                "selections": [
+                    {
+                        "id": false
+                    }, 
+                    {
+                        "config": {
+                            "node_services": [
+                                {
+                                    "service_ids": [
+                                        "hbase_master", 
+                                        "hbase_thrift", 
+                                        "zookeeper"
+                                    ], 
+                                    "role_id": "controller"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "zookeeper", 
+                                        "hbase_worker"
+                                    ], 
+                                    "role_id": "standby"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "zookeeper", 
+                                        "hbase_worker"
+                                    ], 
+                                    "role_id": "arbiter"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "hbase_worker"
+                                    ], 
+                                    "role_id": "worker"
+                                }
+                            ], 
+                            "selected_roles": [
+                                "controller", 
+                                "standby", 
+                                "arbiter", 
+                                "worker"
+                            ]
+                        }, 
+                        "id": true
+                    }
+                ]
+            }, 
+            {
+                "label": {
+                    "name": "MR Type"
+                }, 
+                "type": "multi", 
+                "id": "mrtype", 
+                "selections": [
+                    {
+                        "config": {
+                            "node_services": [
+                                {
+                                    "service_ids": [
+                                        "mrv1_jt", 
+                                        "hdfs_nn"
+                                    ], 
+                                    "role_id": "controller"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "mrv1_tt"
+                                    ], 
+                                    "role_id": "standby"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "mrv1_tt"
+                                    ], 
+                                    "role_id": "arbiter"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "mrv1_tt"
+                                    ], 
+                                    "role_id": "worker"
+                                }
+                            ], 
+                            "selected_roles": [
+                                "controller", 
+                                "worker"
+                            ]
+                        }, 
+                        "id": "mrv1", 
+                        "label": {
+                            "name": "MRv1"
+                        }
+                    }, 
+                    {
+                        "config": {
+                            "config_choices": [
+                                {
+                                    "label": {
+                                        "name": "YARN and HDFS High Availability"
+                                    }, 
+                                    "type": "boolean", 
+                                    "id": "yarn_ha", 
+                                    "selections": [
+                                        {
+                                            "config": {
+                                                "node_services": [
+                                                    {
+                                                        "service_ids": [
+                                                            "yarn_rm", 
+                                                            "hdfs_nn"
+                                                        ], 
+                                                        "role_id": "controller"
+                                                    }
+                                                ], 
+                                                "selected_roles": [
+                                                    "controller"
+                                                ]
+                                            }, 
+                                            "id": false
+                                        }, 
+                                        {
+                                            "config": {
+                                                "node_services": [
+                                                    {
+                                                        "service_ids": [
+                                                            "yarn_rm", 
+                                                            "zookeeper", 
+                                                            "hdfs_nn"
+                                                        ], 
+                                                        "role_id": "standby"
+                                                    }, 
+                                                    {
+                                                        "service_ids": [
+                                                            "zookeeper"
+                                                        ], 
+                                                        "role_id": "controller"
+                                                    }, 
+                                                    {
+                                                        "service_ids": [
+                                                            "yarn_rm", 
+                                                            "zookeeper", 
+                                                            "hdfs_nn"
+                                                        ], 
+                                                        "role_id": "arbiter"
+                                                    }
+                                                ], 
+                                                "selected_roles": [
+                                                    "controller", 
+                                                    "standby", 
+                                                    "arbiter"
+                                                ]
+                                            }, 
+                                            "id": true
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "label": {
+                                        "name": "Spark"
+                                    }, 
+                                    "type": "boolean", 
+                                    "id": "spark", 
+                                    "selections": [
+                                        {
+                                            "id": false
+                                        }, 
+                                        {
+                                            "config": {
+                                                "node_services": [
+                                                    {
+                                                        "service_ids": [
+                                                            "spark_history"
+                                                        ], 
+                                                        "role_id": "controller"
+                                                    }
+                                                ], 
+                                                "selected_roles": [
+                                                    "controller"
+                                                ]
+                                            }, 
+                                            "id": true
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "node_services": [
+                                {
+                                    "service_ids": [
+                                        "job_history_server"
+                                    ], 
+                                    "role_id": "controller"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "yarn_nm"
+                                    ], 
+                                    "role_id": "standby"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "yarn_nm"
+                                    ], 
+                                    "role_id": "arbiter"
+                                }, 
+                                {
+                                    "service_ids": [
+                                        "yarn_nm"
+                                    ], 
+                                    "role_id": "worker"
+                                }
+                            ], 
+                            "selected_roles": [
+                                "controller", 
+                                "worker"
+                            ]
+                        }, 
+                        "id": "yarn", 
+                        "preferred": true, 
+                        "label": {
+                            "name": "YARN"
+                        }
+                    }
+                ]
+            }, 
+            {
+                "label": {
+                    "name": "Pig, Hive, Oozie, Impala & Hue"
+                }, 
+                "type": "boolean", 
+                "id": "apps", 
+                "selections": [
+                    {
+                        "id": false
+                    }, 
+                    {
+                        "config": {
+                            "node_services": [
+                                {
+                                    "service_ids": [
+                                        "pig", 
+                                        "hue", 
+                                        "httpfs", 
+                                        "impala", 
+                                        "hive_server", 
+                                        "hive_metastore", 
+                                        "oozie", 
+                                        "sqoop2"
+                                    ], 
+                                    "role_id": "controller"
+                                }
+                            ], 
+                            "selected_roles": [
+                                "controller"
+                            ]
+                        }, 
+                        "id": true
+                    }
+                ]
+            }, 
+            {
+                "label": {
+                    "name": "Enable kerberos for this cluster"
+                }, 
+                "type": "boolean", 
+                "id": "kerberos", 
+                "selections": [
+                    {
+                        "id": false
+                    }, 
+                    {
+                        "id": true
+                    }
+                ]
+            }
+        ], 
+        "node_services": [
+            {
+                "service_ids": [
+                    "cloudera_scm_server", 
+                    "cloudera_scm_server_db", 
+                    "cloudera_scm_agent", 
+                    "hdfs_dn", 
+                    "ssh", 
+                    "mysqld"
+                ], 
+                "role_id": "controller"
+            }, 
+            {
+                "service_ids": [
+                    "ssh", 
+                    "cloudera_scm_agent", 
+                    "hdfs_dn"
+                ], 
+                "role_id": "standby"
+            }, 
+            {
+                "service_ids": [
+                    "ssh", 
+                    "cloudera_scm_agent", 
+                    "hdfs_dn"
+                ], 
+                "role_id": "arbiter"
+            }, 
+            {
+                "service_ids": [
+                    "ssh", 
+                    "cloudera_scm_agent", 
+                    "hdfs_dn"
+                ], 
+                "role_id": "worker"
+            }
+        ], 
+        "selected_roles": []
+    }, 
+    "categories": [
+        "Hadoop", 
+        "HBase"
+    ]
+}
