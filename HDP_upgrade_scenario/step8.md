@@ -24,9 +24,9 @@ Make sure you see following files unders set-up folder:<br>
 <br>
 <b>modify_host.py </b>While doing scaling up/down this code will get execute which will use modify_host.py file to scale up/down nodes for HDP cluster<br>
 <br>
-<b>setup_cluster.py</b> script is responsible for setting up CDH Cluster <br>
-<br><b>add_remove_node.py</b>  scripts is responsible for scaling up/down the nodes in CDH cluster<br>
-<br><b>Enable_Kerberos.py</b> script enable Kerberos in CDH cluster<br>
+<b>setup_cluster.py</b> script is responsible for setting up HDP Cluster <br>
+<br><b>add_remove_node.py</b>  scripts is responsible for scaling up/down the nodes in HDP cluster<br>
+<br><b>Enable_Kerberos.py</b> script enable Kerberos in HDP cluster<br>
 
 Let's Look in to Startscript<br>
 
