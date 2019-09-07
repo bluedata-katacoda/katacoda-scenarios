@@ -6,8 +6,8 @@ The next step is to create a Dockerfile.
 <br>
 Let’s go ahead and create a Dockerfile file in image/centos path
 <br>
-<br>
 <br>`cd /Source/CDH/`{{execute}}
+<br>
 <br>Add the reference dockerfile and cloudera manager repo file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
 <br>`wget https://www.dropbox.com/s/ovnerubkrk3s1ql/image`{{execute}}
 <br>
