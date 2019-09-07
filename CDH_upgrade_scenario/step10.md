@@ -7,7 +7,7 @@ Add the reference file using the below command from stored location(Due to space
 `wget https://www.dropbox.com/s/gs7klaf2gzf8ziy/cdh5-cm-setup.tgz`{{execute}} 
 
 Unzip the file
-`tar -xvf ambari-26-set.tgz`{{execute}}
+`tar -xvf cdh5-cm-setup.tgz`{{execute}}
 
 Delete Zip folder of set-up files to save a memory
 `rm -rf cdh5-cm-setup.tgz`{{execute}}
