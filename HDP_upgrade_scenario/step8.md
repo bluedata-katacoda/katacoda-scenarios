@@ -9,7 +9,7 @@ Add the reference file using the below command from stored location(Due to space
 Untar the file
 `tar -xvf ambari-26-set.tgz`{{execute}}
 
-Delete Zip folder of set-up files to save a memory
+Delete the tar folder of set-up files to save a memory
 `rm -rf ambari-26-set.tgz`{{execute}}
 
 Check files under set up directory
