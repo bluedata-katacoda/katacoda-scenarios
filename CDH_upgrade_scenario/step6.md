@@ -4,7 +4,7 @@ The next step is to create a Dockerfile.
 <strong>"A docker file is a text file that the Docker engine understands to automatically build an image by reading the file. The Dockerfile consists of all the commands a user would call to assemble the desired image."</strong>
 <br>
 <br>
-Let’s go ahead and create a Dockerfile file in image/centos path so remove the folder which contain Dockerfile
+Let’s go ahead and create a Dockerfile file in image/centos path so remove the folder which contain older Dockerfile
 <br>
 <br>`rm -rf image`{{execute}}
 <br>
