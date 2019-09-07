@@ -12,7 +12,7 @@ This will create two files in the directory. (to view the files execute the foll
 <br><br>Delete the bin file to save space on the device<br>
 `rm -rf bdcatalog-centos7-bluedata-cdh5144multi-1.3.bin`{{execute}}
 <br><br>Navigate to the new directory, and untar the file by executing the following command
-<br>`cd bdcatalog-centos7-bluedata-cdh5144multi-1.3.bin`{{execute}}
+<br>`cd bdcatalog-centos7-bluedata-cdh5144multi-1.3`{{execute}}
 <br>
 `tar xvf bdcatalog-centos7-bluedata-cdh5144multi-1.3-src.tgz`{{execute}}
 <br><br>Now navigate to the directory created after the above step
