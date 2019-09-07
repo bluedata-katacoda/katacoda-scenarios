@@ -1,6 +1,6 @@
 We need to add additional configuration files, We already have a reference configuration files, To add them follow the below steps
 
-Remove the existing set-up folder from the HDP folder
+Remove the existing set-up folder from the CDH folder
 `rm -rf cdh5-cm-setup`{{execute}}
 
 Add the reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
@@ -30,7 +30,7 @@ Let's Look in to Startscript<br>
 
 `cat /root/Source/CDH/cdh5-cm-setup/startscript`{{execute}}
 
-<br>Startscript contain scripts like cluster creation metadata for HDP image 
+<br>Startscript contain scripts like cluster creation metadata for CDH image 
 <br>cluster config choice selections for CDH image 
 <br>Tenant Level settings  for CDH .
 <br>
