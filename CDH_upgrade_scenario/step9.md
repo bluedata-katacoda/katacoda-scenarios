@@ -4,9 +4,6 @@ The newly built application package (or bundle) is saved in the deliverables dir
 <br>`cd deliverables`{{execute}}
 <br>`ls `{{execute}}
 
-Make it an executable using the below command
-<br>`chmod +x bdcatalog-centos7-bluedata-cdh515_centos7x-1.7.bin`{{execute}}
-
 Congratulations you have successfully upgraded the CDH image.
 
 To make the new image appear in App Store.
