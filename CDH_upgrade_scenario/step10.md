@@ -6,10 +6,10 @@ Remove the existing set-up folder from the CDH folder
 Add the reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
 `wget https://www.dropbox.com/s/gs7klaf2gzf8ziy/cdh5-cm-setup.tgz`{{execute}} 
 
-Unzip the file
+Untar the file
 `tar -xvf cdh5-cm-setup.tgz`{{execute}}
 
-Delete Zip folder of set-up files to save a memory
+Delete the tar folder of set-up files to save a memory
 `rm -rf cdh5-cm-setup.tgz`{{execute}}
 
 Check files under set up directory
