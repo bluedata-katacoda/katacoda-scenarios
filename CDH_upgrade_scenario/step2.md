@@ -12,11 +12,8 @@ Now, navigate to the Source directory.
 <br>
 Download the bin file by executing the following command.
 <br>
-`wget https://www.dropbox.com/s/xyv64z1xt9l6lw7/bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.tar`{{execute}}
-<br><br>
-Extract the content of the tar file by executing the following command
-<br>`tar xvf bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.tar`{{execute}}
+`https://s3.amazonaws.com/bluedata-catalog/bundles/catalog/external/docker/EPIC-3.7/bdcatalog-centos7-bluedata-cdh5144multi-1.3.bin`{{execute}}
 <br><br>
 Now, Make the .bin file executable by executing the following command<br>
-`chmod +x bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.bin`{{execute}}
+`chmod +x bdcatalog-centos7-bluedata-cdh5144multi-1.3.bin`{{execute}}
 
