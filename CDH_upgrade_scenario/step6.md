@@ -4,14 +4,13 @@ The next step is to create a Dockerfile.
 <strong>"A docker file is a text file that the Docker engine understands to automatically build an image by reading the file. The Dockerfile consists of all the commands a user would call to assemble the desired image."</strong>
 <br>
 <br>
-Let’s go ahead and create a Dockerfile inside the newly created centos folder.
+Let’s go ahead and create a Dockerfile file in image/centos path
 <br>
-For your reference, we have already created a ready Dockerfile in the ~/test directory. We will copy that file into the centos folder using the following command:<br>
-<br>Delete the existing Dockerfile before you copy the new Dockerfile by executing the below command
-<br>`rm -rf ~/Source/CDH/image/centos/Dockerfile`{{execute}}<br>
-<br>
-copy the Dockerfile into the centos folder using the following command:
-<br>`cp ~/test/Dockerfile ~/Source/CDH/image/centos/`{{execute}}<br>
+<br>`cd /Source/CDH/`{{execute}}
+<br>Add the reference dockerfile and cloudera manager repo file using the below command from stored location(Due to space constraint in <br>Katacoda we have uploaded the required files into dropbox)
+`wget https://www.dropbox.com/s/ovnerubkrk3s1ql/image`{{execute}}
+<br>Untar the file
+`tar -xvf image.tgz`{{execute}}
 <br>Execute the following command to view the content of the Dockerfile:
 <br>`cat ~/Source/CDH/image/centos/Dockerfile`{{execute}}<br>
 <br><li>You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host  
