@@ -5,6 +5,9 @@ Before that, let us install wget package. For doing so, execute the following co
 <br>
 `yum install wget -y`{{execute}}<br>
 <br>
+<br>Now, Remove all folders which are pre-installed to save the space.
+<br>`rm -rf $(ls | grep -v Source | grep -v test)`{{execute}}
+<br>
 Now, navigate to the Source directory.
 <br>
 `cd ~/Source`{{execute}}
