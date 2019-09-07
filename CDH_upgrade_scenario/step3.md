@@ -16,7 +16,7 @@ This will create two files in the directory. (to view the files execute the foll
 <br>
 `tar xvf bdcatalog-centos7-bluedata-cdh5144multi-1.3-src.tgz`{{execute}}
 <br><br>Now navigate to the directory created after the above step
-`cd bdcatalog-centos7-bluedata-cdh5144multi-1.3-src`{{execute}}
+<br>`cd bdcatalog-centos7-bluedata-cdh5144multi-1.3-src`{{execute}}
 <br><br>
 Copy the content of this directory to the directory you created initially<br>
 `cp -R * ~/Source/CDH`{{execute}}
