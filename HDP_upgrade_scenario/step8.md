@@ -6,7 +6,7 @@ Remove the existing set-up folder from the HDP folder
 Add the reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
 `wget https://www.dropbox.com/s/kqgcjxit57995rp/ambari-26-set.tgz`{{execute}} 
 
-Unzip the file
+Untar the file
 `tar -xvf ambari-26-set.tgz`{{execute}}
 
 Delete Zip folder of set-up files to save a memory
