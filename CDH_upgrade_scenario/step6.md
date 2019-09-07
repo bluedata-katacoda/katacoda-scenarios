@@ -4,9 +4,9 @@ The next step is to create a Dockerfile.
 <strong>"A docker file is a text file that the Docker engine understands to automatically build an image by reading the file. The Dockerfile consists of all the commands a user would call to assemble the desired image."</strong>
 <br>
 <br>
-Let’s go ahead and create a Dockerfile file in image/centos path
+Let’s go ahead and create a Dockerfile file in image/centos path so remove the folder which contain Dockerfile
 <br>
-<br>`cd /Source/CDH/`{{execute}}
+<br>`rm -rf image`{{execute}}
 <br>
 <br>Add the reference dockerfile and cloudera manager repo file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
 <br>`wget https://www.dropbox.com/s/ovnerubkrk3s1ql/image.tgz`{{execute}}
