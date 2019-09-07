@@ -33,8 +33,8 @@ Let's Look in to Startscript<br>
 <br>Startscript contain scripts like cluster creation metadata for CDH image 
 <br>cluster config choice selections for CDH image 
 <br>Tenant Level settings  for CDH .
-<br>
-<br>The Start script will execute in each and very host. Once the host is created, 
+<br>The Start script will execute in each and very host. 
+
 <br>Cluster creation metadata section :
 <br>Here we are using bdvcli utility to create information regarding node role, node fqdn , node distro_id and node group id<br>
 <br>The main script in files contain code for Cluster creation, Activating licence ,Deploying  services
