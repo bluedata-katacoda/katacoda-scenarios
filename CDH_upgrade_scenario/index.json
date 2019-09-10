@@ -26,8 +26,7 @@
     "assets": {
        "host01": [
 		{"file": "cdh515.json", "target": "/root/test", "chmod": "+x"},
-		{"file": "cdh515.wb", "target": "/root/test", "chmod": "+x"},
-		{"file": "Dockerfile", "target": "/root/test"}
+		{"file": "cdh515.wb", "target": "/root/test", "chmod": "+x"}
                 ] 
     }
   },
