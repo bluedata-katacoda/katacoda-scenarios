@@ -5,7 +5,7 @@ Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb3
 For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the CDH directory using the following command:<br>
 `cd ~/Source/CDH`{{execute}}<br>
 <br>Delete the existing .wb file before you copy the new .wb file by executing the below command
-<br>`rm -rf cdh514.wb`{{execute}}<br>
+<br>`rm -rf cdh5144.wb`{{execute}}<br>
 <br>Copy the new .wb file into CDH directory using the following command:
 <br>`cp ~/test/cdh515.wb ~/Source/CDH`{{execute}}
 
