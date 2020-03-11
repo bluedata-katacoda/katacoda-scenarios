@@ -15,16 +15,22 @@ Skills needed:
 3.Change the directory to bdworkbench
 <br>`cd bdworkbench-3.4`{{execute}}
 
-4.Execute the below command to install python packages
+4.Execute the below command to install missed python packages
+<br>`sudo yum -y install python-requests`{{execute}}
+
+5.Execute the below command it will update the OS kernel and install all missing packages that the OS layer was missing from Katacoda
+<br>`yum update -y `{{execute}}
+
+6.Execute the below command to install python packages
 <br>`sudo python setup.py install`{{execute}}
 
-5.To facilitate python packaging execute the following commnad
+7.To facilitate python packaging execute the following commnad
 <br>`yum install -y python-setuptools`{{execute}}
 
-6.To check the installed app work bench version
+8.To check the installed app work bench version
 <br>`bdwb --version`{{execute}}
 
-7.The workbench has inline help. Try the following
+9.The workbench has inline help. Try the following
 <br>`bdwb`{{execute}}
 
 `help`{{execute}}
