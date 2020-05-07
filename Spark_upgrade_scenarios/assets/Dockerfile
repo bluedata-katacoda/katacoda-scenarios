@@ -24,8 +24,14 @@ RUN sudo yum -y install https://centos7.iuscommunity.org/ius-release.rpm
 
 #wget Ananconda parcels (totally optional for additional packages like numpy, scipy etc.,)
 
-RUN wget -q https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh -P /root/
-RUN chmod +x /root/Anaconda3-5.2.0-Linux-x86_64.sh && /root/Anaconda3-5.2.0-Linux-x86_64.sh -b -p /opt/anaconda3 && rm -f /root/Anaconda3-5.2.0-Linux-x86_64.sh
+#RUN wget -q https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh -P /root/
+#RUN chmod +x /root/Anaconda3-5.2.0-Linux-x86_64.sh && /root/Anaconda3-5.2.0-Linux-x86_64.sh -b -p /opt/anaconda3 && rm -f /root/Anaconda3-5.2.0-Linux-x86_64.sh
+
+RUN sudo -E wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh -P /opt && \
+    sudo -E chmod +x /opt/Anaconda3-2019.07-Linux-x86_64.sh && \
+    sudo -E /opt/Anaconda3-2019.07-Linux-x86_64.sh -b -p /opt/anaconda3  && \
+    sudo -E rm /opt/Anaconda3-2019.07-Linux-x86_64.sh
+ADD updatePath.sh /etc/profile.d/updatePath.sh
 
 ## Download and extract spark
 RUN mkdir /usr/lib/spark; curl -s http://archive.apache.org/dist/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz | tar xz -C /usr/lib/spark/
