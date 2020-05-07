@@ -15,6 +15,9 @@ Delete the existing Dockerfile by executing the below command:
 Copy the new Dockerfile into the centos folder using the following command:
 <br>`cp ~/test/Dockerfile ~/Source/Spark/image/centos/`{{execute}}
 
+Copy the updatePath.sh into the centos folder using the following command:
+<br>`cp ~/test/updatePath.sh ~/Source/Spark/image/centos/`{{execute}}
+
 Execute the following command to view the contents of the Dockerfile:<br>
 `cat ~/Source/Spark/image/centos/Dockerfile`{{execute}}
 
