@@ -11,7 +11,8 @@ Execute the below command
 <br>`yum install wget -y`{{execute}}
 
 Add the Configuration files using the below command(Due to space constraint in Katacoda we have uploaded the required appconfig files into dropbox)<br>
-`wget https://www.dropbox.com/s/kqgcjxit57995rp/ambari-26-set.tgz`{{execute}}
+`https://www.dropbox.com/s/dj98iqmua5wurfw/ambari-26-setup.zip?dl=0`{{execute}}
+`mv ambari-26-setup.zip?dl=0 ambari-26-setup.zip`{{execute}}
 <br>`yum install unzip -y`{{execute}}
 
 <br>Unzip the file<br>
